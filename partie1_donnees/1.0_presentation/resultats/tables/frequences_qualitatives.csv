@@ -1,0 +1,1181 @@
+﻿variable,modalite,effectif,pourcentage
+sexe,Féminin,2336,57.31108930323847
+sexe,Masculin,1726,42.34543670264966
+sexe,Manquant,10,0.24533856722276742
+sexe,Masculin Féminin,3,0.07360157016683022
+sexe,Féminin Masculin,1,0.02453385672227674
+fokotany,Ambohibary,508,12.463199214916585
+fokotany,Andrefatsena,253,6.207065750736016
+fokotany,Andrefantsena,251,6.1579980372914624
+fokotany,Ambohiponana,248,6.084396467124632
+fokotany,Ampivarotan'omby,248,6.084396467124632
+fokotany,Est Vinany,217,5.323846908734053
+fokotany,Alakamisy,208,5.103042198233562
+fokotany,Andranovory,207,5.078508341511285
+fokotany,Ampivarotanomby,201,4.931305201177625
+fokotany,EST vinany,179,4.391560353287537
+fokotany,Ambalamena,165,4.048086359175662
+fokotany,NORD CASERNE,124,3.042198233562316
+fokotany,Ambohimiadana,102,2.5024533856722275
+fokotany,Tsaratanana,99,2.4288518155053973
+fokotany,VOHIMALAZA,76,1.8645731108930323
+fokotany,Ouest vinany,68,1.6683022571148185
+fokotany,Ambanivolafotsy,68,1.6683022571148185
+fokotany,VOLAFOTSY,64,1.5701668302257115
+fokotany,Andriambelonomby,51,1.2512266928361138
+fokotany,Vantanana,46,1.1285574092247301
+fokotany,Tanamahalana,46,1.1285574092247301
+fokotany,Vohimalaza,44,1.0794896957801767
+fokotany,Est vinany,42,1.030421982335623
+fokotany,Mahavoky,29,0.7114818449460255
+fokotany,Ampivarontanomby,25,0.6133464180569186
+fokotany,Ampila Ouest,23,0.5642787046123651
+fokotany,Amboboka,21,0.5152109911678115
+fokotany,Manozombato,19,0.4661432777232581
+fokotany,ANDRIAMBELONOMBY,19,0.4661432777232581
+fokotany,Sud Caserne,16,0.39254170755642787
+fokotany,SUD CASERNE,16,0.39254170755642787
+fokotany,Ampila Antsinanana,13,0.31894013738959764
+fokotany,Andriambelinomby,12,0.2944062806673209
+fokotany,Ambonaivo Vohimalaza,11,0.2698724239450442
+fokotany,Ampivatotan'omby,10,0.24533856722276742
+fokotany,Ampila,10,0.24533856722276742
+fokotany,Ambalamahasoa Vohimalaza,9,0.22080471050049066
+fokotany,Ambodipaiso,9,0.22080471050049066
+fokotany,Nord Caserne,9,0.22080471050049066
+fokotany,Ambohimigodona,9,0.22080471050049066
+fokotany,Andriambelon'omby,8,0.19627085377821393
+fokotany,Andohany mahavoky,8,0.19627085377821393
+fokotany,Avaratrampila,8,0.19627085377821393
+fokotany,Sud,7,0.1717369970559372
+fokotany,andranovory,7,0.1717369970559372
+fokotany,FKT Alakamisy ~ Ambomiadana,7,0.1717369970559372
+fokotany,Ampasina vohimalaza,6,0.14720314033366044
+fokotany,Ambalamena antsinanana,5,0.12266928361138371
+fokotany,AMPILA,5,0.12266928361138371
+fokotany,Ambalamena ambony,5,0.12266928361138371
+fokotany,Est Hôpital,5,0.12266928361138371
+fokotany,Ampiva,5,0.12266928361138371
+fokotany,Tsaramasoandro,5,0.12266928361138371
+fokotany,Manquant,5,0.12266928361138371
+fokotany,Alakamisy Ambohimiadana,5,0.12266928361138371
+fokotany,Ambohipierenana,5,0.12266928361138371
+fokotany,Akaraoka,4,0.09813542688910697
+fokotany,Anjorozoro Atsimo,4,0.09813542688910697
+fokotany,Amongy,4,0.09813542688910697
+fokotany,Ankorombe,4,0.09813542688910697
+fokotany,Anjorozoro,4,0.09813542688910697
+fokotany,Ambalamirary Vohimalaza,4,0.09813542688910697
+fokotany,Ampasina Vohimalaza,4,0.09813542688910697
+fokotany,Androfataka,3,0.07360157016683022
+fokotany,Atanimboanjo Vohimalaza,3,0.07360157016683022
+fokotany,Manangafatsy Vohimalaza,3,0.07360157016683022
+fokotany,Soanotohizana vohimalaza,3,0.07360157016683022
+fokotany,Andohany Mahavoky,3,0.07360157016683022
+fokotany,Atanimboanjo vohimalaza,3,0.07360157016683022
+fokotany,Mahatarika,3,0.07360157016683022
+fokotany,Ambohimpierenana,3,0.07360157016683022
+fokotany,Apivarotanomby,3,0.07360157016683022
+fokotany,Nambolepary,3,0.07360157016683022
+fokotany,Ampila Ville,3,0.07360157016683022
+fokotany,SUD,3,0.07360157016683022
+fokotany,Ampitahana,3,0.07360157016683022
+fokotany,Ambalafantsy Vohimalaza,2,0.04906771344455348
+fokotany,Sahavatoana Vohimalaza,2,0.04906771344455348
+fokotany,Ambalamirary vohimalaza,2,0.04906771344455348
+fokotany,3,2,0.04906771344455348
+fokotany,Ankandatra Vohimalaza,2,0.04906771344455348
+fokotany,Ambalamahasoa vohimalaza,2,0.04906771344455348
+fokotany,Andranonanahary,2,0.04906771344455348
+fokotany,Andravonovory,2,0.04906771344455348
+fokotany,Ambohimanga Vohimalaza,2,0.04906771344455348
+fokotany,Soaniherenana Vohimalaza,2,0.04906771344455348
+fokotany,Andriamamahana,2,0.04906771344455348
+fokotany,Manolotrony,2,0.04906771344455348
+fokotany,Ambanivohitra,2,0.04906771344455348
+fokotany,Sud caserne,2,0.04906771344455348
+fokotany,Ambohimanga vohimalaza,2,0.04906771344455348
+fokotany,Ouest,2,0.04906771344455348
+fokotany,Ambalamena andrefana,2,0.04906771344455348
+fokotany,Androfantaka,1,0.02453385672227674
+fokotany,Androkataka,1,0.02453385672227674
+fokotany,Andrifataka,1,0.02453385672227674
+fokotany,Andohany Mahavok,1,0.02453385672227674
+fokotany,Soatanana Mahavoky,1,0.02453385672227674
+fokotany,ampasina Vohimalaza,1,0.02453385672227674
+fokotany,ambatolahyVohimalaza,1,0.02453385672227674
+fokotany,Ambatolahy vohimalaza,1,0.02453385672227674
+fokotany,Tsararivotra Vohimalaza,1,0.02453385672227674
+fokotany,Tsararivotra vohimalaza,1,0.02453385672227674
+fokotany,Mandrsomiadana vohimalaza,1,0.02453385672227674
+fokotany,Andrononanahary,1,0.02453385672227674
+fokotany,Ambody paiso tsaratanana,1,0.02453385672227674
+fokotany,Soatanana mahavoky,1,0.02453385672227674
+fokotany,Androany Mahavoky,1,0.02453385672227674
+fokotany,Andoha mahavoky,1,0.02453385672227674
+fokotany,Ambobaivo Vohimalaza,1,0.02453385672227674
+fokotany,ambalatsara Vohimalaza,1,0.02453385672227674
+fokotany,Ambalatsara vohalaza,1,0.02453385672227674
+fokotany,Amboanjo vohimalaza,1,0.02453385672227674
+fokotany,Soanotohizana Vohimalaza,1,0.02453385672227674
+fokotany,Manovosoa Vohimalaza,1,0.02453385672227674
+fokotany,Manangafaty Vohimalaza,1,0.02453385672227674
+fokotany,Ambalakely Vohimalaza,1,0.02453385672227674
+fokotany,Manivosoa Vohimalaza,1,0.02453385672227674
+fokotany,46,1,0.02453385672227674
+fokotany,Imito vohimalaza,1,0.02453385672227674
+fokotany,Imito Vohimalaza,1,0.02453385672227674
+fokotany,Mandrosomiadana vohimalaza,1,0.02453385672227674
+fokotany,Soanohizana vohimalaza,1,0.02453385672227674
+fokotany,Atanambao vohimalaza,1,0.02453385672227674
+fokotany,Ambohimigondona,1,0.02453385672227674
+fokotany,Ambahimanga vohimalaza,1,0.02453385672227674
+fokotany,Imasy,1,0.02453385672227674
+fokotany,Andronovory,1,0.02453385672227674
+fokotany,Ampasina,1,0.02453385672227674
+fokotany,Ambomanga vohimalaza,1,0.02453385672227674
+fokotany,Soaniherenana vohimalaza,1,0.02453385672227674
+fokotany,Soamandroso Vohimalaza,1,0.02453385672227674
+fokotany,Soanerana Vohimalaza,1,0.02453385672227674
+fokotany,Ambatolahy,1,0.02453385672227674
+fokotany,Siafasina,1,0.02453385672227674
+fokotany,AMBALAMENA,1,0.02453385672227674
+fokotany,Ambanivolo,1,0.02453385672227674
+fokotany,Ambohipanana,1,0.02453385672227674
+fokotany,Ambalamena( fkt anjaratsilefy ),1,0.02453385672227674
+fokotany,Ambohipononana,1,0.02453385672227674
+fokotany,Ambohimpononana,1,0.02453385672227674
+fokotany,Anndrefatsena,1,0.02453385672227674
+fokotany,Ambohiponenana,1,0.02453385672227674
+fokotany,Mantra Marie viviane,1,0.02453385672227674
+fokotany,Amb,1,0.02453385672227674
+fokotany,And,1,0.02453385672227674
+fokotany,Andefatsena,1,0.02453385672227674
+fokotany,Ambositra,1,0.02453385672227674
+fokotany,5,1,0.02453385672227674
+fokotany,Andrefatsana,1,0.02453385672227674
+fokotany,Ambony,1,0.02453385672227674
+fokotany,ANndrefatsena,1,0.02453385672227674
+fokotany,NORD,1,0.02453385672227674
+fokotany,Nord,1,0.02453385672227674
+fokotany,ampivarotan'omby,1,0.02453385672227674
+fokotany,EST CASERNE,1,0.02453385672227674
+fokotany,Ambodipaiso fokotany tsaratanana,1,0.02453385672227674
+fokotany,Fokotany andriambelonomby,1,0.02453385672227674
+fokotany,Andalamahitsy,1,0.02453385672227674
+fokotany,Soaniherenana Vohalaza,1,0.02453385672227674
+fokotany,Soaniherena vohimalaza,1,0.02453385672227674
+fokotany,Ankandatra vohimalaza,1,0.02453385672227674
+fokotany,Soaniherenana,1,0.02453385672227674
+fokotany,SID,1,0.02453385672227674
+fokotany,Ampibarotan'omby,1,0.02453385672227674
+fokotany,Soamandroso vohimalaza,1,0.02453385672227674
+fokotany,Andrialbelinomby,1,0.02453385672227674
+fokotany,MITANA ( FKT ANDRIAMBELONOMBY),1,0.02453385672227674
+fokotany,Fiadanana Vohimalaza,1,0.02453385672227674
+fokotany,Amboay,1,0.02453385672227674
+fokotany,Lot 01 E 69 alakamisy Ambositra,1,0.02453385672227674
+fokotany,Ambalamena. Ambony,1,0.02453385672227674
+fokotany,Ambalamenan,1,0.02453385672227674
+fokotany,Ambalamena ( fkt anjaratsilefy),1,0.02453385672227674
+fokotany,Ambatomanana,1,0.02453385672227674
+fokotany,Ambalanolomby,1,0.02453385672227674
+fokotany,EST Vinany,1,0.02453385672227674
+fokotany,Amongy Ambohiponana,1,0.02453385672227674
+fokotany,4,1,0.02453385672227674
+fokotany,+261348882245,1,0.02453385672227674
+fokotany,Ambondromisotra (visiteur),1,0.02453385672227674
+fokotany,Ambalamahasoa,1,0.02453385672227674
+fokotany,Lot 01 E 37,1,0.02453385672227674
+fokotany,Lot 01 E 29 alakamisy,1,0.02453385672227674
+fokotany,Lot 01 E 26 alakamisy,1,0.02453385672227674
+fokotany,alakamisy,1,0.02453385672227674
+fokotany,01 E 32 Alakamisy,1,0.02453385672227674
+fokotany,Maromby,1,0.02453385672227674
+fokotany,Soanierana,1,0.02453385672227674
+fokotany,Lavidasy,1,0.02453385672227674
+fokotany,Morafeno,1,0.02453385672227674
+fokotany,Itroka,1,0.02453385672227674
+fokotany,Ambodihady,1,0.02453385672227674
+fokotany,Ankorona,1,0.02453385672227674
+fokotany,Volafotsy,1,0.02453385672227674
+fokotany,ambanivolafotsy,1,0.02453385672227674
+fokotany,Ambalavao,1,0.02453385672227674
+lien_chef_menage,1. Chef de ménage (CM)(loham-pianakaviana),2153,52.82139352306182
+lien_chef_menage,2. Epouse du CM(vadiny),1407,34.51913640824338
+lien_chef_menage,3. Enfant du CM(zanany),386,9.470068694798822
+lien_chef_menage,5. Frère ou sœur(rahalahy/rahavavy),54,1.324828263002944
+lien_chef_menage,4. Parent du CM(ray amandreniny),41,1.0058881256133465
+lien_chef_menage,Manquant,21,0.5152109911678115
+lien_chef_menage,1. Chef de ménage (CM)(loham-pianakaviana) 2. Epouse du CM(vadiny),7,0.1717369970559372
+lien_chef_menage,2. Epouse du CM(vadiny) 1. Chef de ménage (CM)(loham-pianakaviana),6,0.14720314033366044
+lien_chef_menage,1. Chef de ménage (CM)(loham-pianakaviana) 4. Parent du CM(ray amandreniny),1,0.02453385672227674
+statut_pro,2. indépendant,3411,83.68498527968596
+statut_pro,1. Salarié,609,14.941118743866536
+statut_pro,3. les deux,36,0.8832188420019627
+statut_pro,Manquant,10,0.24533856722276742
+statut_pro,2. indépendant 1. Salarié,6,0.14720314033366044
+statut_pro,1. Salarié 2. indépendant,3,0.07360157016683022
+statut_pro,2. indépendant 1. Salarié 3. les deux,1,0.02453385672227674
+statut_matrimonial,Marié,2853,69.99509322865555
+statut_matrimonial,Celibataire,763,18.719332679097153
+statut_matrimonial,Veuf(ve),242,5.937193326790972
+statut_matrimonial,Divorcé,206,5.053974484789009
+statut_matrimonial,Manquant,11,0.2698724239450442
+statut_matrimonial,Marié Divorcé,1,0.02453385672227674
+secteur,1. Agricole,1010,24.77919528949951
+secteur,5. Commerce,926,22.718351324828262
+secteur,26. Autre,783,19.21000981354269
+secteur,10. Education,199,4.882237487733072
+secteur,"1. Agricole 3. Elevage, pêche",168,4.121687929342492
+secteur,21. services,135,3.31207065750736
+secteur,9. Transport,126,3.0912659470068693
+secteur,"3. Elevage, pêche",116,2.845927379784102
+secteur,2. Artisans,105,2.5760549558390577
+secteur,22. bâtiment,47,1.153091265947007
+secteur,11. Santé,43,1.0549558390579
+secteur,"8. Hôtel, restaurant",41,1.0058881256133465
+secteur,"6. Entretien, réparation",35,0.858684985279686
+secteur,"4. Agroalimentaire, boisson",25,0.6133464180569186
+secteur,1. Agricole 26. Autre,25,0.6133464180569186
+secteur,"1. Agricole 3. Elevage, pêche 21. services",19,0.4661432777232581
+secteur,"3. Elevage, pêche 1. Agricole",18,0.44160942100098133
+secteur,24. Informatique,17,0.4170755642787046
+secteur,23. Electronique,17,0.4170755642787046
+secteur,7. Matériaux de construction,17,0.4170755642787046
+secteur,13. Bancaire et financier,16,0.39254170755642787
+secteur,Manquant,16,0.39254170755642787
+secteur,15. Communication et médias,12,0.2944062806673209
+secteur,12. Textile,12,0.2944062806673209
+secteur,1. Agricole 5. Commerce,11,0.2698724239450442
+secteur,17. Constructions mécaniques,7,0.1717369970559372
+secteur,11. Santé 26. Autre,6,0.14720314033366044
+secteur,16. Distribution,5,0.12266928361138371
+secteur,19. loisirs et tourisme,5,0.12266928361138371
+secteur,5. Commerce 1. Agricole,5,0.12266928361138371
+secteur,5. Commerce 26. Autre,5,0.12266928361138371
+secteur,"1. Agricole 3. Elevage, pêche 5. Commerce",5,0.12266928361138371
+secteur,"3. Elevage, pêche 26. Autre",4,0.09813542688910697
+secteur,25. Métallurgique,4,0.09813542688910697
+secteur,26. Autre 1. Agricole,3,0.07360157016683022
+secteur,"3. Elevage, pêche 1. Agricole 21. services",3,0.07360157016683022
+secteur,26. Autre 5. Commerce,3,0.07360157016683022
+secteur,26. Autre 11. Santé,2,0.04906771344455348
+secteur,"1. Agricole 3. Elevage, pêche 7. Matériaux de construction",2,0.04906771344455348
+secteur,"5. Commerce 3. Elevage, pêche 1. Agricole",2,0.04906771344455348
+secteur,"5. Commerce 3. Elevage, pêche",2,0.04906771344455348
+secteur,"3. Elevage, pêche 5. Commerce",2,0.04906771344455348
+secteur,"22. bâtiment 3. Elevage, pêche",2,0.04906771344455348
+secteur,5. Commerce 1. Agricole 21. services,2,0.04906771344455348
+secteur,5. Commerce 2. Artisans,2,0.04906771344455348
+secteur,21. services 1. Agricole,2,0.04906771344455348
+secteur,5. Commerce 21. services,2,0.04906771344455348
+secteur,9. Transport 26. Autre,2,0.04906771344455348
+secteur,1. Agricole 21. services,2,0.04906771344455348
+secteur,1. Agricole 22. bâtiment,2,0.04906771344455348
+secteur,"21. services 1. Agricole 3. Elevage, pêche",2,0.04906771344455348
+secteur,"3. Elevage, pêche 21. services 1. Agricole",2,0.04906771344455348
+secteur,1. Agricole 7. Matériaux de construction,1,0.02453385672227674
+secteur,"22. bâtiment 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+secteur,12. Textile 26. Autre,1,0.02453385672227674
+secteur,"11. Santé 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+secteur,26. Autre 9. Transport,1,0.02453385672227674
+secteur,14. Energie,1,0.02453385672227674
+secteur,"26. Autre 8. Hôtel, restaurant",1,0.02453385672227674
+secteur,"8. Hôtel, restaurant 21. services",1,0.02453385672227674
+secteur,26. Autre 7. Matériaux de construction,1,0.02453385672227674
+secteur,11. Santé 10. Education 5. Commerce,1,0.02453385672227674
+secteur,5. Commerce 11. Santé,1,0.02453385672227674
+secteur,22. bâtiment 1. Agricole,1,0.02453385672227674
+secteur,26. Autre 22. bâtiment,1,0.02453385672227674
+secteur,"7. Matériaux de construction 6. Entretien, réparation",1,0.02453385672227674
+secteur,"1. Agricole 3. Elevage, pêche 21. services 5. Commerce",1,0.02453385672227674
+secteur,2. Artisans 26. Autre,1,0.02453385672227674
+secteur,1. Agricole 2. Artisans,1,0.02453385672227674
+secteur,2. Artisans 5. Commerce,1,0.02453385672227674
+secteur,"1. Agricole 5. Commerce 2. Artisans 3. Elevage, pêche",1,0.02453385672227674
+secteur,1. Agricole 11. Santé,1,0.02453385672227674
+secteur,7. Matériaux de construction 1. Agricole,1,0.02453385672227674
+secteur,"1. Agricole 3. Elevage, pêche 21. services 19. loisirs et tourisme",1,0.02453385672227674
+secteur,"1. Agricole 3. Elevage, pêche 21. services 22. bâtiment",1,0.02453385672227674
+secteur,"1. Agricole 3. Elevage, pêche 21. services 26. Autre",1,0.02453385672227674
+secteur,"1. Agricole 21. services 3. Elevage, pêche",1,0.02453385672227674
+secteur,2. Artisans 15. Communication et médias,1,0.02453385672227674
+secteur,"21. services 3. Elevage, pêche 1. Agricole",1,0.02453385672227674
+secteur,"10. Education 3. Elevage, pêche",1,0.02453385672227674
+secteur,10. Education 26. Autre,1,0.02453385672227674
+secteur,"5. Commerce 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+secteur,5. Commerce 9. Transport,1,0.02453385672227674
+secteur,"3. Elevage, pêche 1. Agricole 26. Autre",1,0.02453385672227674
+secteur,26. Autre 21. services,1,0.02453385672227674
+secteur,21. services 26. Autre,1,0.02453385672227674
+secteur,22. bâtiment 9. Transport,1,0.02453385672227674
+secteur,18. industries chimiques,1,0.02453385672227674
+secteur,15. Communication et médias 9. Transport,1,0.02453385672227674
+secteur,"3. Elevage, pêche 4. Agroalimentaire, boisson",1,0.02453385672227674
+secteur,"4. Agroalimentaire, boisson 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+secteur,"4. Agroalimentaire, boisson 3. Elevage, pêche",1,0.02453385672227674
+secteur,"1. Agricole 22. bâtiment 3. Elevage, pêche",1,0.02453385672227674
+secteur,5. Commerce 22. bâtiment,1,0.02453385672227674
+secteur,1. Agricole 9. Transport,1,0.02453385672227674
+secteur,21. services 11. Santé,1,0.02453385672227674
+secteur,"3. Elevage, pêche 1. Agricole 22. bâtiment",1,0.02453385672227674
+secteur,"2. Artisans 3. Elevage, pêche",1,0.02453385672227674
+secteur,1. Agricole 5. Commerce 26. Autre,1,0.02453385672227674
+secteur,7. Matériaux de construction 14. Energie,1,0.02453385672227674
+secteur,1. Agricole 10. Education,1,0.02453385672227674
+secteur,2. Artisans 21. services,1,0.02453385672227674
+secteur,"21. services 3. Elevage, pêche",1,0.02453385672227674
+secteur,"26. Autre 3. Elevage, pêche",1,0.02453385672227674
+activite_conjoint,1. Travailleur indépendant (miasa tena),1381,33.88125613346418
+activite_conjoint,Manquant,1237,30.34838076545633
+activite_conjoint,5. Meme travail (mitovy asa aminao),776,19.038272816486753
+activite_conjoint,2. Salarié,370,9.077526987242395
+activite_conjoint,6. Autre,134,3.2875368007850834
+activite_conjoint,4. Sans activité (tsy miasa),130,3.1894013738959766
+activite_conjoint,3. Retraité,11,0.2698724239450442
+activite_conjoint,1. Travailleur indépendant (miasa tena) 6. Autre,8,0.19627085377821393
+activite_conjoint,2. Salarié 1. Travailleur indépendant (miasa tena),7,0.1717369970559372
+activite_conjoint,1. Travailleur indépendant (miasa tena) 5. Meme travail (mitovy asa aminao),6,0.14720314033366044
+activite_conjoint,5. Meme travail (mitovy asa aminao) 1. Travailleur indépendant (miasa tena),5,0.12266928361138371
+activite_conjoint,1. Travailleur indépendant (miasa tena) 2. Salarié,4,0.09813542688910697
+activite_conjoint,5. Meme travail (mitovy asa aminao) 6. Autre,2,0.04906771344455348
+activite_conjoint,2. Salarié 5. Meme travail (mitovy asa aminao),1,0.02453385672227674
+activite_conjoint,2. Salarié 4. Sans activité (tsy miasa),1,0.02453385672227674
+activite_conjoint,1. Travailleur indépendant (miasa tena) 4. Sans activité (tsy miasa),1,0.02453385672227674
+activite_conjoint,2. Salarié 6. Autre,1,0.02453385672227674
+activite_conjoint,4. Sans activité (tsy miasa) 6. Autre,1,0.02453385672227674
+niveau_etude,3. Collège,1501,36.82531894013739
+niveau_etude,2. Lycée,1254,30.765456329735034
+niveau_etude,4. Primaire,777,19.062806673209028
+niveau_etude,1. Université,437,10.721295387634937
+niveau_etude,5. Analphabète,96,2.355250245338567
+niveau_etude,Manquant,8,0.19627085377821393
+niveau_etude,1. Université 2. Lycée,1,0.02453385672227674
+niveau_etude,4. Primaire 3. Collège,1,0.02453385672227674
+niveau_etude,5. Analphabète 2. Lycée,1,0.02453385672227674
+statut_residence,Tompon-trano,2124,52.1099116781158
+statut_residence,Manofa trano,1947,47.76741903827282
+statut_residence,Manquant,5,0.12266928361138371
+source_eau,2. Borne fontaine (popim-panjakana/pompy eo an-tokontany),3306,81.1089303238469
+source_eau,3. Puits (vovo/lava-drano),360,8.832188420019627
+source_eau,4. Autre,260,6.378802747791953
+source_eau,1. Branchement à la maison (pompy ao an-trano),118,2.8949950932286557
+source_eau,2. Borne fontaine (popim-panjakana/pompy eo an-tokontany) 3. Puits (vovo/lava-drano),15,0.3680078508341511
+source_eau,Manquant,10,0.24533856722276742
+source_eau,3. Puits (vovo/lava-drano) 2. Borne fontaine (popim-panjakana/pompy eo an-tokontany),3,0.07360157016683022
+source_eau,4. Autre 2. Borne fontaine (popim-panjakana/pompy eo an-tokontany),2,0.04906771344455348
+source_eau,4. Autre 3. Puits (vovo/lava-drano),1,0.02453385672227674
+source_eau,3. Puits (vovo/lava-drano) 4. Autre,1,0.02453385672227674
+source_electricite,1. Jirama,2569,63.02747791952895
+source_electricite,2. Solaire,715,17.54170755642787
+source_electricite,Petrole (solotany),387,9.4946025515211
+source_electricite,4. Autre,127,3.1157998037291463
+source_electricite,3. Bougie,76,1.8645731108930323
+source_electricite,1. Jirama 3. Bougie,66,1.6192345436702649
+source_electricite,3. Bougie Petrole (solotany),25,0.6133464180569186
+source_electricite,2. Solaire 3. Bougie,24,0.5888125613346418
+source_electricite,2. Solaire Petrole (solotany),17,0.4170755642787046
+source_electricite,Petrole (solotany) 2. Solaire,15,0.3680078508341511
+source_electricite,1. Jirama 2. Solaire,13,0.31894013738959764
+source_electricite,Manquant,9,0.22080471050049066
+source_electricite,3. Bougie 2. Solaire,8,0.19627085377821393
+source_electricite,2. Solaire 1. Jirama,8,0.19627085377821393
+source_electricite,Petrole (solotany) 3. Bougie,7,0.1717369970559372
+source_electricite,4. Autre 3. Bougie,2,0.04906771344455348
+source_electricite,4. Autre Petrole (solotany),2,0.04906771344455348
+source_electricite,Petrole (solotany) 4. Autre,2,0.04906771344455348
+source_electricite,1. Jirama 4. Autre,1,0.02453385672227674
+source_electricite,4. Autre 2. Solaire,1,0.02453385672227674
+source_electricite,3. Bougie 1. Jirama,1,0.02453385672227674
+source_electricite,Petrole (solotany) 3. Bougie 2. Solaire,1,0.02453385672227674
+energie_cuisine,2. Charbon,2667,65.43179587831207
+energie_cuisine,1. Hazo kitay,1194,29.29342492639843
+energie_cuisine,1. Hazo kitay 2. Charbon,90,2.2080471050049066
+energie_cuisine,2. Charbon 1. Hazo kitay,75,1.8400392541707555
+energie_cuisine,2. Charbon 4. Electricité,18,0.44160942100098133
+energie_cuisine,Manquant,9,0.22080471050049066
+energie_cuisine,2. Charbon 3. Gaz,8,0.19627085377821393
+energie_cuisine,4. Electricité,4,0.09813542688910697
+energie_cuisine,3. Gaz 2. Charbon,3,0.07360157016683022
+energie_cuisine,4. Electricité 2. Charbon,2,0.04906771344455348
+energie_cuisine,4. Electricité 1. Hazo kitay,1,0.02453385672227674
+energie_cuisine,1. Hazo kitay 4. Electricité,1,0.02453385672227674
+energie_cuisine,2. Charbon 3. Gaz 1. Hazo kitay,1,0.02453385672227674
+energie_cuisine,2. Charbon 1. Hazo kitay 3. Gaz,1,0.02453385672227674
+energie_cuisine,4. Electricité 3. Gaz,1,0.02453385672227674
+energie_cuisine,2. Charbon 3. Gaz 4. Electricité,1,0.02453385672227674
+type_toilette,Toilettes à fosse traditionnelle (latrines),2007,49.23945044160942
+type_toilette,Toilettes sèches (sans eau),1782,43.71933267909716
+type_toilette,Toilettes avec chasse d'eau (modernes),251,6.1579980372914624
+type_toilette,Eny ankalamanjana,22,0.5397448478900884
+type_toilette,Manquant,11,0.2698724239450442
+type_toilette,Autre (précisez),3,0.07360157016683022
+activite_famille,Manquant,2250,55.20117762512267
+activite_famille,1. Agricole,516,12.659470068694798
+activite_famille,5. Commerce,350,8.58684985279686
+activite_famille,26. Autre,282,6.918547595682041
+activite_famille,9. Transport,128,3.140333660451423
+activite_famille,10. Education,82,2.011776251226693
+activite_famille,2. Artisans,72,1.7664376840039253
+activite_famille,"1. Agricole 3. Elevage, pêche",71,1.7419038272816487
+activite_famille,21. services,63,1.5456329735034346
+activite_famille,22. bâtiment,54,1.324828263002944
+activite_famille,"3. Elevage, pêche",32,0.7850834151128557
+activite_famille,7. Matériaux de construction,20,0.49067713444553485
+activite_famille,"6. Entretien, réparation",18,0.44160942100098133
+activite_famille,11. Santé,16,0.39254170755642787
+activite_famille,"4. Agroalimentaire, boisson",11,0.2698724239450442
+activite_famille,23. Electronique,11,0.2698724239450442
+activite_famille,"1. Agricole 3. Elevage, pêche 21. services",10,0.24533856722276742
+activite_famille,13. Bancaire et financier,10,0.24533856722276742
+activite_famille,"8. Hôtel, restaurant",9,0.22080471050049066
+activite_famille,"3. Elevage, pêche 1. Agricole",8,0.19627085377821393
+activite_famille,24. Informatique,7,0.1717369970559372
+activite_famille,1. Agricole 26. Autre,5,0.12266928361138371
+activite_famille,1. Agricole 5. Commerce,4,0.09813542688910697
+activite_famille,5. Commerce 26. Autre,4,0.09813542688910697
+activite_famille,25. Métallurgique,3,0.07360157016683022
+activite_famille,17. Constructions mécaniques,3,0.07360157016683022
+activite_famille,15. Communication et médias,3,0.07360157016683022
+activite_famille,12. Textile,2,0.04906771344455348
+activite_famille,"3. Elevage, pêche 26. Autre",1,0.02453385672227674
+activite_famille,"1. Agricole 3. Elevage, pêche 5. Commerce",1,0.02453385672227674
+activite_famille,1. Agricole 22. bâtiment,1,0.02453385672227674
+activite_famille,14. Energie,1,0.02453385672227674
+activite_famille,"11. Santé 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+activite_famille,5. Commerce 12. Textile,1,0.02453385672227674
+activite_famille,16. Distribution,1,0.02453385672227674
+activite_famille,5. Commerce 1. Agricole 9. Transport,1,0.02453385672227674
+activite_famille,21. services 1. Agricole,1,0.02453385672227674
+activite_famille,5. Commerce 1. Agricole,1,0.02453385672227674
+activite_famille,24. Informatique 21. services,1,0.02453385672227674
+activite_famille,2. Artisans 26. Autre,1,0.02453385672227674
+activite_famille,"3. Elevage, pêche 5. Commerce",1,0.02453385672227674
+activite_famille,"8. Hôtel, restaurant 21. services",1,0.02453385672227674
+activite_famille,1. Agricole 11. Santé,1,0.02453385672227674
+activite_famille,11. Santé 26. Autre,1,0.02453385672227674
+activite_famille,7. Matériaux de construction 22. bâtiment,1,0.02453385672227674
+activite_famille,1. Agricole 21. services,1,0.02453385672227674
+activite_famille,5. Commerce 1. Agricole 21. services,1,0.02453385672227674
+activite_famille,1. Agricole 9. Transport,1,0.02453385672227674
+activite_famille,26. Autre 7. Matériaux de construction,1,0.02453385672227674
+activite_famille,"1. Agricole 21. services 3. Elevage, pêche",1,0.02453385672227674
+activite_famille,"5. Commerce 1. Agricole 3. Elevage, pêche",1,0.02453385672227674
+activite_famille,"1. Agricole 3. Elevage, pêche 21. services 26. Autre",1,0.02453385672227674
+activite_famille,"5. Commerce 3. Elevage, pêche",1,0.02453385672227674
+activite_famille,"9. Transport 3. Elevage, pêche",1,0.02453385672227674
+activite_famille,"3. Elevage, pêche 4. Agroalimentaire, boisson",1,0.02453385672227674
+activite_famille,"3. Elevage, pêche 1. Agricole 26. Autre",1,0.02453385672227674
+activite_famille,"3. Elevage, pêche 1. Agricole 4. Agroalimentaire, boisson",1,0.02453385672227674
+activite_famille,21. services 22. bâtiment,1,0.02453385672227674
+activite_famille,"6. Entretien, réparation 1. Agricole",1,0.02453385672227674
+activite_famille,"22. bâtiment 3. Elevage, pêche 1. Agricole",1,0.02453385672227674
+transport_travail,Tongotra,3278,80.42198233562316
+transport_travail,Pas de déplacement (travail à domicile),407,9.985279685966633
+transport_travail,Moto,82,2.011776251226693
+transport_travail,"Transport en commun (Bus, minibus)",74,1.815505397448479
+transport_travail,Bicyclette,57,1.3984298331697742
+transport_travail,Autre (à préciser),51,1.2512266928361138
+transport_travail,"Tongotra Transport en commun (Bus, minibus)",40,0.9813542688910697
+transport_travail,Manquant,19,0.4661432777232581
+transport_travail,Tongotra Moto,12,0.2944062806673209
+transport_travail,Voiture personnelle,12,0.2944062806673209
+transport_travail,Taxi/taximoto,8,0.19627085377821393
+transport_travail,Tongotra Autre (à préciser),7,0.1717369970559372
+transport_travail,Tongotra Taxi/taximoto,7,0.1717369970559372
+transport_travail,Tongotra Voiture personnelle,4,0.09813542688910697
+transport_travail,Tongotra Bicyclette,3,0.07360157016683022
+transport_travail,Tongotra Pas de déplacement (travail à domicile),3,0.07360157016683022
+transport_travail,Bicyclette Tongotra,2,0.04906771344455348
+transport_travail,"Taxi/taximoto Transport en commun (Bus, minibus)",1,0.02453385672227674
+transport_travail,Tongotra Taxi/taximoto Autre (à préciser),1,0.02453385672227674
+transport_travail,Moto Tongotra,1,0.02453385672227674
+transport_travail,"Tongotra Transport en commun (Bus, minibus) Voiture personnelle",1,0.02453385672227674
+transport_travail,"Tongotra Transport en commun (Bus, minibus) Taxi/taximoto",1,0.02453385672227674
+transport_travail,"Tongotra Taxi/taximoto Transport en commun (Bus, minibus)",1,0.02453385672227674
+transport_travail,"Transport en commun (Bus, minibus) Moto",1,0.02453385672227674
+transport_travail,"Transport en commun (Bus, minibus) Tongotra",1,0.02453385672227674
+transport_travail,Pas de déplacement (travail à domicile) Tongotra,1,0.02453385672227674
+transport_travail,"Transport en commun (Bus, minibus) Autre (à préciser)",1,0.02453385672227674
+revenu,100 000Ar- 200 000Ar,1296,31.79587831207066
+revenu,moins de 100 000Ar,864,21.197252208047104
+revenu,200 000Ar-300 000Ar,745,18.277723258096174
+revenu,300 000Ar-400 000Ar,400,9.813542688910697
+revenu,400 000 Ar - 500 000Ar,344,8.4396467124632
+revenu,500 000Ar- 1 000 000 Ar,239,5.863591756624142
+revenu,plus de 1 000 000Ar,48,1.1776251226692835
+revenu,Manquant,43,1.0549558390579
+revenu,100 000Ar- 200 000Ar 200 000Ar-300 000Ar,25,0.6133464180569186
+revenu,moins de 100 000Ar 100 000Ar- 200 000Ar,18,0.44160942100098133
+revenu,200 000Ar-300 000Ar 300 000Ar-400 000Ar,12,0.2944062806673209
+revenu,100 000Ar- 200 000Ar moins de 100 000Ar,12,0.2944062806673209
+revenu,300 000Ar-400 000Ar 400 000 Ar - 500 000Ar,8,0.19627085377821393
+revenu,200 000Ar-300 000Ar 100 000Ar- 200 000Ar,7,0.1717369970559372
+revenu,400 000 Ar - 500 000Ar 500 000Ar- 1 000 000 Ar,3,0.07360157016683022
+revenu,500 000Ar- 1 000 000 Ar 400 000 Ar - 500 000Ar,2,0.04906771344455348
+revenu,200 000Ar-300 000Ar 300 000Ar-400 000Ar 400 000 Ar - 500 000Ar,2,0.04906771344455348
+revenu,plus de 1 000 000Ar moins de 100 000Ar,1,0.02453385672227674
+revenu,plus de 1 000 000Ar 100 000Ar- 200 000Ar,1,0.02453385672227674
+revenu,moins de 100 000Ar 100 000Ar- 200 000Ar 200 000Ar-300 000Ar 300 000Ar-400 000Ar,1,0.02453385672227674
+revenu,moins de 100 000Ar 100 000Ar- 200 000Ar 200 000Ar-300 000Ar,1,0.02453385672227674
+revenu,plus de 1 000 000Ar 500 000Ar- 1 000 000 Ar,1,0.02453385672227674
+revenu,300 000Ar-400 000Ar 200 000Ar-300 000Ar,1,0.02453385672227674
+revenu,400 000 Ar - 500 000Ar 200 000Ar-300 000Ar,1,0.02453385672227674
+revenu,500 000Ar- 1 000 000 Ar moins de 100 000Ar,1,0.02453385672227674
+epargne,Tsia,2995,73.47890088321884
+epargne,Eny,1073,26.324828263002946
+epargne,Manquant,8,0.19627085377821393
+dettes,Tsia,3484,85.47595682041216
+dettes,Eny,584,14.327772325809617
+dettes,Manquant,8,0.19627085377821393
+effort_physique,"1. Oui, toujours",2120,52.01177625122669
+effort_physique,"2. Oui, souvent",1337,32.801766437684
+effort_physique,3. Parfois,371,9.10206084396467
+effort_physique,4. Rarement,148,3.631010794896958
+effort_physique,5. Jamais,84,2.060843964671246
+effort_physique,Manquant,15,0.3680078508341511
+effort_physique,"2. Oui, souvent 4. Rarement",1,0.02453385672227674
+duree_effort,Plus de 5 heures,1611,39.52404317958783
+duree_effort,1 à 3 heures,1026,25.171736997055937
+duree_effort,3 à 5 heures,856,21.00098135426889
+duree_effort,Moins de 1 heure,567,13.910696761530913
+duree_effort,Manquant,16,0.39254170755642787
+pb_sante_travail,"2. Oui, parfois",1761,43.204121687929344
+pb_sante_travail,"1. Oui, régulièrement",1522,37.3405299313052
+pb_sante_travail,"3. Non, rarement",465,11.408243375858685
+pb_sante_travail,"4. Non, jamais",313,7.67909715407262
+pb_sante_travail,Manquant,12,0.2944062806673209
+pb_sante_travail,"1. Oui, régulièrement 2. Oui, parfois",1,0.02453385672227674
+pb_sante_travail,"3. Non, rarement 1. Oui, régulièrement",1,0.02453385672227674
+pb_sante_travail,"1. Oui, régulièrement 3. Non, rarement",1,0.02453385672227674
+arret_maladie,"2. Oui, une ou deux fois",2224,54.563297350343476
+arret_maladie,"1. Oui, plusieurs fois",987,24.214916584887145
+arret_maladie,"3. Non, jamais",848,20.80471050049068
+arret_maladie,Manquant,13,0.31894013738959764
+arret_maladie,"3. Non, jamais 2. Oui, une ou deux fois",2,0.04906771344455348
+arret_maladie,"2. Oui, une ou deux fois 1. Oui, plusieurs fois",2,0.04906771344455348
+impact_travail_sante,"Oui, mais de manière modérée",1696,41.60942100098136
+impact_travail_sante,"Oui, de manière importante",1118,27.428851815505396
+impact_travail_sante,"Non, pas du tout",659,16.167811579980373
+impact_travail_sante,"Non, pas vraiment",591,14.499509322865554
+impact_travail_sante,Manquant,12,0.2944062806673209
+repos_recent,"Oui, plusieurs fois",1584,38.86162904808636
+repos_recent,"Oui, une fois",1565,38.3954857703631
+repos_recent,"Non, jamais",915,22.44847890088322
+repos_recent,Manquant,12,0.2944062806673209
+couverture,Non,3960,97.1540726202159
+couverture,Oui,101,2.477919528949951
+couverture,Manquant,15,0.3680078508341511
+mode_affiliation,Manquant,3975,97.52208047105005
+mode_affiliation,1. Assurance maladie,39,0.956820412168793
+mode_affiliation,2. Mutuelle de santé,26,0.6378802747791953
+mode_affiliation,4. Remboursement,14,0.3434739941118744
+mode_affiliation,Autres,11,0.2698724239450442
+mode_affiliation,3. Pris en charge de l'employeur du conjoint (amin'ny alalan'ny asan'ny vadinao),8,0.19627085377821393
+mode_affiliation,1. Assurance maladie 2. Mutuelle de santé,2,0.04906771344455348
+mode_affiliation,2. Mutuelle de santé 1. Assurance maladie,1,0.02453385672227674
+type_couverture,Manquant,3975,97.52208047105005
+type_couverture,AUTRES (à préciser),47,1.153091265947007
+type_couverture,9. REMBOURSEMENT,18,0.44160942100098133
+type_couverture,11. Service medical interne,12,0.2944062806673209
+type_couverture,1. OSTIE,8,0.19627085377821393
+type_couverture,6. OTIV,6,0.14720314033366044
+type_couverture,7. ARO,2,0.04906771344455348
+type_couverture,12. NY HAVANA,2,0.04906771344455348
+type_couverture,12. NY HAVANA 13. SANLAM,1,0.02453385672227674
+type_couverture,7. ARO 8. HAVANA 6. OTIV,1,0.02453385672227674
+type_couverture,8. HAVANA,1,0.02453385672227674
+type_couverture,2. AMIT,1,0.02453385672227674
+type_couverture,3. AFAFI,1,0.02453385672227674
+type_couverture,4. HARENA,1,0.02453385672227674
+ancienne_couverture,Non,3922,96.22178606476938
+ancienne_couverture,Manquant,122,2.9931305201177625
+ancienne_couverture,Oui,32,0.7850834151128557
+interet_couverture,4. Tout à fait,1880,46.123650637880274
+interet_couverture,3. Plutôt oui,1753,43.00785083415113
+interet_couverture,1. Pas du tout,300,7.360157016683022
+interet_couverture,2. Plutôt non,129,3.1648675171736995
+interet_couverture,Manquant,11,0.2698724239450442
+interet_couverture,1. Pas du tout 4. Tout à fait,1,0.02453385672227674
+interet_couverture,2. Plutôt non 3. Plutôt oui,1,0.02453385672227674
+interet_couverture,2. Plutôt non 1. Pas du tout,1,0.02453385672227674
+maladie_chronique,Non,3659,89.7693817468106
+maladie_chronique,Oui,403,9.887144259077527
+maladie_chronique,Manquant,13,0.31894013738959764
+maladie_chronique,Non Oui,1,0.02453385672227674
+chronique_categorie,Manquant,3672,90.0883218842002
+chronique_categorie,Autre (précisez),180,4.416094210009813
+chronique_categorie,Hypertension,76,1.8645731108930323
+chronique_categorie,"Maladie respiratoire (asthme, bronchite chronique, etc.)",56,1.3738959764474976
+chronique_categorie,Maladie cardiaque,49,1.2021589793915604
+chronique_categorie,Diabète,28,0.6869479882237488
+chronique_categorie,Hypertension Maladie cardiaque,4,0.09813542688910697
+chronique_categorie,Hypertension Autre (précisez),3,0.07360157016683022
+chronique_categorie,Maladie cardiaque Autre (précisez),2,0.04906771344455348
+chronique_categorie,Autre (précisez) Hypertension,2,0.04906771344455348
+chronique_categorie,Hypertension Diabète,1,0.02453385672227674
+chronique_categorie,"Maladie respiratoire (asthme, bronchite chronique, etc.) Hypertension",1,0.02453385672227674
+chronique_categorie,Autre (précisez) Maladie cardiaque,1,0.02453385672227674
+chronique_categorie,Maladie cardiaque Hypertension,1,0.02453385672227674
+traitement_regulier,Manquant,3673,90.11285574092247
+traitement_regulier,"3. Non, pas de traitement",265,6.5014720314033365
+traitement_regulier,"2. Oui, de manière occasionnelle",73,1.7909715407262021
+traitement_regulier,"1. Oui, un traitement régulier",65,1.5947006869479883
+freq_consult_chronique,Manquant,4011,98.40529931305201
+freq_consult_chronique,1. Une fois par mois,25,0.6133464180569186
+freq_consult_chronique,2. Tous les deux à trois mois,19,0.4661432777232581
+freq_consult_chronique,4. Plus rarement,11,0.2698724239450442
+freq_consult_chronique,3. Deux fois par an,10,0.24533856722276742
+lunettes,Tsia,3813,93.54759568204122
+lunettes,Eny,249,6.108930323846908
+lunettes,Manquant,14,0.3434739941118744
+valeur_lunettes,Manquant,3828,93.91560353287537
+valeur_lunettes,Latsaky ny 100 000 MGA,140,3.434739941118744
+valeur_lunettes,100 000 - 300 000 MGA,102,2.5024533856722275
+valeur_lunettes,Tsy fantatro,4,0.09813542688910697
+valeur_lunettes,Mihoatra ny 300 000 MGA,2,0.04906771344455348
+dentiste,"Eny, indraindray",2044,50.14720314033366
+dentiste,Tsia,1800,44.16094210009813
+dentiste,"Eny, matetika",219,5.372914622178606
+dentiste,Manquant,13,0.31894013738959764
+freq_dentiste,Manquant,1818,44.602551521099116
+freq_dentiste,Tsy mandeha matetika,875,21.46712463199215
+freq_dentiste,in-1 isan-taona,614,15.06378802747792
+freq_dentiste,in-2 isan-taona,586,14.376840039254171
+freq_dentiste,Mihoatra ny in-2 isan-taona,183,4.4896957801766435
+renoncement_soins,Oui,2011,49.33758586849853
+renoncement_soins,Non,1985,48.69970559371933
+renoncement_soins,Manquant,78,1.913640824337586
+renoncement_soins,Non Oui,1,0.02453385672227674
+renoncement_soins,Oui Non,1,0.02453385672227674
+douleur,2. Douloureux,1772,43.47399411187439
+douleur,1. Très douloureux,1378,33.80765456329735
+douleur,3. Peu douloureux,427,10.475956820412168
+douleur,4. Pas douloureux,275,6.746810598626104
+douleur,Manquant,221,5.42198233562316
+douleur,3. Peu douloureux 2. Douloureux,3,0.07360157016683022
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena)",1254,30.765456329735034
+type_recours,4. Centre de santé de base Public (CSB Public),742,18.20412168792934
+type_recours,6. Hôpital public,407,9.985279685966633
+type_recours,3. Médecin libre,295,7.237487733071639
+type_recours,Autre,259,6.354268891069676
+type_recours,2. Tradipraticien,251,6.1579980372914624
+type_recours,Manquant,222,5.446516192345436
+type_recours,7. Hôpital privé,162,3.9744847890088324
+type_recours,13. Ne rien faire,134,3.2875368007850834
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 2. Tradipraticien",91,2.2325809617271837
+type_recours,"2. Tradipraticien 1. Automédication (nividy fanafody, nanao dokotera tena)",82,2.011776251226693
+type_recours,5. Dispensaire privé,76,1.8645731108930323
+type_recours,14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano),23,0.5642787046123651
+type_recours,10. Consultation à distance (niantso dokotera an-telefonina),15,0.3680078508341511
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) Autre",8,0.19627085377821393
+type_recours,8. OSTIE,7,0.1717369970559372
+type_recours,4. Centre de santé de base Public (CSB Public) 6. Hôpital public,3,0.07360157016683022
+type_recours,11. Service medical interne,3,0.07360157016683022
+type_recours,"Autre 1. Automédication (nividy fanafody, nanao dokotera tena)",3,0.07360157016683022
+type_recours,Autre 2. Tradipraticien,3,0.07360157016683022
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 2. Tradipraticien Autre",2,0.04906771344455348
+type_recours,"9. ESIA 1. Automédication (nividy fanafody, nanao dokotera tena)",2,0.04906771344455348
+type_recours,2. Tradipraticien Autre,2,0.04906771344455348
+type_recours,"4. Centre de santé de base Public (CSB Public) 1. Automédication (nividy fanafody, nanao dokotera tena)",2,0.04906771344455348
+type_recours,6. Hôpital public 4. Centre de santé de base Public (CSB Public),2,0.04906771344455348
+type_recours,12. CENTRE MEDICO-SOCIAL,2,0.04906771344455348
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 4. Centre de santé de base Public (CSB Public)",2,0.04906771344455348
+type_recours,3. Médecin libre Autre,2,0.04906771344455348
+type_recours,14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano) 3. Médecin libre,1,0.02453385672227674
+type_recours,14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano) 4. Centre de santé de base Public (CSB Public),1,0.02453385672227674
+type_recours,6. Hôpital public 10. Consultation à distance (niantso dokotera an-telefonina),1,0.02453385672227674
+type_recours,13. Ne rien faire 4. Centre de santé de base Public (CSB Public),1,0.02453385672227674
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 2. Tradipraticien 6. Hôpital public",1,0.02453385672227674
+type_recours,13. Ne rien faire Autre,1,0.02453385672227674
+type_recours,2. Tradipraticien 6. Hôpital public,1,0.02453385672227674
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 3. Médecin libre",1,0.02453385672227674
+type_recours,"8. OSTIE 1. Automédication (nividy fanafody, nanao dokotera tena)",1,0.02453385672227674
+type_recours,6. Hôpital public Autre,1,0.02453385672227674
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena) 13. Ne rien faire",1,0.02453385672227674
+type_recours,"6. Hôpital public 1. Automédication (nividy fanafody, nanao dokotera tena)",1,0.02453385672227674
+type_recours,14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano) 7. Hôpital privé,1,0.02453385672227674
+type_recours,7. Hôpital privé 14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano),1,0.02453385672227674
+type_recours,6. Hôpital public 2. Tradipraticien,1,0.02453385672227674
+type_recours,4. Centre de santé de base Public (CSB Public) 7. Hôpital privé,1,0.02453385672227674
+type_recours,Autre 3. Médecin libre,1,0.02453385672227674
+type_recours,6. Hôpital public 3. Médecin libre,1,0.02453385672227674
+type_recours,6. Hôpital public 3. Médecin libre 2. Tradipraticien,1,0.02453385672227674
+type_recours,6. Hôpital public 3. Médecin libre 4. Centre de santé de base Public (CSB Public),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana),815,19.995093228655545
+motif_recours,7. Autres (antony hafa),345,8.464180569185476
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),305,7.482826300294406
+motif_recours,Manquant,236,5.789990186457311
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),227,5.569185475956821
+motif_recours,Kely ny vola aloha,206,5.053974484789009
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina),206,5.053974484789009
+motif_recours,Bouche à oreille (nisy niteny hoe tsara),103,2.5269872423945046
+motif_recours,Proximité (akaiky),89,2.18351324828263
+motif_recours,Kely ny vola aloha Habitudes/affinités (fahazarana),87,2.1344455348380764
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina),85,2.0853778213935232
+motif_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha,78,1.913640824337586
+motif_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),75,1.8400392541707555
+motif_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Proximité (akaiky),72,1.7664376840039253
+motif_recours,Proximité (akaiky) Kely ny vola aloha Habitudes/affinités (fahazarana),44,1.0794896957801767
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),38,0.9322865554465162
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo),38,0.9322865554465162
+motif_recours,Proximité (akaiky) Kely ny vola aloha,36,0.8832188420019627
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina),34,0.8341511285574092
+motif_recours,Tsy manam-potoana,32,0.7850834151128557
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina),28,0.6869479882237488
+motif_recours,Dictée par la prise en charge (manana assurance/Prise en charge,27,0.662414131501472
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,25,0.6133464180569186
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),24,0.5888125613346418
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana),23,0.5642787046123651
+motif_recours,Proximité (akaiky) Tsy manam-potoana Kely ny vola aloha,22,0.5397448478900884
+motif_recours,Tsy manam-potoana Kely ny vola aloha,22,0.5397448478900884
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),20,0.49067713444553485
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara),19,0.4661432777232581
+motif_recours,Kely ny vola aloha Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),18,0.44160942100098133
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),17,0.4170755642787046
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara),17,0.4170755642787046
+motif_recours,Proximité (akaiky) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),16,0.39254170755642787
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Kely ny vola aloha,15,0.3680078508341511
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),15,0.3680078508341511
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky),14,0.3434739941118744
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana) Kely ny vola aloha,13,0.31894013738959764
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),12,0.2944062806673209
+motif_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,12,0.2944062806673209
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha Proximité (akaiky),11,0.2698724239450442
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),10,0.24533856722276742
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha,10,0.24533856722276742
+motif_recours,Habitudes/affinités (fahazarana) 7. Autres (antony hafa),10,0.24533856722276742
+motif_recours,Habitudes/affinités (fahazarana) Proximité (akaiky) Kely ny vola aloha,9,0.22080471050049066
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),9,0.22080471050049066
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana),9,0.22080471050049066
+motif_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina),8,0.19627085377821393
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina),8,0.19627085377821393
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo),8,0.19627085377821393
+motif_recours,Kely ny vola aloha Tsy manam-potoana,8,0.19627085377821393
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),8,0.19627085377821393
+motif_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,8,0.19627085377821393
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),8,0.19627085377821393
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana),7,0.1717369970559372
+motif_recours,Tsy manam-potoana Habitudes/affinités (fahazarana),7,0.1717369970559372
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),7,0.1717369970559372
+motif_recours,Kely ny vola aloha Proximité (akaiky),7,0.1717369970559372
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),7,0.1717369970559372
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,7,0.1717369970559372
+motif_recours,Kely ny vola aloha Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),7,0.1717369970559372
+motif_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina),6,0.14720314033366044
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina),6,0.14720314033366044
+motif_recours,Habitudes/affinités (fahazarana) Proximité (akaiky),6,0.14720314033366044
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,6,0.14720314033366044
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),6,0.14720314033366044
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana) Kely ny vola aloha,6,0.14720314033366044
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),5,0.12266928361138371
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),5,0.12266928361138371
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),5,0.12266928361138371
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),5,0.12266928361138371
+motif_recours,Kely ny vola aloha Habitudes/affinités (fahazarana) Proximité (akaiky),5,0.12266928361138371
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),5,0.12266928361138371
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina),5,0.12266928361138371
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana),5,0.12266928361138371
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana),5,0.12266928361138371
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha Habitudes/affinités (fahazarana),4,0.09813542688910697
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),4,0.09813542688910697
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Proximité (akaiky),4,0.09813542688910697
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),4,0.09813542688910697
+motif_recours,Kely ny vola aloha 7. Autres (antony hafa),4,0.09813542688910697
+motif_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),4,0.09813542688910697
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky),4,0.09813542688910697
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),4,0.09813542688910697
+motif_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha,4,0.09813542688910697
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha Habitudes/affinités (fahazarana),4,0.09813542688910697
+motif_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),4,0.09813542688910697
+motif_recours,Proximité (akaiky) Tsy manam-potoana,4,0.09813542688910697
+motif_recours,Kely ny vola aloha Proximité (akaiky) Habitudes/affinités (fahazarana),4,0.09813542688910697
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha Relation soignant-soigné (fantatra/havana ilay mpitsabo),3,0.07360157016683022
+motif_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,3,0.07360157016683022
+motif_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),3,0.07360157016683022
+motif_recours,Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,3,0.07360157016683022
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara),3,0.07360157016683022
+motif_recours,Kely ny vola aloha Spécificité de la maladie (any ihany no mahatsabo ilay aretina),3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina),3,0.07360157016683022
+motif_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),3,0.07360157016683022
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) 7. Autres (antony hafa),3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky),3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Habitudes/affinités (fahazarana),3,0.07360157016683022
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),3,0.07360157016683022
+motif_recours,Tsy manam-potoana Kely ny vola aloha Habitudes/affinités (fahazarana),3,0.07360157016683022
+motif_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),3,0.07360157016683022
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Gravité/intensité de la maladie (mafy be ilay aretina),3,0.07360157016683022
+motif_recours,Habitudes/affinités (fahazarana) Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara),3,0.07360157016683022
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Habitudes/affinités (fahazarana),3,0.07360157016683022
+motif_recours,Kely ny vola aloha Tsy manam-potoana Proximité (akaiky),3,0.07360157016683022
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),3,0.07360157016683022
+motif_recours,Proximité (akaiky) Kely ny vola aloha Tsy manam-potoana,3,0.07360157016683022
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,3,0.07360157016683022
+motif_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana,3,0.07360157016683022
+motif_recours,Kely ny vola aloha Tsy manam-potoana Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha,2,0.04906771344455348
+motif_recours,Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Tsy manam-potoana,2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Gravité/intensité de la maladie (mafy be ilay aretina),2,0.04906771344455348
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+motif_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Gravité/intensité de la maladie (mafy be ilay aretina),2,0.04906771344455348
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha Habitudes/affinités (fahazarana),2,0.04906771344455348
+motif_recours,Tsy manam-potoana Proximité (akaiky),2,0.04906771344455348
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara) 7. Autres (antony hafa),2,0.04906771344455348
+motif_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina),2,0.04906771344455348
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,7. Autres (antony hafa) Bouche à oreille (nisy niteny hoe tsara),2,0.04906771344455348
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha Proximité (akaiky),2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),2,0.04906771344455348
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) 7. Autres (antony hafa),2,0.04906771344455348
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Kely ny vola aloha Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),2,0.04906771344455348
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina),2,0.04906771344455348
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Kely ny vola aloha,2,0.04906771344455348
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+motif_recours,Kely ny vola aloha Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara),2,0.04906771344455348
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,2,0.04906771344455348
+motif_recours,Habitudes/affinités (fahazarana) Rendez-vous trop long (ela ny rendez-vous) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana) Tsy manam-potoana,1,0.02453385672227674
+motif_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana) 7. Autres (antony hafa),1,0.02453385672227674
+motif_recours,Rendez-vous trop long (ela ny rendez-vous),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Dictée par la prise en charge (manana assurance/Prise en charge,1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha Proximité (akaiky),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Proximité (akaiky) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Dictée par la prise en charge (manana assurance/Prise en charge Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha Tsy manam-potoana,1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) 7. Autres (antony hafa),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Rendez-vous trop long (ela ny rendez-vous) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Kely ny vola aloha 7. Autres (antony hafa),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+motif_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+motif_recours,Kely ny vola aloha Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Proximité (akaiky) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Proximité (akaiky) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Proximité (akaiky) 7. Autres (antony hafa),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Kely ny vola aloha Tsy manam-potoana,1,0.02453385672227674
+motif_recours,Tsy manam-potoana 7. Autres (antony hafa),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Tsy manam-potoana 7. Autres (antony hafa) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Kely ny vola aloha Habitudes/affinités (fahazarana) Tsy manam-potoana,1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) 7. Autres (antony hafa) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Tsy manam-potoana Relation soignant-soigné (fantatra/havana ilay mpitsabo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Rendez-vous trop long (ela ny rendez-vous),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Tsy manam-potoana Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Tsy manam-potoana Habitudes/affinités (fahazarana) Proximité (akaiky),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Tsy manam-potoana Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Tsy manam-potoana Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Kely ny vola aloha Proximité (akaiky) Tsy manam-potoana,1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) 7. Autres (antony hafa) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Bouche à oreille (nisy niteny hoe tsara) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Dictée par la prise en charge (manana assurance/Prise en charge Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Rendez-vous trop long (ela ny rendez-vous),1,0.02453385672227674
+motif_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Tsy manam-potoana Kely ny vola aloha Proximité (akaiky),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Tsy manam-potoana Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana Proximité (akaiky),1,0.02453385672227674
+motif_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Habitudes/affinités (fahazarana),1,0.02453385672227674
+motif_recours,7. Autres (antony hafa) Habitudes/affinités (fahazarana) Kely ny vola aloha,1,0.02453385672227674
+motif_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Proximité (akaiky),1,0.02453385672227674
+motif_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+motif_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+satisfaction,4. Tout à fait satisfait,1707,41.879293424926395
+satisfaction,3. Plutôt satisfait,1658,40.67713444553484
+satisfaction,2. Plutôt pas satisfait,261,6.403336604514229
+satisfaction,Manquant,232,5.691854759568204
+satisfaction,1. Pas du tout satisfait,217,5.323846908734053
+satisfaction,4. Tout à fait satisfait 1. Pas du tout satisfait,1,0.02453385672227674
+autre_recours_souhaite,Manquant,3616,88.7144259077527
+autre_recours_souhaite,6. Hôpital public,71,1.7419038272816487
+autre_recours_souhaite,3. Médecin libre,59,1.4474975466143278
+autre_recours_souhaite,"1. Automédication (nividy fanafody, nanao dokotera tena)",57,1.3984298331697742
+autre_recours_souhaite,4. Centre de santé de base Public (CSB Public),47,1.153091265947007
+autre_recours_souhaite,Le même traitement (iny natao iny ihany),40,0.9813542688910697
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé,27,0.662414131501472
+autre_recours_souhaite,Autre,24,0.5888125613346418
+autre_recours_souhaite,13. Ne rien faire,23,0.5642787046123651
+autre_recours_souhaite,2. Tradipraticien,21,0.5152109911678115
+autre_recours_souhaite,7. Hôpital privé,19,0.4661432777232581
+autre_recours_souhaite,4. Centre de santé de base Public (CSB Public) 6. Hôpital public 7. Hôpital privé,13,0.31894013738959764
+autre_recours_souhaite,5. Dispensaire privé,13,0.31894013738959764
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé 4. Centre de santé de base Public (CSB Public),6,0.14720314033366044
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé 3. Médecin libre,5,0.12266928361138371
+autre_recours_souhaite,6. Hôpital public 4. Centre de santé de base Public (CSB Public) 3. Médecin libre,2,0.04906771344455348
+autre_recours_souhaite,"1. Automédication (nividy fanafody, nanao dokotera tena) 2. Tradipraticien",2,0.04906771344455348
+autre_recours_souhaite,"2. Tradipraticien 1. Automédication (nividy fanafody, nanao dokotera tena)",2,0.04906771344455348
+autre_recours_souhaite,3. Médecin libre 4. Centre de santé de base Public (CSB Public) 6. Hôpital public,2,0.04906771344455348
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé 4. Centre de santé de base Public (CSB Public) 3. Médecin libre,2,0.04906771344455348
+autre_recours_souhaite,6. Hôpital public 4. Centre de santé de base Public (CSB Public) 7. Hôpital privé,2,0.04906771344455348
+autre_recours_souhaite,7. Hôpital privé 6. Hôpital public 4. Centre de santé de base Public (CSB Public),2,0.04906771344455348
+autre_recours_souhaite,Le même traitement (iny natao iny ihany) Autre,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 4. Centre de santé de base Public (CSB Public) 8. OSTIE,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 4. Centre de santé de base Public (CSB Public),1,0.02453385672227674
+autre_recours_souhaite,"Le même traitement (iny natao iny ihany) 1. Automédication (nividy fanafody, nanao dokotera tena)",1,0.02453385672227674
+autre_recours_souhaite,"1. Automédication (nividy fanafody, nanao dokotera tena) 2. Tradipraticien Autre",1,0.02453385672227674
+autre_recours_souhaite,7. Hôpital privé 12. CENTRE MEDICO-SOCIAL,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 4. Centre de santé de base Public (CSB Public) 7. Hôpital privé 3. Médecin libre,1,0.02453385672227674
+autre_recours_souhaite,4. Centre de santé de base Public (CSB Public) 6. Hôpital public,1,0.02453385672227674
+autre_recours_souhaite,"1. Automédication (nividy fanafody, nanao dokotera tena) Le même traitement (iny natao iny ihany)",1,0.02453385672227674
+autre_recours_souhaite,Autre Le même traitement (iny natao iny ihany),1,0.02453385672227674
+autre_recours_souhaite,4. Centre de santé de base Public (CSB Public) 10. Consultation à distance,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé 8. OSTIE,1,0.02453385672227674
+autre_recours_souhaite,8. OSTIE 7. Hôpital privé,1,0.02453385672227674
+autre_recours_souhaite,7. Hôpital privé 3. Médecin libre,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 5. Dispensaire privé 3. Médecin libre,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 3. Médecin libre 7. Hôpital privé,1,0.02453385672227674
+autre_recours_souhaite,3. Médecin libre 6. Hôpital public 7. Hôpital privé,1,0.02453385672227674
+autre_recours_souhaite,3. Médecin libre 6. Hôpital public 7. Hôpital privé 4. Centre de santé de base Public (CSB Public),1,0.02453385672227674
+autre_recours_souhaite,4. Centre de santé de base Public (CSB Public) 6. Hôpital public 7. Hôpital privé 3. Médecin libre,1,0.02453385672227674
+autre_recours_souhaite,6. Hôpital public 7. Hôpital privé 5. Dispensaire privé,1,0.02453385672227674
+autre_recours_souhaite,11. Service medical interne,1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana),905,22.20314033366045
+benefice_autre_recours,Manquant,852,20.902845927379783
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),437,10.721295387634937
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina),239,5.863591756624142
+benefice_autre_recours,Kely ny vola aloha,216,5.299313052011776
+benefice_autre_recours,7. Autres (antony hafa),213,5.225711481844946
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),175,4.29342492639843
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara),139,3.410206084396467
+benefice_autre_recours,Proximité (akaiky),132,3.2384690873405297
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina),77,1.8891069676153092
+benefice_autre_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),75,1.8400392541707555
+benefice_autre_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo),55,1.3493621197252208
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),40,0.9813542688910697
+benefice_autre_recours,Proximité (akaiky) Kely ny vola aloha,33,0.8096172718351324
+benefice_autre_recours,Tsy manam-potoana,32,0.7850834151128557
+benefice_autre_recours,1. Dictée par la prise en charge (manana assurance/Prise en charge,29,0.7114818449460255
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara),26,0.6378802747791953
+benefice_autre_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha,25,0.6133464180569186
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),24,0.5888125613346418
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky),24,0.5888125613346418
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara),23,0.5642787046123651
+benefice_autre_recours,Kely ny vola aloha Habitudes/affinités (fahazarana),20,0.49067713444553485
+benefice_autre_recours,Tsy manam-potoana Kely ny vola aloha,15,0.3680078508341511
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,12,0.2944062806673209
+benefice_autre_recours,Proximité (akaiky) Kely ny vola aloha Habitudes/affinités (fahazarana),11,0.2698724239450442
+benefice_autre_recours,Kely ny vola aloha Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara),9,0.22080471050049066
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),9,0.22080471050049066
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina),8,0.19627085377821393
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),7,0.1717369970559372
+benefice_autre_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha,6,0.14720314033366044
+benefice_autre_recours,Proximité (akaiky) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),6,0.14720314033366044
+benefice_autre_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),6,0.14720314033366044
+benefice_autre_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,6,0.14720314033366044
+benefice_autre_recours,Proximité (akaiky) Habitudes/affinités (fahazarana),6,0.14720314033366044
+benefice_autre_recours,Habitudes/affinités (fahazarana) Gravité/intensité de la maladie (mafy be ilay aretina),6,0.14720314033366044
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky),5,0.12266928361138371
+benefice_autre_recours,Kely ny vola aloha Spécificité de la maladie (any ihany no mahatsabo ilay aretina),4,0.09813542688910697
+benefice_autre_recours,Kely ny vola aloha Proximité (akaiky),4,0.09813542688910697
+benefice_autre_recours,Habitudes/affinités (fahazarana) Proximité (akaiky),4,0.09813542688910697
+benefice_autre_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,4,0.09813542688910697
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),4,0.09813542688910697
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina),4,0.09813542688910697
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),4,0.09813542688910697
+benefice_autre_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),4,0.09813542688910697
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana),4,0.09813542688910697
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Kely ny vola aloha,3,0.07360157016683022
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,3,0.07360157016683022
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),3,0.07360157016683022
+benefice_autre_recours,Proximité (akaiky) Tsy manam-potoana Kely ny vola aloha,3,0.07360157016683022
+benefice_autre_recours,Rendez-vous trop long (ela ny rendez-vous),3,0.07360157016683022
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha,3,0.07360157016683022
+benefice_autre_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina),3,0.07360157016683022
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),3,0.07360157016683022
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana),3,0.07360157016683022
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),2,0.04906771344455348
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Kely ny vola aloha Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Tsy manam-potoana Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Kely ny vola aloha Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana) Kely ny vola aloha,2,0.04906771344455348
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Kely ny vola aloha,2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),2,0.04906771344455348
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+benefice_autre_recours,Kely ny vola aloha Tsy manam-potoana,2,0.04906771344455348
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Kely ny vola aloha,2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) 7. Autres (antony hafa),2,0.04906771344455348
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,2,0.04906771344455348
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+benefice_autre_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara),2,0.04906771344455348
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),2,0.04906771344455348
+benefice_autre_recours,7. Autres (antony hafa) Habitudes/affinités (fahazarana),2,0.04906771344455348
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),2,0.04906771344455348
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),2,0.04906771344455348
+benefice_autre_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana,2,0.04906771344455348
+benefice_autre_recours,Proximité (akaiky) Tsy manam-potoana,2,0.04906771344455348
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),2,0.04906771344455348
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana) Proximité (akaiky),2,0.04906771344455348
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky),2,0.04906771344455348
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Rendez-vous trop long (ela ny rendez-vous) Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Kely ny vola aloha Tsy manam-potoana,1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha Habitudes/affinités (fahazarana),1,0.02453385672227674
+benefice_autre_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,7. Autres (antony hafa) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,7. Autres (antony hafa) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) 7. Autres (antony hafa),1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha Habitudes/affinités (fahazarana) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) 7. Autres (antony hafa),1,0.02453385672227674
+benefice_autre_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),1,0.02453385672227674
+benefice_autre_recours,Rendez-vous trop long (ela ny rendez-vous) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) 7. Autres (antony hafa),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Kely ny vola aloha Habitudes/affinités (fahazarana),1,0.02453385672227674
+benefice_autre_recours,Tsy manam-potoana Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha Bouche à oreille (nisy niteny hoe tsara) Habitudes/affinités (fahazarana),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Proximité (akaiky) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Tsy manam-potoana Kely ny vola aloha Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Proximité (akaiky) Gravité/intensité de la maladie (mafy be ilay aretina) Kely ny vola aloha Habitudes/affinités (fahazarana),1,0.02453385672227674
+benefice_autre_recours,1. Dictée par la prise en charge (manana assurance/Prise en charge Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana) Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha 7. Autres (antony hafa),1,0.02453385672227674
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo),1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana) Tsy manam-potoana Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Habitudes/affinités (fahazarana) Kely ny vola aloha Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Tsy manam-potoana Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Kely ny vola aloha Tsy manam-potoana Proximité (akaiky),1,0.02453385672227674
+benefice_autre_recours,Tsy manam-potoana Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Relation soignant-soigné (fantatra/havana ilay mpitsabo),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Habitudes/affinités (fahazarana) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+benefice_autre_recours,1. Dictée par la prise en charge (manana assurance/Prise en charge Kely ny vola aloha,1,0.02453385672227674
+benefice_autre_recours,Gravité/intensité de la maladie (mafy be ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+benefice_autre_recours,Qualité des soins/ Meilleur traitement de la maladie (mahafapo ny fitsaboan-dry zareo) Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina),1,0.02453385672227674
+benefice_autre_recours,Spécificité de la maladie (any ihany no mahatsabo ilay aretina) Gravité/intensité de la maladie (mafy be ilay aretina) Bouche à oreille (nisy niteny hoe tsara),1,0.02453385672227674
+benefice_autre_recours,Bouche à oreille (nisy niteny hoe tsara) Proximité (akaiky) Spécificité de la maladie (any ihany no mahatsabo ilay aretina),1,0.02453385672227674
+impact_autre,1. organisation (teo amin'ny fandaminana asa),2245,55.07850834151129
+impact_autre,"3. Perte de client (very ny client, nihena ny client satria tsy teo ianao)",586,14.376840039254171
+impact_autre,4. Autre,553,13.567222767419038
+impact_autre,2. perte d'emploi (very ilay asa),341,8.366045142296368
+impact_autre,Manquant,333,8.169774288518155
+impact_autre,"1. organisation (teo amin'ny fandaminana asa) 3. Perte de client (very ny client, nihena ny client satria tsy teo ianao)",6,0.14720314033366044
+impact_autre,1. organisation (teo amin'ny fandaminana asa) 4. Autre,3,0.07360157016683022
+impact_autre,2. perte d'emploi (very ilay asa) 1. organisation (teo amin'ny fandaminana asa),3,0.07360157016683022
+impact_autre,"3. Perte de client (very ny client, nihena ny client satria tsy teo ianao) 1. organisation (teo amin'ny fandaminana asa)",3,0.07360157016683022
+impact_autre,"2. perte d'emploi (very ilay asa) 3. Perte de client (very ny client, nihena ny client satria tsy teo ianao)",1,0.02453385672227674
+impact_autre,"3. Perte de client (very ny client, nihena ny client satria tsy teo ianao) 4. Autre 1. organisation (teo amin'ny fandaminana asa)",1,0.02453385672227674
+impact_autre,1. organisation (teo amin'ny fandaminana asa) 2. perte d'emploi (very ilay asa),1,0.02453385672227674
+impact_maladie_activite,2. Affecté (nisy fiantraikany ihany),2188,53.68007850834151
+impact_maladie_activite,1. Très affecté (nisy fiantraikany be),918,22.52208047105005
+impact_maladie_activite,3. Pas du tout (tsy nisy fiantraikany),739,18.13052011776251
+impact_maladie_activite,Manquant,230,5.642787046123651
+impact_maladie_activite,3. Pas du tout (tsy nisy fiantraikany) 1. Très affecté (nisy fiantraikany be),1,0.02453385672227674
+recuperation_activite,2. Rattrapage après guérison,1414,34.690873405299314
+recuperation_activite,3. Pas de récupération,1189,29.170755642787046
+recuperation_activite,1. Travail plus dur,510,12.512266928361138
+recuperation_activite,4. Travail effectué par les autres,429,10.525024533856723
+recuperation_activite,Manquant,277,6.795878312070657
+recuperation_activite,5. Autres,225,5.520117762512267
+recuperation_activite,2. Rattrapage après guérison 1. Travail plus dur,9,0.22080471050049066
+recuperation_activite,2. Rattrapage après guérison 4. Travail effectué par les autres,7,0.1717369970559372
+recuperation_activite,1. Travail plus dur 2. Rattrapage après guérison,3,0.07360157016683022
+recuperation_activite,3. Pas de récupération 4. Travail effectué par les autres,3,0.07360157016683022
+recuperation_activite,4. Travail effectué par les autres 2. Rattrapage après guérison,3,0.07360157016683022
+recuperation_activite,1. Travail plus dur 4. Travail effectué par les autres,3,0.07360157016683022
+recuperation_activite,1. Travail plus dur 2. Rattrapage après guérison 4. Travail effectué par les autres,2,0.04906771344455348
+recuperation_activite,2. Rattrapage après guérison 1. Travail plus dur 3. Pas de récupération,1,0.02453385672227674
+recuperation_activite,1. Travail plus dur 2. Rattrapage après guérison 3. Pas de récupération,1,0.02453385672227674

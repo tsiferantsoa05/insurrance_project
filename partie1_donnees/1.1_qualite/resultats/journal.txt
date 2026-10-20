@@ -1,0 +1,301 @@
+# Étape 1.1 — Qualité des données
+
+## A. Identifiants et variables techniques
+
+id : 4076 valeurs distinctes pour 4076 lignes, de 1 à 4076 — séquentiel sans trou : oui
+-> numéro d'ordre de saisie, sans contenu informatif : conservé comme clé, exclu des modèles.
+
+## B1. Réponses multiples
+
+Règle : on garde la première modalité citée (supposée être la réponse principale).
+Cellules résolues : 1305 sur 35 variables recodées.
+| variable                |   cellules_multiples |   pct_cellules |
+|:------------------------|---------------------:|---------------:|
+| secteur                 |                  355 |           8.71 |
+| type_recours            |                  222 |           5.45 |
+| source_electricite      |                  193 |           4.74 |
+| energie_cuisine         |                  190 |           4.66 |
+| revenu                  |                   97 |           2.38 |
+| transport_travail       |                   88 |           2.16 |
+| activite_conjoint       |                   37 |           0.91 |
+| recuperation_activite   |                   32 |           0.79 |
+| source_eau              |                   22 |           0.54 |
+| impact_autre            |                   18 |           0.44 |
+| lien_chef_menage        |                   14 |           0.34 |
+| statut_pro              |                   10 |           0.25 |
+| sexe                    |                    4 |           0.10 |
+| arret_maladie           |                    4 |           0.10 |
+| douleur                 |                    3 |           0.07 |
+| pb_sante_travail        |                    3 |           0.07 |
+| interet_couverture      |                    3 |           0.07 |
+| niveau_etude            |                    3 |           0.07 |
+| renoncement_soins       |                    2 |           0.05 |
+| maladie_chronique       |                    1 |           0.02 |
+| satisfaction            |                    1 |           0.02 |
+| impact_maladie_activite |                    1 |           0.02 |
+| effort_physique         |                    1 |           0.02 |
+| statut_matrimonial      |                    1 |           0.02 |
+
+
+## B2. Conversion du texte libre en nombres
+
+numerique = nombre pur ; zero_code = 'O', '00', 'P' ; zero_texte = phrase signifiant 'rien' ;
+texte_nombre = nombre extrait d'une phrase ; inconnu = texte sans valeur exploitable (-> manquant)
+| variable             |   numerique |   zero_code |   zero_texte |   texte_nombre |   fourchette |   calcul |   correction_manuelle |   inconnu |   manquant |
+|:---------------------|------------:|------------:|-------------:|---------------:|-------------:|---------:|----------------------:|----------:|-----------:|
+| anciennete_emploi    |        2986 |           1 |            0 |            968 |            7 |       14 |                     0 |        85 |         15 |
+| distance_travail     |        1667 |         672 |           77 |           1199 |          181 |        0 |                     0 |       250 |         30 |
+| heures_jour          |        3305 |           0 |            4 |            586 |           64 |        0 |                     0 |       106 |         11 |
+| jours_semaine        |        3287 |           2 |            4 |            709 |           12 |        0 |                     0 |        50 |         12 |
+| nb_employes          |        2716 |         590 |           57 |             24 |            6 |        0 |                     0 |         8 |        675 |
+| jours_arret          |        2368 |         528 |          172 |            814 |            8 |        5 |                     0 |        12 |        169 |
+| distance_soins       |        1460 |        1479 |           16 |            896 |           19 |        0 |                     0 |        14 |        192 |
+| cout_consultation    |         945 |        2826 |            6 |             30 |            1 |        2 |                     0 |         8 |        258 |
+| cout_hospitalisation |         195 |        3569 |            7 |              6 |            0 |        0 |                     0 |         1 |        298 |
+| cout_medicaments     |        2845 |         861 |           46 |             69 |            4 |        3 |                     2 |        11 |        235 |
+| cout_deplacement     |         511 |        3271 |            7 |             13 |            0 |        2 |                     0 |         2 |        270 |
+| cout_alimentation    |         412 |        3236 |           35 |             16 |            2 |        2 |                     1 |        78 |        294 |
+| cout_autres          |         171 |        3558 |            5 |             17 |            0 |        5 |                     1 |         3 |        316 |
+
+
+## B3. Coût total du dernier épisode (variable de sévérité)
+
+Au moins un coût renseigné : 3869 individus ; les 6 renseignés : 3602 ; aucun : 207
+Règle : un poste vide à côté de postes renseignés est compté 0 (pas de dépense déclarée) ;
+        si les six postes sont vides, cout_total est manquant.
+|                      |   renseignes |   pct_positifs |   mediane_si_positif |   moyenne_si_positif |       max |
+|:---------------------|-------------:|---------------:|---------------------:|---------------------:|----------:|
+| cout_consultation    |        3,810 |             26 |               10,000 |               14,610 |   500,000 |
+| cout_hospitalisation |        3,777 |              5 |               10,000 |               67,289 | 7,000,000 |
+| cout_medicaments     |        3,830 |             76 |               10,000 |               26,450 | 1,600,000 |
+| cout_deplacement     |        3,804 |             14 |                4,000 |               11,009 |   450,000 |
+| cout_alimentation    |        3,704 |             12 |                5,000 |               14,185 |   300,000 |
+| cout_autres          |        3,757 |              5 |                5,000 |               45,258 | 2,400,000 |
+| cout_total           |        3,869 |             79 |               13,004 |               41,191 | 9,500,000 |
+
+Fokotany : 237 écritures brutes -> 159 après harmonisation
+Individus déclarant ne pas avoir été malades (type_maladie) : 262
+
+## C1. Doublons
+
+Lignes strictement identiques (hors id) : 3 lignes, ids [3460, 3624, 3898]
+-> suppression de la seconde occurrence : ids [3624, 3898] ; reste 4074 individus
+
+## C2. Valeurs hors plage (impossibles) -> mises à manquant
+
+| variable           | regle                                                        |   valeurs_concernees | exemples                                            |
+|:-------------------|:-------------------------------------------------------------|---------------------:|:----------------------------------------------------|
+| age                | Âge hors de 15–100 ans (enquête auprès d'actifs)             |                    4 | 3, 5, 107, 112                                      |
+| taille_menage      | Ménage de moins d'une personne                               |                    5 | -6, 0                                               |
+| nb_actifs_menage   | Plus d'actifs que de membres du ménage                       |                   12 | 2, 4, 5, 6, 7                                       |
+| budget_alim        | Part de budget > 100 % (montant saisi au lieu d'un %)        |                   12 | 600, 2000, 5000, 40000, 50000, 60000, 70000, 100000 |
+| budget_sante       | Part de budget > 100 % (montant saisi au lieu d'un %)        |                   11 | 5000, 10000, 20000, 50000, 70000                    |
+| budget_elec        | Part de budget > 100 % (montant saisi au lieu d'un %)        |                    9 | 3000, 5000, 10000, 15000, 17000                     |
+| prime_souhaitee    | Prime négative                                               |                    3 | -5000                                               |
+| prime_souhaitee    | Prime entre 1 et 99 Ar (unité ambiguë : milliers d'Ariary ?) |                   18 | 1, 4, 5, 8, 10, 20, 30, 40                          |
+| nb_maladies_graves | Nombre de maladies négatif                                   |                    1 | -1                                                  |
+| heures_jour        | Heures par jour > 24 ou nulles                               |                    9 | 0, 406                                              |
+| jours_semaine      | Jours par semaine > 7 ou nuls                                |                   13 | 0, 8, 9, 10, 13, 13.5, 67                           |
+| anciennete_emploi  | Ancienneté supérieure à (âge − 5) ans                        |                   14 | 15, 17, 20, 23, 25, 30, 40, 2010                    |
+| jours_arret        | Arrêt de travail de plus d'un an pour un épisode             |                    2 | 730, 3650                                           |
+
+
+## C3. Contradictions entre questions (signalées, non corrigées)
+
+| controle                                                      |   individus | decision                                                                                                |
+|:--------------------------------------------------------------|------------:|:--------------------------------------------------------------------------------------------------------|
+| Déclare ne pas avoir été malade mais nb_maladies_graves > 0   |          13 | Conservé : nb_maladies_graves est la variable cible ; type_maladie peut décrire une période différente. |
+| Déclare ne pas avoir été malade mais cout_total > 0           |           1 | Conservé (dépenses de santé possibles sans « maladie » ressentie).                                      |
+| Somme des trois parts de budget > 100 % (chaque part ≤ 100 %) |          47 | Conservé : réponses approximatives, chaque part reste plausible.                                        |
+| Conjoint(e) du chef de ménage mais statut non marié           |          52 | Conservé (union libre possible).                                                                        |
+| Célibataire avec une activité de conjoint renseignée          |           0 | Conservé ; activite_conjoint n'est pas utilisée dans les modèles.                                       |
+
+
+## D. Valeurs manquantes et stratégie de traitement
+
+|                         |   pct_brut |   pct_apres_format | traitement                                                  |   valeurs_imputees |   pct_apres_traitement |
+|:------------------------|-----------:|-------------------:|:------------------------------------------------------------|-------------------:|-----------------------:|
+| depense_medic_chronique |       98.7 |               98.7 | Variable exclue (voir décisions)                            |                0.0 |                   98.7 |
+| freq_consult_chronique  |       98.4 |               98.4 | Variable exclue (voir décisions)                            |                0.0 |                   98.4 |
+| mode_affiliation        |       97.5 |               97.5 | Variable exclue (voir décisions)                            |                0.0 |                   97.5 |
+| type_couverture         |       97.5 |               97.5 | Variable exclue (voir décisions)                            |                0.0 |                   97.5 |
+| valeur_lunettes         |       93.9 |               93.9 | Variable exclue (voir décisions)                            |                0.0 |                   93.9 |
+| chronique_detail        |       92.1 |               92.1 | Variable exclue (voir décisions)                            |                0.0 |                   92.1 |
+| traitement_regulier     |       90.1 |               90.1 | Variable exclue (voir décisions)                            |                0.0 |                   90.1 |
+| chronique_categorie     |       90.1 |               90.1 | Variable exclue (voir décisions)                            |                0.0 |                   90.1 |
+| autre_recours_souhaite  |       88.7 |               88.7 | Variable exclue (voir décisions)                            |                0.0 |                   88.7 |
+| activite_famille        |       55.2 |               55.2 | Variable exclue (voir décisions)                            |                0.0 |                   55.2 |
+| freq_dentiste           |       44.6 |               44.6 | Variable exclue (voir décisions)                            |                0.0 |                   44.6 |
+| activite_conjoint       |       30.3 |               30.3 | Modalité « Sans conjoint » (non marié) ou « Non renseigné » |             1235.0 |                    0.0 |
+| benefice_autre_recours  |       20.9 |               20.9 | Variable exclue (voir décisions)                            |                0.0 |                   20.9 |
+| nb_employes             |       16.5 |               16.7 | Variable exclue (voir décisions)                            |                0.0 |                   16.7 |
+| cout_alimentation       |        7.2 |                9.1 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    9.1 |
+| impact_autre            |        8.1 |                8.1 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              331.0 |                    0.0 |
+| cout_autres             |        7.7 |                7.8 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    7.8 |
+| cout_hospitalisation    |        7.3 |                7.3 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    7.3 |
+| distance_travail        |        0.7 |                6.8 | Imputation par la médiane (1)                               |              278.0 |                    0.0 |
+| recuperation_activite   |        6.8 |                6.8 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              275.0 |                    0.0 |
+| cout_deplacement        |        6.6 |                6.6 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    6.6 |
+| cout_consultation       |        6.3 |                6.5 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    6.5 |
+| cout_medicaments        |        5.7 |                6.0 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    6.0 |
+| motif_recours           |        5.7 |                5.7 | Variable exclue (voir décisions)                            |                0.0 |                    5.7 |
+| satisfaction            |        5.6 |                5.6 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              230.0 |                    0.0 |
+| impact_maladie_activite |        5.6 |                5.6 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              228.0 |                    0.0 |
+| type_recours            |        5.4 |                5.4 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              220.0 |                    0.0 |
+| douleur                 |        5.4 |                5.4 | Modalité « Non concerné » (pas malade) ou « Non renseigné » |              219.0 |                    0.0 |
+| budget_sante            |        5.0 |                5.3 | Imputation par la médiane (10)                              |              215.0 |                    0.0 |
+| budget_elec             |        4.9 |                5.2 | Imputation par la médiane (5)                               |              210.0 |                    0.0 |
+| cout_total              |      nan   |                5.0 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    5.0 |
+| distance_soins          |        4.7 |                5.0 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    5.0 |
+| jours_arret             |        4.1 |                4.4 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    4.4 |
+| prime_souhaitee         |        3.3 |                3.9 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    3.9 |
+| heures_jour             |        0.2 |                3.0 | Imputation par la médiane (8)                               |              124.0 |                    0.0 |
+| budget_alim             |        2.7 |                3.0 | Imputation par la médiane (50)                              |              123.0 |                    0.0 |
+| ancienne_couverture     |        2.9 |                2.9 | Variable exclue (voir décisions)                            |                0.0 |                    2.9 |
+| anciennete_emploi       |        0.3 |                2.7 | Imputation par la médiane (10)                              |              112.0 |                    0.0 |
+| type_maladie            |        2.7 |                2.7 | Variable exclue (voir décisions)                            |                0.0 |                    2.7 |
+| date_derniere_maladie   |        2.2 |                2.2 | Variable exclue (voir décisions)                            |                0.0 |                    2.2 |
+| renoncement_soins       |        1.9 |                1.9 | Imputation par le mode (Oui)                                |               76.0 |                    0.0 |
+| jours_semaine           |        0.2 |                1.8 | Imputation par la médiane (6)                               |               73.0 |                    0.0 |
+| revenu                  |        1.0 |                1.0 | Imputation par le mode (100-200k)                           |               41.0 |                    0.0 |
+| nb_maladies_graves      |        0.7 |                0.7 | Aucune imputation (cible ou variable descriptive)           |                0.0 |                    0.7 |
+| lien_chef_menage        |        0.5 |                0.5 | Imputation par le mode (Chef de ménage)                     |               19.0 |                    0.0 |
+| transport_travail       |        0.4 |                0.4 | Imputation par le mode (À pied)                             |               17.0 |                    0.0 |
+| nb_actifs_menage        |        0.1 |                0.4 | Imputation par la médiane (2)                               |               16.0 |                    0.0 |
+| secteur                 |        0.3 |                0.3 | Imputation par le mode (Agriculture)                        |               14.0 |                    0.0 |
+| duree_effort            |        0.3 |                0.3 | Imputation par le mode (>5 h)                               |               14.0 |                    0.0 |
+| effort_physique         |        0.3 |                0.3 | Imputation par le mode (Toujours)                           |               13.0 |                    0.0 |
+| couverture              |        0.3 |                0.3 | Aucune imputation (variable descriptive)                    |                0.0 |                    0.3 |
+| lunettes                |        0.3 |                0.3 | Imputation par le mode (Non)                                |               12.0 |                    0.0 |
+| age                     |        0.2 |                0.3 | Imputation par la médiane (37)                              |               12.0 |                    0.0 |
+| dentiste                |        0.3 |                0.3 | Imputation par le mode (Parfois)                            |               11.0 |                    0.0 |
+| arret_maladie           |        0.3 |                0.3 | Imputation par le mode (Une ou deux fois)                   |               11.0 |                    0.0 |
+| maladie_chronique       |        0.3 |                0.3 | Imputation par le mode (Non)                                |               11.0 |                    0.0 |
+| repos_recent            |        0.2 |                0.2 | Imputation par le mode (Plusieurs fois)                     |               10.0 |                    0.0 |
+| impact_travail_sante    |        0.2 |                0.2 | Imputation par le mode (Modéré)                             |               10.0 |                    0.0 |
+| pb_sante_travail        |        0.2 |                0.2 | Imputation par le mode (Parfois)                            |               10.0 |                    0.0 |
+| interet_couverture      |        0.2 |                0.2 | Imputation par le mode (Tout à fait)                        |                9.0 |                    0.0 |
+| type_toilette           |        0.2 |                0.2 | Imputation par le mode (Latrines)                           |                9.0 |                    0.0 |
+| statut_matrimonial      |        0.2 |                0.2 | Imputation par le mode (Marié(e))                           |                9.0 |                    0.0 |
+| taille_menage           |        0.1 |                0.2 | Imputation par la médiane (4)                               |                8.0 |                    0.0 |
+| statut_pro              |        0.2 |                0.2 | Imputation par le mode (Indépendant)                        |                8.0 |                    0.0 |
+| sexe                    |        0.2 |                0.2 | Imputation par le mode (Femme)                              |                8.0 |                    0.0 |
+| source_eau              |        0.2 |                0.2 | Imputation par le mode (Borne fontaine)                     |                8.0 |                    0.0 |
+| source_electricite      |        0.2 |                0.2 | Imputation par le mode (Réseau JIRAMA)                      |                7.0 |                    0.0 |
+| energie_cuisine         |        0.2 |                0.2 | Imputation par le mode (Charbon)                            |                7.0 |                    0.0 |
+| niveau_etude            |        0.1 |                0.1 | Imputation par le mode (Collège)                            |                6.0 |                    0.0 |
+| epargne                 |        0.1 |                0.1 | Imputation par le mode (Non)                                |                6.0 |                    0.0 |
+| dettes                  |        0.1 |                0.1 | Imputation par le mode (Non)                                |                6.0 |                    0.0 |
+| fokotany                |        0.1 |                0.1 | Aucune imputation (variable descriptive)                    |                0.0 |                    0.1 |
+| statut_residence        |        0.1 |                0.1 | Imputation par le mode (Propriétaire)                       |                3.0 |                    0.0 |
+
+
+## E1. Variables constantes ou faiblement informatives
+
+Seuil retenu : une modalité regroupant plus de 95 % des individus -> variable quasi constante.
+|                     | modalite_dominante   |   pct_dominante |   modalites |
+|:--------------------|:---------------------|----------------:|------------:|
+| ancienne_couverture | Non                  |            99.2 |           2 |
+| couverture          | Non                  |            97.5 |           2 |
+| lunettes            | Non                  |            93.9 |           2 |
+| maladie_chronique   | Non                  |            90.1 |           2 |
+| dettes              | Non                  |            85.7 |           2 |
+| statut_pro          | Indépendant          |            84.1 |           3 |
+| transport_travail   | À pied               |            82.8 |           7 |
+| source_eau          | Borne fontaine       |            81.7 |           4 |
+| epargne             | Non                  |            73.7 |           2 |
+| statut_matrimonial  | Marié(e)             |            70.3 |           4 |
+
+Variables quantitatives (aucune n'est constante) :
+|                   |   ecart_type |   pct_valeur_la_plus_frequente |
+|:------------------|-------------:|-------------------------------:|
+| age               |         11.3 |                            4.5 |
+| taille_menage     |          1.9 |                           23.9 |
+| nb_actifs_menage  |          0.9 |                           55.6 |
+| budget_alim       |         21.2 |                           26.9 |
+| budget_sante      |          8.1 |                           35.0 |
+| budget_elec       |          6.1 |                           25.0 |
+| anciennete_emploi |          9.2 |                           12.3 |
+| distance_travail  |         12.3 |                           31.7 |
+| heures_jour       |          3.2 |                           31.9 |
+| jours_semaine     |          0.9 |                           57.4 |
+
+
+## E2. Redondances
+
+V de Cramér (corrigé) — 12 paires les plus liées :
+| variable_1           | variable_2           |   v_de_cramer |
+|:---------------------|:---------------------|--------------:|
+| sexe                 | lien_chef_menage     |          0.61 |
+| arret_maladie        | repos_recent         |          0.59 |
+| statut_residence     | energie_cuisine      |          0.59 |
+| statut_residence     | source_electricite   |          0.55 |
+| pb_sante_travail     | arret_maladie        |          0.53 |
+| source_electricite   | energie_cuisine      |          0.46 |
+| pb_sante_travail     | repos_recent         |          0.45 |
+| secteur              | statut_residence     |          0.44 |
+| arret_maladie        | impact_travail_sante |          0.44 |
+| lien_chef_menage     | statut_matrimonial   |          0.42 |
+| impact_travail_sante | repos_recent         |          0.41 |
+| pb_sante_travail     | impact_travail_sante |          0.41 |
+
+Corrélation de Spearman — 6 paires les plus liées :
+| variable_1       | variable_2        |   rho_spearman |
+|:-----------------|:------------------|---------------:|
+| age              | anciennete_emploi |           0.70 |
+| budget_sante     | budget_elec       |           0.53 |
+| taille_menage    | nb_actifs_menage  |           0.32 |
+| heures_jour      | jours_semaine     |           0.29 |
+| nb_actifs_menage | budget_sante      |          -0.23 |
+| distance_travail | jours_semaine     |          -0.21 |
+
+Paires au-dessus du seuil de redondance (0.7) : 0
+
+## F. Décisions par variable et jeu de données nettoyé
+
+| decision                 |   variables |
+|:-------------------------|------------:|
+| Conservée — cible        |           8 |
+| Conservée — description  |          12 |
+| Conservée — modélisation |          36 |
+| Exclue                   |          18 |
+
+Jeu nettoyé : 4074 individus × 59 colonnes -> partie1_donnees\1.1_qualite\resultats\donnees_qualite.csv (+ .xlsx)
+Statistiques des variables converties depuis le texte (avant traitement des aberrantes) :
+|                      |   count |     mean |       std |   min |     25% |     50% |      75% |       99% |         max |
+|:---------------------|--------:|---------:|----------:|------:|--------:|--------:|---------:|----------:|------------:|
+| anciennete_emploi    | 4,074.0 |     11.9 |       9.2 |   0.0 |     5.0 |    10.0 |     19.0 |      37.0 |        50.0 |
+| distance_travail     | 4,074.0 |      1.9 |      12.3 |   0.0 |     0.3 |     1.0 |      2.0 |      10.0 |       510.0 |
+| heures_jour          | 4,074.0 |      7.6 |       3.2 |   1.0 |     6.0 |     8.0 |      8.0 |      24.0 |        24.0 |
+| jours_semaine        | 4,074.0 |      5.8 |       0.9 |   1.0 |     6.0 |     6.0 |      6.0 |       7.0 |         7.0 |
+| jours_arret          | 3,893.0 |      5.2 |      14.8 |   0.0 |     1.0 |     3.0 |      5.0 |      60.0 |       365.0 |
+| distance_soins       | 3,870.0 |      1.4 |       3.8 |   0.0 |     0.0 |     0.5 |      2.0 |       9.0 |        92.0 |
+| cout_consultation    | 3,810.0 |  3,746.5 |  19,532.0 |   0.0 |     0.0 |     0.0 |  2,000.0 |  44,550.0 |   500,000.0 |
+| cout_hospitalisation | 3,777.0 |  3,580.9 | 115,897.9 |   0.0 |     0.0 |     0.0 |      0.0 |  30,000.0 | 7,000,000.0 |
+| cout_medicaments     | 3,830.0 | 20,179.1 |  78,614.4 |   0.0 |   500.0 | 5,000.0 | 15,000.0 | 300,000.0 | 1,600,000.0 |
+| cout_deplacement     | 3,804.0 |  1,522.2 |  12,356.9 |   0.0 |     0.0 |     0.0 |      0.0 |  30,000.0 |   450,000.0 |
+| cout_alimentation    | 3,704.0 |  1,658.2 |   9,993.9 |   0.0 |     0.0 |     0.0 |      0.0 |  39,850.0 |   300,000.0 |
+| cout_autres          | 3,757.0 |  2,337.0 |  56,708.4 |   0.0 |     0.0 |     0.0 |      0.0 |  13,000.0 | 2,400,000.0 |
+| cout_total           | 3,869.0 | 32,514.3 | 194,164.8 |   0.0 | 1,200.0 | 8,000.0 | 23,000.0 | 500,000.0 | 9,500,000.0 |
+
+
+## Fichiers produits
+
+- partie1_donnees\1.1_qualite\resultats\donnees_qualite.csv
+- partie1_donnees\1.1_qualite\resultats\donnees_qualite.xlsx
+- partie1_donnees\1.1_qualite\resultats\figures\couts_par_poste.png
+- partie1_donnees\1.1_qualite\resultats\figures\v_de_cramer.png
+- partie1_donnees\1.1_qualite\resultats\journal.txt
+- partie1_donnees\1.1_qualite\resultats\tables\contradictions.csv
+- partie1_donnees\1.1_qualite\resultats\tables\controles_plages.csv
+- partie1_donnees\1.1_qualite\resultats\tables\conversion_texte_nombre.csv
+- partie1_donnees\1.1_qualite\resultats\tables\couts_par_poste.csv
+- partie1_donnees\1.1_qualite\resultats\tables\decisions_variables.csv
+- partie1_donnees\1.1_qualite\resultats\tables\dominance_modalites.csv
+- partie1_donnees\1.1_qualite\resultats\tables\paires_spearman.csv
+- partie1_donnees\1.1_qualite\resultats\tables\paires_v_de_cramer.csv
+- partie1_donnees\1.1_qualite\resultats\tables\recodage_modalites.csv
+- partie1_donnees\1.1_qualite\resultats\tables\reponses_multiples.csv
+- partie1_donnees\1.1_qualite\resultats\tables\stats_variables_converties.csv
+- partie1_donnees\1.1_qualite\resultats\tables\v_de_cramer.csv
+- partie1_donnees\1.1_qualite\resultats\tables\valeurs_manquantes.csv

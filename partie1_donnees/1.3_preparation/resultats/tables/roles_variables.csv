@@ -1,0 +1,83 @@
+﻿variable,role,utilisation
+id,clé,"Identifiant, jamais utilisé comme variable explicative"
+sexe,explicative (libellé regroupé),"GLM, CART, description des segments"
+lien_chef_menage,explicative (libellé regroupé),"GLM, CART, description des segments"
+statut_pro,explicative (libellé regroupé),"GLM, CART, description des segments"
+statut_matrimonial,explicative (libellé regroupé),"GLM, CART, description des segments"
+secteur,explicative (libellé regroupé),"GLM, CART, description des segments"
+statut_residence,explicative (libellé regroupé),"GLM, CART, description des segments"
+source_eau,explicative (libellé regroupé),"GLM, CART, description des segments"
+source_electricite,explicative (libellé regroupé),"GLM, CART, description des segments"
+energie_cuisine,explicative (libellé regroupé),"GLM, CART, description des segments"
+type_toilette,explicative (libellé regroupé),"GLM, CART, description des segments"
+transport_travail,explicative (libellé regroupé),"GLM, CART, description des segments"
+epargne,explicative (libellé regroupé),"GLM, CART, description des segments"
+dettes,explicative (libellé regroupé),"GLM, CART, description des segments"
+maladie_chronique,explicative (libellé regroupé),"GLM, CART, description des segments"
+lunettes,explicative (libellé regroupé),"GLM, CART, description des segments"
+renoncement_soins,explicative (libellé regroupé),"GLM, CART, description des segments"
+niveau_etude,explicative (libellé regroupé),"GLM, CART, description des segments"
+revenu,explicative (libellé regroupé),"GLM, CART, description des segments"
+effort_physique,explicative (libellé regroupé),"GLM, CART, description des segments"
+duree_effort,explicative (libellé regroupé),"GLM, CART, description des segments"
+pb_sante_travail,explicative (libellé regroupé),"GLM, CART, description des segments"
+arret_maladie,explicative (libellé regroupé),"GLM, CART, description des segments"
+impact_travail_sante,explicative (libellé regroupé),"GLM, CART, description des segments"
+repos_recent,explicative (libellé regroupé),"GLM, CART, description des segments"
+interet_couverture,explicative (libellé regroupé),"GLM, CART, description des segments"
+dentiste,explicative (libellé regroupé),"GLM, CART, description des segments"
+niveau_etude_code,explicative (code ordinal),"K-means, CART"
+revenu_code,explicative (code ordinal),"K-means, CART"
+effort_physique_code,explicative (code ordinal),"K-means, CART"
+duree_effort_code,explicative (code ordinal),"K-means, CART"
+pb_sante_travail_code,explicative (code ordinal),"K-means, CART"
+arret_maladie_code,explicative (code ordinal),"K-means, CART"
+impact_travail_sante_code,explicative (code ordinal),"K-means, CART"
+repos_recent_code,explicative (code ordinal),"K-means, CART"
+interet_couverture_code,explicative (code ordinal),"K-means, CART"
+dentiste_code,explicative (code ordinal),"K-means, CART"
+age,explicative (quantitative),"K-means, CART"
+taille_menage,explicative (quantitative),"K-means, CART"
+nb_actifs_menage,explicative (quantitative),"K-means, CART"
+budget_alim,explicative (quantitative),"K-means, CART"
+budget_sante,explicative (quantitative),"K-means, CART"
+budget_elec,explicative (quantitative),"K-means, CART"
+anciennete_emploi,explicative (quantitative),"K-means, CART"
+distance_travail,explicative (quantitative),"K-means, CART"
+heures_jour,explicative (quantitative),"K-means, CART"
+jours_semaine,explicative (quantitative),"K-means, CART"
+log_distance_travail,explicative (transformée),K-means
+classe_age,explicative (classe),"GLM, CART"
+classe_menage,explicative (classe),"GLM, CART"
+classe_heures,explicative (classe),"GLM, CART"
+classe_jours,explicative (classe),"GLM, CART"
+classe_budget_sante,explicative (classe),"GLM, CART"
+classe_anciennete,explicative (classe),"GLM, CART"
+classe_distance,explicative (classe),"GLM, CART"
+nb_maladies_graves,cible fréquence (plafonnée à 10),GLM fréquence
+nb_maladies_graves_brut,cible brute,Contrôle
+cout_total,cible sévérité (écrêtée à 530 000 Ar),GLM sévérité
+cout_total_brut,cible brute,Coefficient d'écrêtement (étape 3.3)
+cout_consultation,composante du coût,Description
+cout_hospitalisation,composante du coût,Description
+cout_medicaments,composante du coût,Description
+cout_deplacement,composante du coût,Description
+cout_alimentation,composante du coût,Description
+cout_autres,composante du coût,Description
+pop_frequence,indicateur,1 = individu utilisé dans le GLM de fréquence
+pop_severite,indicateur,1 = individu utilisé dans le GLM de sévérité (N ≥ 1 et coût > 0)
+sinistre_sans_cout,indicateur,1 = au moins un sinistre mais aucune dépense
+fokotany,descriptive,"Description, discussion"
+couverture,descriptive,"Description, discussion"
+prime_souhaitee,descriptive,"Description, discussion"
+activite_conjoint,descriptive,"Description, discussion"
+declare_non_malade,descriptive,"Description, discussion"
+nb_couts_renseignes,descriptive,"Description, discussion"
+douleur,descriptive,"Description, discussion"
+jours_arret,descriptive,"Description, discussion"
+type_recours,descriptive,"Description, discussion"
+distance_soins,descriptive,"Description, discussion"
+satisfaction,descriptive,"Description, discussion"
+impact_autre,descriptive,"Description, discussion"
+impact_maladie_activite,descriptive,"Description, discussion"
+recuperation_activite,descriptive,"Description, discussion"

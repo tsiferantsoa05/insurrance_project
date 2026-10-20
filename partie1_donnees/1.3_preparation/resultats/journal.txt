@@ -1,0 +1,183 @@
+# Étape 1.3 — Préparation pour la modélisation
+Entrée : partie1_donnees\1.2_aberrantes\resultats\donnees_sans_aberrantes.csv — 4074 individus
+
+## 1. Les variables sont-elles utilisables directement ?
+
+Qualitatives : modalités de moins de 3 % des individus
+| variable             | type     |   modalites | plus_petite_modalite   |   pct_plus_petite |   modalites_rares |
+|:---------------------|:---------|------------:|:-----------------------|------------------:|------------------:|
+| sexe                 | nominale |         2.0 | Homme                  |              42.4 |               0.0 |
+| lien_chef_menage     | nominale |         5.0 | Parent                 |               1.0 |               2.0 |
+| statut_pro           | nominale |         3.0 | Salarié et indépendant |               0.9 |               1.0 |
+| statut_matrimonial   | nominale |         4.0 | Divorcé(e)             |               5.1 |               0.0 |
+| secteur              | nominale |        25.0 | Énergie                |               0.0 |              18.0 |
+| statut_residence     | nominale |         2.0 | Locataire              |              47.8 |               0.0 |
+| source_eau           | nominale |         4.0 | Branchement à domicile |               2.9 |               1.0 |
+| source_electricite   | nominale |         5.0 | Bougie                 |               2.7 |               1.0 |
+| energie_cuisine      | nominale |         4.0 | Gaz                    |               0.0 |               2.0 |
+| type_toilette        | nominale |         5.0 | Autre                  |               0.1 |               2.0 |
+| transport_travail    | nominale |         7.0 | Voiture                |               0.3 |               5.0 |
+| epargne              | nominale |         2.0 | Oui                    |              26.3 |               0.0 |
+| dettes               | nominale |         2.0 | Oui                    |              14.3 |               0.0 |
+| maladie_chronique    | nominale |         2.0 | Oui                    |               9.9 |               0.0 |
+| lunettes             | nominale |         2.0 | Oui                    |               6.1 |               0.0 |
+| renoncement_soins    | nominale |         2.0 | Non                    |              48.7 |               0.0 |
+| niveau_etude         | ordinale |         5.0 | Analphabète            |               2.4 |               1.0 |
+| revenu               | ordinale |         7.0 | >1M                    |               1.3 |               1.0 |
+| effort_physique      | ordinale |         5.0 | Jamais                 |               2.1 |               1.0 |
+| duree_effort         | ordinale |         4.0 | <1 h                   |              13.9 |               0.0 |
+| pb_sante_travail     | ordinale |         4.0 | Jamais                 |               7.7 |               0.0 |
+| arret_maladie        | ordinale |         3.0 | Jamais                 |              20.9 |               0.0 |
+| impact_travail_sante | ordinale |         4.0 | Faible                 |              14.5 |               0.0 |
+| repos_recent         | ordinale |         3.0 | Jamais                 |              22.5 |               0.0 |
+| interet_couverture   | ordinale |         4.0 | Plutôt non             |               3.2 |               0.0 |
+| dentiste             | ordinale |         3.0 | Souvent                |               5.4 |               0.0 |
+
+Quantitatives : asymétrie après traitement des valeurs aberrantes
+| variable          |   asymetrie |   asymetrie_log |
+|:------------------|------------:|----------------:|
+| age               |        0.22 |          nan    |
+| taille_menage     |        0.68 |          nan    |
+| nb_actifs_menage  |        0.85 |          nan    |
+| budget_alim       |       -0.37 |          nan    |
+| budget_sante      |        0.89 |          nan    |
+| budget_elec       |        0.91 |          nan    |
+| anciennete_emploi |        0.93 |          nan    |
+| distance_travail  |        2.17 |            0.60 |
+| heures_jour       |        0.67 |          nan    |
+| jours_semaine     |       -1.53 |           -2.78 |
+
+
+## 2. Regroupement des modalités rares
+
+| variable           | groupe                    | modalites_regroupees                                                                                                                                                            |   effectif |   pct |
+|:-------------------|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------:|------:|
+| secteur            | Agriculture, élevage      | Agriculture, Élevage, pêche                                                                                                                                                     |       1419 |  34.8 |
+| secteur            | Commerce                  | Commerce, Distribution                                                                                                                                                          |        955 |  23.4 |
+| secteur            | Artisanat, industrie, BTP | Artisanat, Agroalimentaire, Matériaux de construction, Textile, Bâtiment, Électronique, Construction mécanique, Métallurgie, Industrie chimique, Énergie, Entretien, réparation |        287 |   7.0 |
+| secteur            | Services, transport       | Transport, Hôtellerie, restauration, Services, Informatique, Communication, médias, Banque, finance, Loisirs, tourisme                                                          |        364 |   8.9 |
+| secteur            | Éducation, santé          | Éducation, Santé                                                                                                                                                                |        252 |   6.2 |
+| secteur            | Autre                     | Autre                                                                                                                                                                           |        797 |  19.6 |
+| lien_chef_menage   | Chef de ménage            | Chef de ménage                                                                                                                                                                  |       2180 |  53.5 |
+| lien_chef_menage   | Conjoint(e)               | Conjoint(e)                                                                                                                                                                     |       1413 |  34.7 |
+| lien_chef_menage   | Autre membre              | Enfant, Parent, Frère/sœur                                                                                                                                                      |        481 |  11.8 |
+| statut_pro         | Indépendant               | Indépendant                                                                                                                                                                     |       3426 |  84.1 |
+| statut_pro         | Salarié                   | Salarié, Salarié et indépendant                                                                                                                                                 |        648 |  15.9 |
+| statut_matrimonial | Marié(e)                  | Marié(e)                                                                                                                                                                        |       2863 |  70.3 |
+| statut_matrimonial | Célibataire               | Célibataire                                                                                                                                                                     |        763 |  18.7 |
+| statut_matrimonial | Veuf(ve), divorcé(e)      | Veuf(ve), Divorcé(e)                                                                                                                                                            |        448 |  11.0 |
+| source_eau         | Borne fontaine            | Borne fontaine                                                                                                                                                                  |       3329 |  81.7 |
+| source_eau         | Branchement à domicile    | Branchement à domicile                                                                                                                                                          |        118 |   2.9 |
+| source_eau         | Puits ou autre            | Puits, Autre                                                                                                                                                                    |        627 |  15.4 |
+| source_electricite | Réseau JIRAMA             | Réseau JIRAMA                                                                                                                                                                   |       2656 |  65.2 |
+| source_electricite | Solaire                   | Solaire                                                                                                                                                                         |        764 |  18.8 |
+| source_electricite | Pétrole, bougie, autre    | Pétrole, Bougie, Autre                                                                                                                                                          |        654 |  16.1 |
+| energie_cuisine    | Charbon, gaz, électricité | Charbon, Gaz, Électricité                                                                                                                                                       |       2789 |  68.5 |
+| energie_cuisine    | Bois                      | Bois                                                                                                                                                                            |       1285 |  31.5 |
+| type_toilette      | Latrines                  | Latrines                                                                                                                                                                        |       2016 |  49.5 |
+| type_toilette      | Chasse d'eau              | Chasse d'eau                                                                                                                                                                    |        251 |   6.2 |
+| type_toilette      | Sèches ou aucune          | Toilettes sèches, Plein air, Autre                                                                                                                                              |       1807 |  44.4 |
+| transport_travail  | À pied                    | À pied                                                                                                                                                                          |       3375 |  82.8 |
+| transport_travail  | Travail à domicile        | Travail à domicile                                                                                                                                                              |        408 |  10.0 |
+| transport_travail  | Véhicule                  | Moto, Transport en commun, Vélo, Voiture, Taxi, taxi-moto, Autre                                                                                                                |        291 |   7.1 |
+| niveau_etude       | Primaire ou moins         | Analphabète, Primaire                                                                                                                                                           |        875 |  21.5 |
+| niveau_etude       | Collège                   | Collège                                                                                                                                                                         |       1507 |  37.0 |
+| niveau_etude       | Lycée                     | Lycée                                                                                                                                                                           |       1254 |  30.8 |
+| niveau_etude       | Université                | Université                                                                                                                                                                      |        438 |  10.8 |
+| revenu             | <100k                     | <100k                                                                                                                                                                           |        884 |  21.7 |
+| revenu             | 100-200k                  | 100-200k                                                                                                                                                                        |       1374 |  33.7 |
+| revenu             | 200-400k                  | 200-300k, 300-400k                                                                                                                                                              |       1175 |  28.8 |
+| revenu             | >400k                     | 400-500k, 500k-1M, >1M                                                                                                                                                          |        641 |  15.7 |
+| effort_physique    | Parfois ou moins          | Jamais, Rarement, Parfois                                                                                                                                                       |        603 |  14.8 |
+| effort_physique    | Souvent                   | Souvent                                                                                                                                                                         |       1338 |  32.8 |
+| effort_physique    | Toujours                  | Toujours                                                                                                                                                                        |       2133 |  52.4 |
+| interet_couverture | Non                       | Pas du tout, Plutôt non                                                                                                                                                         |        432 |  10.6 |
+| interet_couverture | Plutôt oui                | Plutôt oui                                                                                                                                                                      |       1753 |  43.0 |
+| interet_couverture | Tout à fait               | Tout à fait                                                                                                                                                                     |       1889 |  46.4 |
+
+
+## 3. Discrétisation des variables continues
+
+Bornes choisies pour obtenir des classes d'effectif suffisant (≥ 8 %) et lisibles :
+| classe_variable     | source            | classe       |   effectif |   pct |
+|:--------------------|:------------------|:-------------|-----------:|------:|
+| classe_age          | age               | 18-24        |        532 |  13.1 |
+| classe_age          | age               | 25-34        |       1180 |  29.0 |
+| classe_age          | age               | 35-44        |       1094 |  26.9 |
+| classe_age          | age               | 45-54        |        879 |  21.6 |
+| classe_age          | age               | 55+          |        389 |   9.5 |
+| classe_menage       | taille_menage     | 1-2          |        383 |   9.4 |
+| classe_menage       | taille_menage     | 3-4          |       1830 |  44.9 |
+| classe_menage       | taille_menage     | 5-6          |       1454 |  35.7 |
+| classe_menage       | taille_menage     | 7+           |        407 |  10.0 |
+| classe_heures       | heures_jour       | ≤6 h         |       1575 |  38.7 |
+| classe_heures       | heures_jour       | 7-8 h        |       1556 |  38.2 |
+| classe_heures       | heures_jour       | 9-10 h       |        534 |  13.1 |
+| classe_heures       | heures_jour       | >10 h        |        409 |  10.0 |
+| classe_jours        | jours_semaine     | ≤5 j         |       1006 |  24.7 |
+| classe_jours        | jours_semaine     | 6 j          |       2339 |  57.4 |
+| classe_jours        | jours_semaine     | 7 j          |        729 |  17.9 |
+| classe_budget_sante | budget_sante      | 0 %          |       1143 |  28.1 |
+| classe_budget_sante | budget_sante      | 1-9 %        |        778 |  19.1 |
+| classe_budget_sante | budget_sante      | 10 %         |       1427 |  35.0 |
+| classe_budget_sante | budget_sante      | >10 %        |        726 |  17.8 |
+| classe_anciennete   | anciennete_emploi | <5 ans       |        996 |  24.4 |
+| classe_anciennete   | anciennete_emploi | 5-9 ans      |        876 |  21.5 |
+| classe_anciennete   | anciennete_emploi | 10-19 ans    |       1212 |  29.7 |
+| classe_anciennete   | anciennete_emploi | 20 ans et +  |        990 |  24.3 |
+| classe_distance     | distance_travail  | Domicile (0) |        748 |  18.4 |
+| classe_distance     | distance_travail  | <1 km        |        694 |  17.0 |
+| classe_distance     | distance_travail  | 1-2 km       |       1813 |  44.5 |
+| classe_distance     | distance_travail  | >2 km        |        819 |  20.1 |
+
+
+## 4. Transformation des variables asymétriques
+
+distance_travail : asymétrie 2.17 -> log(1 + x) : 0.60
+jours_semaine (asymétrie -1,53) : variable bornée et concentrée sur 6 ; pas de transformation,
+l'information est mieux résumée par ses classes (≤5 j / 6 j / 7 j).
+
+## 5. Encodage des variables qualitatives
+
+Matrice encodée : 53 colonnes (10 codes ordinaux, 9 binaires, 24 indicatrices, 10 quantitatives)
+
+## 6. Standardisation
+
+z = (x - moyenne) / écart-type pour chaque colonne : toutes les colonnes ont moyenne 0 et
+variance 1, si bien qu'aucune variable ne domine la distance euclidienne du K-means par sa seule unité.
+Contrôle : moyennes max |2.4e-16|, écarts-types de 1.000 à 1.000
+
+## 7. Jeu de données final
+
+donnees_finales.csv : 4074 individus × 82 colonnes
+matrice_standardisee.csv : 4074 individus × 53 colonnes standardisées
+| role                                  |   colonnes |
+|:--------------------------------------|-----------:|
+| clé                                   |          1 |
+| explicative (libellé regroupé)        |         26 |
+| explicative (code ordinal)            |         10 |
+| explicative (quantitative)            |         10 |
+| explicative (transformée)             |          1 |
+| explicative (classe)                  |          7 |
+| cible fréquence (plafonnée à 10)      |          1 |
+| cible brute                           |          2 |
+| cible sévérité (écrêtée à 530 000 Ar) |          1 |
+| composante du coût                    |          6 |
+| indicateur                            |          3 |
+| descriptive                           |         14 |
+
+Population fréquence : 4046 ; sévérité : 2555 ; sinistres sans coût : 486
+
+## Fichiers produits
+
+- partie1_donnees\1.3_preparation\resultats\donnees_finales.csv
+- partie1_donnees\1.3_preparation\resultats\donnees_finales.xlsx
+- partie1_donnees\1.3_preparation\resultats\figures\transformation_distance.png
+- partie1_donnees\1.3_preparation\resultats\figures\variables_regroupees.png
+- partie1_donnees\1.3_preparation\resultats\journal.txt
+- partie1_donnees\1.3_preparation\resultats\matrice_standardisee.csv
+- partie1_donnees\1.3_preparation\resultats\tables\classes.csv
+- partie1_donnees\1.3_preparation\resultats\tables\codage_et_standardisation.csv
+- partie1_donnees\1.3_preparation\resultats\tables\evaluation_variables.csv
+- partie1_donnees\1.3_preparation\resultats\tables\regroupements.csv
+- partie1_donnees\1.3_preparation\resultats\tables\roles_variables.csv

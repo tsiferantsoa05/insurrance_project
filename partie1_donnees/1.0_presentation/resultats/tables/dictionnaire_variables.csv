@@ -1,0 +1,74 @@
+﻿code,libelle_origine,bloc,nature,stockage_excel,nb_valeurs_distinctes,pct_manquants,exemples
+id,N,Identifiant,Identifiant,nombre,4076,0.0,4076 | 1 | 2
+sexe,Sexe,Démographie,Qualitative nominale,texte,4,0.24533856722276742,Féminin | Masculin | Masculin Féminin
+age,Age,Démographie,Quantitative continue,nombre,53,0.24533856722276742,45.0 | 28.0 | 35.0
+fokotany,Fokotany,Démographie,Qualitative nominale,texte,237,0.12266928361138371,Ambohibary | Andrefatsena | Andrefantsena
+lien_chef_menage,Statut familiale,Démographie,Qualitative nominale,texte,8,0.5152109911678115,1. Chef de ménage (CM)(loham-pianak | 2. Epouse du CM(vadiny) | 3. Enfant du CM(zanany)
+statut_pro,statut du professionnel,Activité professionnelle,Qualitative nominale,texte,6,0.24533856722276742,2. indépendant | 1. Salarié | 3. les deux
+statut_matrimonial,Statut personnel,Démographie,Qualitative nominale,texte,5,0.2698724239450442,Marié | Celibataire | Veuf(ve)
+taille_menage,Effectif du ménage,Ménage et logement,Quantitative discrète,nombre,18,0.12266928361138371,4.0 | 5.0 | 3.0
+nb_actifs_menage,Nombre de personne qui travaille,Ménage et logement,Quantitative discrète,nombre,8,0.14720314033366044,2.0 | 1.0 | 3.0
+secteur,Votre secteur d'activité,Activité professionnelle,Qualitative nominale,texte,103,0.39254170755642787,1. Agricole | 5. Commerce | 26. Autre
+activite_conjoint,Activité du conjoint,Ménage et logement,Qualitative nominale,texte,17,30.34838076545633,1. Travailleur indépendant (miasa t | 5. Meme travail (mitovy asa aminao) | 2. Salarié
+niveau_etude,Niveau d'étude,Démographie,Qualitative ordinale,texte,8,0.19627085377821393,3. Collège | 2. Lycée | 4. Primaire
+statut_residence,Statut Résidence,Ménage et logement,Qualitative nominale,texte,2,0.12266928361138371,Tompon-trano | Manofa trano
+source_eau,Type fournisseur eau,Ménage et logement,Qualitative nominale,texte,9,0.24533856722276742,2. Borne fontaine (popim-panjakana/ | 3. Puits (vovo/lava-drano) | 4. Autre
+source_electricite,Type fournisseur Electricité,Ménage et logement,Qualitative nominale,texte,21,0.2208047105004907,1. Jirama | 2. Solaire | Petrole (solotany)
+energie_cuisine,Energie Cuisine,Ménage et logement,Qualitative nominale,texte,15,0.2208047105004907,2. Charbon | 1. Hazo kitay | 1. Hazo kitay 2. Charbon
+type_toilette,Type de toilette,Ménage et logement,Qualitative nominale,texte,5,0.2698724239450442,Toilettes à fosse traditionnelle (l | Toilettes sèches (sans eau) | Toilettes avec chasse d'eau (modern
+activite_famille,Principal activité de la famille,Activité professionnelle,Qualitative nominale,texte,59,55.20117762512267,1. Agricole | 5. Commerce | 26. Autre
+anciennete_emploi,Ancienneté emploi,Activité professionnelle,Quantitative continue,texte (nombres saisis en texte),451,0.36800785083415116,10 | 5 | 20
+distance_travail,Distance travail,Activité professionnelle,Quantitative continue,texte (nombres saisis en texte),475,0.7360157016683023,1 | 0 | 2
+transport_travail,Transport travail,Activité professionnelle,Qualitative nominale,texte,26,0.46614327772325814,Tongotra | Pas de déplacement (travail à domic | Moto
+heures_jour,Heures travaillées quotidiennes,Activité professionnelle,Quantitative continue,texte (nombres saisis en texte),216,0.2698724239450442,8 | 6 | 5
+jours_semaine,Nombre de jours travaillés par semaine (Firy andro no miasa ao anatin'ny herinandro),Activité professionnelle,Quantitative discrète,texte (nombres saisis en texte),128,0.2944062806673209,6 | 5 | 7
+nb_employes,Votre Nombre employés,Activité professionnelle,Quantitative discrète,texte (nombres saisis en texte),95,16.5603532875368,0 | O | 1
+revenu,Votre Revenu mensuel,Revenus et budget,Qualitative ordinale,texte,24,1.0549558390579,100 000Ar- 200 000Ar | moins de 100 000Ar | 200 000Ar-300 000Ar
+budget_alim,% Budget alimentation,Revenus et budget,Quantitative continue,nombre,97,2.772325809617272,50.0 | 70.0 | 60.0
+budget_sante,% Budget santé,Revenus et budget,Quantitative continue,nombre,35,5.053974484789009,10.0 | 0.0 | 5.0
+budget_elec,% Budget électricité,Revenus et budget,Quantitative continue,nombre,33,4.980372914622178,10.0 | 5.0 | 0.0
+epargne,Avoir de l'épargne,Revenus et budget,Qualitative nominale,texte,2,0.19627085377821393,Tsia | Eny
+dettes,Avoir des Dettes impayées,Revenus et budget,Qualitative nominale,texte,2,0.19627085377821393,Tsia | Eny
+effort_physique,Effort physique au travail,Conditions de travail,Qualitative ordinale,texte,6,0.36800785083415116,"1. Oui, toujours | 2. Oui, souvent | 3. Parfois"
+duree_effort,Durée de l'effort,Conditions de travail,Qualitative ordinale,texte,4,0.39254170755642787,Plus de 5 heures | 1 à 3 heures | 3 à 5 heures
+pb_sante_travail,Problèmes de Santé au travail,Conditions de travail,Qualitative ordinale,texte,7,0.2944062806673209,"2. Oui, parfois | 1. Oui, régulièrement | 3. Non, rarement"
+arret_maladie,Arrêt maladie lieu au travail,Conditions de travail,Qualitative ordinale,texte,5,0.31894013738959764,"2. Oui, une ou deux fois | 1. Oui, plusieurs fois | 3. Non, jamais"
+impact_travail_sante,Impact du travail sur votre santé,Conditions de travail,Qualitative ordinale,texte,4,0.2944062806673209,"Oui, mais de manière modérée | Oui, de manière importante | Non, pas du tout"
+repos_recent,Repos travail récemment,Conditions de travail,Qualitative ordinale,texte,3,0.2944062806673209,"Oui, plusieurs fois | Oui, une fois | Non, jamais"
+couverture,Affiliation Couverture maladie,Couverture maladie,Qualitative nominale,texte,2,0.36800785083415116,Non | Oui
+mode_affiliation,Mode affiliation,Couverture maladie,Qualitative nominale,texte,7,97.52208047105006,1. Assurance maladie | 2. Mutuelle de santé | 4. Remboursement
+type_couverture,Type couverture,Couverture maladie,Qualitative nominale,texte,13,97.52208047105006,AUTRES (à préciser) | 9. REMBOURSEMENT | 11. Service medical interne
+ancienne_couverture,Ancienne couverture,Couverture maladie,Qualitative nominale,texte,2,2.9931305201177625,Non | Oui
+interet_couverture,Avantage adhérer à une couverture,Couverture maladie,Qualitative ordinale,texte,7,0.2698724239450442,4. Tout à fait | 3. Plutôt oui | 1. Pas du tout
+prime_souhaitee,Votre avis du Prime mensuelle,Couverture maladie,Quantitative continue,nombre,51,3.3856722276741906,10000.0 | 5000.0 | 2000.0
+maladie_chronique,Souffrez-vous de Maladies chroniques,État de santé,Qualitative nominale,texte,3,0.31894013738959764,Non | Oui | Non Oui
+chronique_categorie,"Quelles, maladies chroniques",État de santé,Qualitative nominale,texte,13,90.0883218842002,"Autre (précisez) | Hypertension | Maladie respiratoire (asthme, bronc"
+chronique_detail,type maladies chroniques,État de santé,Texte libre,texte,171,92.10009813542689,0 | Hypertension | Tension
+traitement_regulier,Traitement médical régulier,État de santé,Qualitative ordinale,texte,3,90.11285574092247,"3. Non, pas de traitement | 2. Oui, de manière occasionnelle | 1. Oui, un traitement régulier"
+freq_consult_chronique,Fréquence consultation cette maladie,État de santé,Qualitative ordinale,texte,4,98.40529931305201,1. Une fois par mois | 2. Tous les deux à trois mois | 4. Plus rarement
+depense_medic_chronique,Depense médicaments,État de santé,Quantitative continue,texte (nombres saisis en texte),30,98.69970559371933,50000 | 20000 | 40000
+lunettes,Portez-vous des lunettes ?,État de santé,Qualitative nominale,texte,2,0.34347399411187435,Tsia | Eny
+valeur_lunettes,valeur approximative de vos lunettes,État de santé,Qualitative ordinale,texte,4,93.91560353287537,Latsaky ny 100 000 MGA | 100 000 - 300 000 MGA | Tsy fantatro
+dentiste,Consultation d'un dentiste,État de santé,Qualitative ordinale,texte,3,0.31894013738959764,"Eny, indraindray | Tsia | Eny, matetika"
+freq_dentiste,Frequence moyenne par an ?,État de santé,Qualitative ordinale,texte,4,44.602551521099116,Tsy mandeha matetika | in-1 isan-taona | in-2 isan-taona
+nb_maladies_graves,Nombre de Maladies graves 12 mois,État de santé,Quantitative discrète,nombre,28,0.7114818449460255,1.0 | 2.0 | 0.0
+renoncement_soins,"Au cours des 12 derniers mois, avez-vous été malade sans consulter un centre de soins pour des raisons financières ?",État de santé,Qualitative nominale,texte,4,1.9136408243375858,Oui | Non | Non Oui
+date_derniere_maladie,Quand avez-vous été dernièrement malade ? (Oviana ianao no narary farany),Dernier épisode de maladie,Texte libre,texte,590,2.2325809617271837,Mars 2026 | Avril 2026 | Janvier 2026
+type_maladie,Quel type de maladie evez-vous eue? (inona ilay aretina?),Dernier épisode de maladie,Texte libre,texte,859,2.772325809617272,Tazo | Nify | Loha
+douleur,E.3. Degré de perception de la douleur (manahoana ny fanaintainana? Marary be ve sa tsy dia marary),Dernier épisode de maladie,Qualitative ordinale,texte,5,5.42198233562316,2. Douloureux | 1. Très douloureux | 3. Peu douloureux
+jours_arret,Durée totale de cessation d'activité due à cette maladie (en jours) (firy andro ianao no tsy niasa),Dernier épisode de maladie,Quantitative continue,texte (nombres saisis en texte),280,4.146221786064769,2 | 3 | 0
+type_recours,Type de recours (ahoana no nataonao hanasitranana ilay aretina),Dernier épisode de maladie,Qualitative nominale,texte,47,5.446516192345436,"1. Automédication (nividy fanafody, | 4. Centre de santé de base Public ( | 6. Hôpital public"
+motif_recours,F.3. Pourquoi avez-vous choisi ce type de recours? (inona no nahatonga anao nisafidy an'io?,Dernier épisode de maladie,Qualitative nominale,texte,259,5.789990186457311,Habitudes/affinités (fahazarana) | 7. Autres (antony hafa) | Qualité des soins/ Meilleur traitem
+distance_soins,Distance du lieu de consultation par rapport au lieu d'habitation (firy kilomètre miala amin'ny tranonao ny toerana nitsaboina anao?),Dernier épisode de maladie,Quantitative continue,texte (nombres saisis en texte),261,4.710500490677134,0 | 1 | 2
+satisfaction,F.4. Etes-vous satisfait du traitement de cette maladie? (afapo ve ianao tamin'ny fitsaboana ilay aretina),Dernier épisode de maladie,Qualitative ordinale,texte,5,5.691854759568204,4. Tout à fait satisfait | 3. Plutôt satisfait | 2. Plutôt pas satisfait
+autre_recours_souhaite,F.5. Quelles autres dispositions auraient été plus appropriées? ( Inona ny fitsaboana hafa mety ho sahaza kokoa?,Dernier épisode de maladie,Qualitative nominale,texte,42,88.7144259077527,"6. Hôpital public | 3. Médecin libre | 1. Automédication (nividy fanafody,"
+benefice_autre_recours,F.6. Ces dispositions auraient donné: (Ireo fepetra ireo dia hanome:),Dernier épisode de maladie,Qualitative nominale,texte,134,20.902845927379783,Habitudes/affinités (fahazarana) | Qualité des soins/ Meilleur traitem | Spécificité de la maladie (any ihan
+cout_consultation,G.1. Frais de consultation (ohatrinona ny saran'ny consultation),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),92,6.329735034347399,0 | O | 10000
+cout_hospitalisation,G.2. Frais d'hospitalisation (ohatrinona ny saran'ny hospitalisation),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),51,7.311089303238469,0 | O | 00
+cout_medicaments,G.3. Coûts des médicaments (vola lany tamin'ny fanafody),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),332,5.765456329735034,0 | 5000 | 10000
+cout_deplacement,G.4. Coût lié au déplacement (vola lany tamin'ny fivezivezena),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),62,6.62414131501472,0 | O | 00
+cout_alimentation,G.5. Alimentation supplémentaire (vola lany tamin'ny sakafo...),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),109,7.212953876349363,0 | O | 00
+cout_autres,G.6. Autres à préciser (vola hafa lany),Coûts du dernier épisode,Quantitative continue,texte (nombres saisis en texte),57,7.75269872423945,0 | O | 00
+impact_autre,H.3. Autre impact de la maladie sur l'activité du travailleur ? (nisy fiantraikany hafa tamin'ny asanao ve ilay aretina nahazo anao),Impact sur l'activité,Qualitative nominale,texte,11,8.169774288518155,"1. organisation (teo amin'ny fandam | 3. Perte de client (very ny client, | 4. Autre"
+impact_maladie_activite,H.4. Comment sentez-vous l'impact de la maladie sur votre activité? (nisy fiantraikany tamin'ny asanao ve ilay aretina),Impact sur l'activité,Qualitative ordinale,texte,4,5.642787046123651,2. Affecté (nisy fiantraikany ihany | 1. Très affecté (nisy fiantraikany  | 3. Pas du tout (tsy nisy fiantraika
+recuperation_activite,H.5. Récupération des activités perdues (aona ny nataonao hamerenana ny fotoana very),Impact sur l'activité,Qualitative nominale,texte,14,6.795878312070657,2. Rattrapage après guérison | 3. Pas de récupération | 1. Travail plus dur

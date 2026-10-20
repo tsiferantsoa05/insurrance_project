@@ -1,0 +1,6 @@
+﻿controle,individus,decision
+Déclare ne pas avoir été malade mais nb_maladies_graves > 0,13,Conservé : nb_maladies_graves est la variable cible ; type_maladie peut décrire une période différente.
+Déclare ne pas avoir été malade mais cout_total > 0,1,Conservé (dépenses de santé possibles sans « maladie » ressentie).
+Somme des trois parts de budget > 100 % (chaque part ≤ 100 %),47,"Conservé : réponses approximatives, chaque part reste plausible."
+Conjoint(e) du chef de ménage mais statut non marié,52,Conservé (union libre possible).
+Célibataire avec une activité de conjoint renseignée,0,Conservé ; activite_conjoint n'est pas utilisée dans les modèles.

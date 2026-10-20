@@ -1,0 +1,16 @@
+﻿variable,role,hors_iqr,hors_3s,traitement,seuil,valeurs_modifiees,pct_modifiees,justification
+age,explicative,2,3,Conservation,,0,0.0,"Après l'étape 1.1, l'âge va de 18 à 85 ans : les 3 valeurs hors IQR (80-85 ans) sont réelles et peu nombreuses."
+taille_menage,explicative,96,27,Plafonnement au P99,10.0,27,0.6627393225331369,Les grands ménages existent mais 20 ou 30 personnes relèvent d'un foyer collectif ; le plafond limite leur poids dans les distances du K-means.
+nb_actifs_menage,explicative,238,73,Conservation,,0,0.0,"Valeurs de 0 à 7, toutes plausibles et cohérentes avec la taille du ménage."
+budget_alim,explicative,190,0,Conservation,,0,0.0,Variable bornée à [0 ; 100] % après l'étape 1.1 : pas d'extrême possible.
+budget_sante,explicative,101,28,Plafonnement au P99,30.0,28,0.6872852233676976,Distribution très asymétrique : quelques parts de 50 à 80 % pèsent fortement dans les distances standardisées.
+budget_elec,explicative,42,40,Plafonnement au P99,24.0,40,0.9818360333824251,Même raison que pour le budget santé.
+anciennete_emploi,explicative,8,21,Conservation,,0,0.0,Plafonnée logiquement par l'âge à l'étape 1.1 (≤ âge − 5) ; maximum de 50 ans pour des actifs de plus de 55 ans.
+distance_travail,explicative,329,5,Plafonnement au P99,10.0,34,0.8345606283750614,Queue extrême (300 et 510 km) issue de saisies ambiguës (« 200a 1000km ») ou de déplacements exceptionnels.
+heures_jour,explicative,357,71,Plafonnement à 16 h,16.0,71,1.7427589592538046,"Les réponses « 24 h » ou « 24/24 » décrivent un temps de présence (gardiennage, commerce à domicile), pas un travail effectif ; 16 h est proche de la borne des 3 écarts-types."
+jours_semaine,explicative,1736,116,Conservation,,0,0.0,Variable bornée à [1 ; 7] ; l'IQR est nul (Q1 = Q3 = 6) et signale à tort toute valeur différente de 6.
+nb_maladies_graves,cible,363,14,Plafonnement au P99,10.0,39,0.9639149777558083,"Au-delà de 10 maladies graves par an (jusqu'à 365), la réponse compte des jours ou des crises d'une même maladie chronique, pas des sinistres distincts. L'IQR (≥ 4) couperait 9 % de comptages normaux et la règle 3σ est faussée par ces valeurs elles-mêmes (seuil à 43, effet de masque)."
+cout_total,cible,298,25,Écrêtement au P99 des coûts positifs,530000.0,30,0.7753941586973379,"Les sinistres graves (hospitalisation, chimiothérapie : jusqu'à 9,5 M Ar) sont réels : on ne les supprime pas, mais on les plafonne pour le GLM de sévérité ; l'excédent est réparti sur toutes les primes à l'étape 3.3 (méthode actuarielle classique d'écrêtement). Le coût brut est conservé (cout_total_brut)."
+prime_souhaitee,descriptive,212,26,Plafonnement au P99,30000.0,27,0.6893030380393158,Variable d'opinion utilisée en discussion : le plafond évite qu'une réponse isolée (200 000 Ar) fausse les moyennes.
+jours_arret,descriptive,277,49,Plafonnement au P99,60.0,29,0.7449267916773696,Variable descriptive : les arrêts de plusieurs mois sont réels mais rares.
+distance_soins,descriptive,161,15,Plafonnement au P99,9.0,25,0.6459948320413437,Variable descriptive : soins à Antananarivo ou Antsirabe (90 km et plus).

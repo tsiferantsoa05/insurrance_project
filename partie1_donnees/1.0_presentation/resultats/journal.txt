@@ -1,0 +1,239 @@
+# Étape 1.0 — Présentation des données
+Fichier : InsuranceData.xlsx — feuille DataUsed — 4076 lignes × 73 colonnes
+
+## 1. Dictionnaire des variables
+
+| code                    | bloc                       | nature                | stockage_excel                  |   nb_valeurs_distinctes |   pct_manquants |
+|:------------------------|:---------------------------|:----------------------|:--------------------------------|------------------------:|----------------:|
+| id                      | Identifiant                | Identifiant           | nombre                          |                    4076 |             0.0 |
+| sexe                    | Démographie                | Qualitative nominale  | texte                           |                       4 |             0.2 |
+| age                     | Démographie                | Quantitative continue | nombre                          |                      53 |             0.2 |
+| fokotany                | Démographie                | Qualitative nominale  | texte                           |                     237 |             0.1 |
+| lien_chef_menage        | Démographie                | Qualitative nominale  | texte                           |                       8 |             0.5 |
+| statut_pro              | Activité professionnelle   | Qualitative nominale  | texte                           |                       6 |             0.2 |
+| statut_matrimonial      | Démographie                | Qualitative nominale  | texte                           |                       5 |             0.3 |
+| taille_menage           | Ménage et logement         | Quantitative discrète | nombre                          |                      18 |             0.1 |
+| nb_actifs_menage        | Ménage et logement         | Quantitative discrète | nombre                          |                       8 |             0.1 |
+| secteur                 | Activité professionnelle   | Qualitative nominale  | texte                           |                     103 |             0.4 |
+| activite_conjoint       | Ménage et logement         | Qualitative nominale  | texte                           |                      17 |            30.3 |
+| niveau_etude            | Démographie                | Qualitative ordinale  | texte                           |                       8 |             0.2 |
+| statut_residence        | Ménage et logement         | Qualitative nominale  | texte                           |                       2 |             0.1 |
+| source_eau              | Ménage et logement         | Qualitative nominale  | texte                           |                       9 |             0.2 |
+| source_electricite      | Ménage et logement         | Qualitative nominale  | texte                           |                      21 |             0.2 |
+| energie_cuisine         | Ménage et logement         | Qualitative nominale  | texte                           |                      15 |             0.2 |
+| type_toilette           | Ménage et logement         | Qualitative nominale  | texte                           |                       5 |             0.3 |
+| activite_famille        | Activité professionnelle   | Qualitative nominale  | texte                           |                      59 |            55.2 |
+| anciennete_emploi       | Activité professionnelle   | Quantitative continue | texte (nombres saisis en texte) |                     451 |             0.4 |
+| distance_travail        | Activité professionnelle   | Quantitative continue | texte (nombres saisis en texte) |                     475 |             0.7 |
+| transport_travail       | Activité professionnelle   | Qualitative nominale  | texte                           |                      26 |             0.5 |
+| heures_jour             | Activité professionnelle   | Quantitative continue | texte (nombres saisis en texte) |                     216 |             0.3 |
+| jours_semaine           | Activité professionnelle   | Quantitative discrète | texte (nombres saisis en texte) |                     128 |             0.3 |
+| nb_employes             | Activité professionnelle   | Quantitative discrète | texte (nombres saisis en texte) |                      95 |            16.6 |
+| revenu                  | Revenus et budget          | Qualitative ordinale  | texte                           |                      24 |             1.1 |
+| budget_alim             | Revenus et budget          | Quantitative continue | nombre                          |                      97 |             2.8 |
+| budget_sante            | Revenus et budget          | Quantitative continue | nombre                          |                      35 |             5.1 |
+| budget_elec             | Revenus et budget          | Quantitative continue | nombre                          |                      33 |             5.0 |
+| epargne                 | Revenus et budget          | Qualitative nominale  | texte                           |                       2 |             0.2 |
+| dettes                  | Revenus et budget          | Qualitative nominale  | texte                           |                       2 |             0.2 |
+| effort_physique         | Conditions de travail      | Qualitative ordinale  | texte                           |                       6 |             0.4 |
+| duree_effort            | Conditions de travail      | Qualitative ordinale  | texte                           |                       4 |             0.4 |
+| pb_sante_travail        | Conditions de travail      | Qualitative ordinale  | texte                           |                       7 |             0.3 |
+| arret_maladie           | Conditions de travail      | Qualitative ordinale  | texte                           |                       5 |             0.3 |
+| impact_travail_sante    | Conditions de travail      | Qualitative ordinale  | texte                           |                       4 |             0.3 |
+| repos_recent            | Conditions de travail      | Qualitative ordinale  | texte                           |                       3 |             0.3 |
+| couverture              | Couverture maladie         | Qualitative nominale  | texte                           |                       2 |             0.4 |
+| mode_affiliation        | Couverture maladie         | Qualitative nominale  | texte                           |                       7 |            97.5 |
+| type_couverture         | Couverture maladie         | Qualitative nominale  | texte                           |                      13 |            97.5 |
+| ancienne_couverture     | Couverture maladie         | Qualitative nominale  | texte                           |                       2 |             3.0 |
+| interet_couverture      | Couverture maladie         | Qualitative ordinale  | texte                           |                       7 |             0.3 |
+| prime_souhaitee         | Couverture maladie         | Quantitative continue | nombre                          |                      51 |             3.4 |
+| maladie_chronique       | État de santé              | Qualitative nominale  | texte                           |                       3 |             0.3 |
+| chronique_categorie     | État de santé              | Qualitative nominale  | texte                           |                      13 |            90.1 |
+| chronique_detail        | État de santé              | Texte libre           | texte                           |                     171 |            92.1 |
+| traitement_regulier     | État de santé              | Qualitative ordinale  | texte                           |                       3 |            90.1 |
+| freq_consult_chronique  | État de santé              | Qualitative ordinale  | texte                           |                       4 |            98.4 |
+| depense_medic_chronique | État de santé              | Quantitative continue | texte (nombres saisis en texte) |                      30 |            98.7 |
+| lunettes                | État de santé              | Qualitative nominale  | texte                           |                       2 |             0.3 |
+| valeur_lunettes         | État de santé              | Qualitative ordinale  | texte                           |                       4 |            93.9 |
+| dentiste                | État de santé              | Qualitative ordinale  | texte                           |                       3 |             0.3 |
+| freq_dentiste           | État de santé              | Qualitative ordinale  | texte                           |                       4 |            44.6 |
+| nb_maladies_graves      | État de santé              | Quantitative discrète | nombre                          |                      28 |             0.7 |
+| renoncement_soins       | État de santé              | Qualitative nominale  | texte                           |                       4 |             1.9 |
+| date_derniere_maladie   | Dernier épisode de maladie | Texte libre           | texte                           |                     590 |             2.2 |
+| type_maladie            | Dernier épisode de maladie | Texte libre           | texte                           |                     859 |             2.8 |
+| douleur                 | Dernier épisode de maladie | Qualitative ordinale  | texte                           |                       5 |             5.4 |
+| jours_arret             | Dernier épisode de maladie | Quantitative continue | texte (nombres saisis en texte) |                     280 |             4.1 |
+| type_recours            | Dernier épisode de maladie | Qualitative nominale  | texte                           |                      47 |             5.4 |
+| motif_recours           | Dernier épisode de maladie | Qualitative nominale  | texte                           |                     259 |             5.8 |
+| distance_soins          | Dernier épisode de maladie | Quantitative continue | texte (nombres saisis en texte) |                     261 |             4.7 |
+| satisfaction            | Dernier épisode de maladie | Qualitative ordinale  | texte                           |                       5 |             5.7 |
+| autre_recours_souhaite  | Dernier épisode de maladie | Qualitative nominale  | texte                           |                      42 |            88.7 |
+| benefice_autre_recours  | Dernier épisode de maladie | Qualitative nominale  | texte                           |                     134 |            20.9 |
+| cout_consultation       | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                      92 |             6.3 |
+| cout_hospitalisation    | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                      51 |             7.3 |
+| cout_medicaments        | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                     332 |             5.8 |
+| cout_deplacement        | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                      62 |             6.6 |
+| cout_alimentation       | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                     109 |             7.2 |
+| cout_autres             | Coûts du dernier épisode   | Quantitative continue | texte (nombres saisis en texte) |                      57 |             7.8 |
+| impact_autre            | Impact sur l'activité      | Qualitative nominale  | texte                           |                      11 |             8.2 |
+| impact_maladie_activite | Impact sur l'activité      | Qualitative ordinale  | texte                           |                       4 |             5.6 |
+| recuperation_activite   | Impact sur l'activité      | Qualitative nominale  | texte                           |                      14 |             6.8 |
+
+Variables par nature :
+| nature                |   nb_variables |
+|:----------------------|---------------:|
+| Identifiant           |              1 |
+| Qualitative nominale  |             30 |
+| Qualitative ordinale  |             17 |
+| Quantitative continue |             17 |
+| Quantitative discrète |              5 |
+| Texte libre           |              3 |
+
+Variables par bloc thématique :
+| bloc                       |   nb_variables | variables                                                                                                                                                                                                                 |
+|:---------------------------|---------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Identifiant                |              1 | id                                                                                                                                                                                                                        |
+| Démographie                |              6 | sexe, age, fokotany, lien_chef_menage, statut_matrimonial, niveau_etude                                                                                                                                                   |
+| Activité professionnelle   |              9 | statut_pro, secteur, activite_famille, anciennete_emploi, distance_travail, transport_travail, heures_jour, jours_semaine, nb_employes                                                                                    |
+| Ménage et logement         |              8 | taille_menage, nb_actifs_menage, activite_conjoint, statut_residence, source_eau, source_electricite, energie_cuisine, type_toilette                                                                                      |
+| Revenus et budget          |              6 | revenu, budget_alim, budget_sante, budget_elec, epargne, dettes                                                                                                                                                           |
+| Conditions de travail      |              6 | effort_physique, duree_effort, pb_sante_travail, arret_maladie, impact_travail_sante, repos_recent                                                                                                                        |
+| Couverture maladie         |              6 | couverture, mode_affiliation, type_couverture, ancienne_couverture, interet_couverture, prime_souhaitee                                                                                                                   |
+| État de santé              |             12 | maladie_chronique, chronique_categorie, chronique_detail, traitement_regulier, freq_consult_chronique, depense_medic_chronique, lunettes, valeur_lunettes, dentiste, freq_dentiste, nb_maladies_graves, renoncement_soins |
+| Dernier épisode de maladie |             10 | date_derniere_maladie, type_maladie, douleur, jours_arret, type_recours, motif_recours, distance_soins, satisfaction, autre_recours_souhaite, benefice_autre_recours                                                      |
+| Coûts du dernier épisode   |              6 | cout_consultation, cout_hospitalisation, cout_medicaments, cout_deplacement, cout_alimentation, cout_autres                                                                                                               |
+| Impact sur l'activité      |              3 | impact_autre, impact_maladie_activite, recuperation_activite                                                                                                                                                              |
+
+
+## 2. Variables cibles
+
+| analyse                       | variable_cible                         | role                                                                                                                                                                                                   |   observations_disponibles |
+|:------------------------------|:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------:|
+| Segmentation (K-means)        | aucune (apprentissage non supervisé)   | Les assurés sont regroupés selon leur profil (démographie, situation socio-économique, conditions de travail, état de santé). Le segment obtenu devient la variable cible de l'arbre CART (étape 2.2). |                       4076 |
+| Fréquence des sinistres (GLM) | nb_maladies_graves                     | N_i = nombre de maladies graves déclarées sur 12 mois (comptage).                                                                                                                                      |                       4047 |
+| Sévérité des sinistres (GLM)  | cout_total = somme des coûts G.1 à G.6 | S_i = coût du dernier épisode de maladie (consultation, hospitalisation, médicaments, déplacement, alimentation, autres), en Ariary. Construit à l'étape 1.1 après conversion du texte libre.          |                       3871 |
+
+
+## 3. Tableau récapitulatif
+
+| caracteristique                          | valeur   |
+|:-----------------------------------------|:---------|
+| Nombre d'observations (individus)        | 4076     |
+| Nombre de variables                      | 73       |
+| dont identifiant                         | 1        |
+| dont quantitatives                       | 22       |
+| dont qualitatives                        | 47       |
+| dont texte libre                         | 3        |
+| Variables stockées en nombre dans Excel  | 9        |
+| Variables quantitatives saisies en texte | 14       |
+| Cellules manquantes (% du total)         | 15.7     |
+| Variables avec plus de 50 % de manquants | 10       |
+| Variables sans aucun manquant            | 1        |
+| Lignes en double (hors identifiant)      | 2        |
+| Identifiant unique                       | oui      |
+
+
+## 4. Statistiques descriptives des variables quantitatives (données brutes)
+
+|                    |       n |   manquants |   moyenne |   ecart_type |      min |   P1 |      Q1 |   mediane |       Q3 |      P99 |       max |   asymetrie |
+|:-------------------|--------:|------------:|----------:|-------------:|---------:|-----:|--------:|----------:|---------:|---------:|----------:|------------:|
+| age                | 4,066.0 |        10.0 |      37.8 |         11.5 |      3.0 | 18.0 |    28.0 |      37.0 |     46.0 |     59.0 |     112.0 |         0.3 |
+| taille_menage      | 4,071.0 |         5.0 |       4.5 |          1.9 |     -6.0 |  1.0 |     3.0 |       4.0 |      5.0 |     10.0 |      30.0 |         2.8 |
+| nb_actifs_menage   | 4,070.0 |         6.0 |       1.9 |          0.9 |      0.0 |  0.0 |     1.0 |       2.0 |      2.0 |      5.0 |       7.0 |         0.9 |
+| budget_alim        | 3,963.0 |       113.0 |     264.1 |      5,670.4 |      0.0 |  0.0 |    45.0 |      50.0 |     70.0 |    100.0 | 250,000.0 |        35.2 |
+| budget_sante       | 3,870.0 |       206.0 |      71.1 |      1,559.2 |      0.0 |  0.0 |     0.0 |      10.0 |     10.0 |     31.5 |  70,000.0 |        34.3 |
+| budget_elec        | 3,873.0 |       203.0 |      27.2 |        480.9 |      0.0 |  0.0 |     1.0 |       5.0 |     10.0 |     25.0 |  17,000.0 |        27.0 |
+| prime_souhaitee    | 3,938.0 |       138.0 |   8,310.3 |      8,892.6 | -5,000.0 |  0.0 | 2,000.0 |   5,000.0 | 10,000.0 | 30,000.0 | 200,000.0 |         4.2 |
+| nb_maladies_graves | 4,047.0 |        29.0 |       2.2 |         13.8 |     -1.0 |  0.0 |     1.0 |       1.0 |      2.0 |     10.0 |     365.0 |        24.2 |
+
+Variables quantitatives saisies en texte (converties à l'étape 1.1) :
+| variable                |   renseignees |   nombres_purs |   pct_nombres_purs | exemples_non_numeriques                                                                               |
+|:------------------------|--------------:|---------------:|-------------------:|:------------------------------------------------------------------------------------------------------|
+| anciennete_emploi       |          4061 |           2986 |               73.5 | 2ans | 5ans | 10ans | 20ans                                                                           |
+| distance_travail        |          4046 |           2175 |               53.8 | 1km | 2km | O | 3km                                                                                   |
+| heures_jour             |          4065 |           3305 |               81.3 | 8h | 10h | 6h | Arakaraka                                                                             |
+| jours_semaine           |          4064 |           3287 |               80.9 | 6j | 6/7 | 7/7 | 7j                                                                                   |
+| nb_employes             |          3401 |           2716 |               79.9 | O | Tsy mampiasa | Kifanomba | Izy roa ihany                                                          |
+| depense_medic_chronique |            53 |             46 |               86.8 | tsy nisy | Tsy tadidiny koa fa efa taloha izy no azon'izany aretina izany | 20 600 | 60000 isambolana |
+| jours_arret             |          3907 |           2845 |               72.8 | Herinandro | 2j | 3j | Niasa hiany                                                                    |
+| distance_soins          |          3884 |           2600 |               66.9 | O | 1km | 2km | 3km                                                                                   |
+| cout_consultation       |          3818 |           3185 |               83.4 | O | Tsy nisy | 20 000 | 00 satria tsy namonjy dokotera                                                |
+| cout_hospitalisation    |          3778 |           3122 |               82.6 | O | Tsy nisy | P | 5000 par jours                                                                     |
+| cout_medicaments        |          3841 |           3600 |               93.7 | O | Tsy nisy | 20 000 | Tsy tadidy                                                                    |
+| cout_deplacement        |          3806 |           3247 |               85.3 | O | Tsy nisy | 10 000 | 50 000                                                                        |
+| cout_alimentation       |          3782 |           3181 |               84.1 | O | Ts tadidy | 10 000 | 80000ar                                                                      |
+| cout_autres             |          3760 |           3085 |               82.0 | O | Tsy nisy | 10000(radio) | 5000(niotra)                                                            |
+
+
+## 5. Distributions des variables qualitatives (données brutes)
+
+| variable                | nature               |   modalites_distinctes |   cellules_reponses_multiples | modalite_principale                           |   pct_modalite_principale |   pct_manquants |
+|:------------------------|:---------------------|-----------------------:|------------------------------:|:----------------------------------------------|--------------------------:|----------------:|
+| sexe                    | Qualitative nominale |                      4 |                             4 | Féminin                                       |                      57.3 |             0.2 |
+| fokotany                | Qualitative nominale |                    196 |                             0 | Ambohibary                                    |                      12.5 |             0.1 |
+| lien_chef_menage        | Qualitative nominale |                      8 |                            14 | 1. Chef de ménage (CM)(loham-pianakaviana)    |                      52.8 |             0.5 |
+| statut_pro              | Qualitative nominale |                      6 |                            10 | 2. indépendant                                |                      83.7 |             0.2 |
+| statut_matrimonial      | Qualitative nominale |                      5 |                             1 | Marié                                         |                      70.0 |             0.3 |
+| secteur                 | Qualitative nominale |                    103 |                           355 | 1. Agricole                                   |                      24.8 |             0.4 |
+| activite_conjoint       | Qualitative nominale |                     17 |                            37 | 1. Travailleur indépendant (miasa tena)       |                      33.9 |            30.3 |
+| niveau_etude            | Qualitative ordinale |                      8 |                             3 | 3. Collège                                    |                      36.8 |             0.2 |
+| statut_residence        | Qualitative nominale |                      2 |                             0 | Tompon-trano                                  |                      52.1 |             0.1 |
+| source_eau              | Qualitative nominale |                      9 |                            22 | 2. Borne fontaine (popim-panjakana/pompy eo a |                      81.1 |             0.2 |
+| source_electricite      | Qualitative nominale |                     21 |                           193 | 1. Jirama                                     |                      63.0 |             0.2 |
+| energie_cuisine         | Qualitative nominale |                     15 |                           190 | 2. Charbon                                    |                      65.4 |             0.2 |
+| type_toilette           | Qualitative nominale |                      5 |                             0 | Toilettes à fosse traditionnelle (latrines)   |                      49.2 |             0.3 |
+| activite_famille        | Qualitative nominale |                     59 |                           132 | 1. Agricole                                   |                      12.7 |            55.2 |
+| transport_travail       | Qualitative nominale |                     26 |                            88 | Tongotra                                      |                      80.4 |             0.5 |
+| revenu                  | Qualitative ordinale |                     24 |                            97 | 100 000Ar- 200 000Ar                          |                      31.8 |             1.1 |
+| epargne                 | Qualitative nominale |                      2 |                             0 | Tsia                                          |                      73.5 |             0.2 |
+| dettes                  | Qualitative nominale |                      2 |                             0 | Tsia                                          |                      85.5 |             0.2 |
+| effort_physique         | Qualitative ordinale |                      6 |                             1 | 1. Oui, toujours                              |                      52.0 |             0.4 |
+| duree_effort            | Qualitative ordinale |                      4 |                             0 | Plus de 5 heures                              |                      39.5 |             0.4 |
+| pb_sante_travail        | Qualitative ordinale |                      7 |                             3 | 2. Oui, parfois                               |                      43.2 |             0.3 |
+| arret_maladie           | Qualitative ordinale |                      5 |                             4 | 2. Oui, une ou deux fois                      |                      54.6 |             0.3 |
+| impact_travail_sante    | Qualitative ordinale |                      4 |                             0 | Oui, mais de manière modérée                  |                      41.6 |             0.3 |
+| repos_recent            | Qualitative ordinale |                      3 |                             0 | Oui, plusieurs fois                           |                      38.9 |             0.3 |
+| couverture              | Qualitative nominale |                      2 |                             0 | Non                                           |                      97.2 |             0.4 |
+| mode_affiliation        | Qualitative nominale |                      7 |                             3 | 1. Assurance maladie                          |                       1.0 |            97.5 |
+| type_couverture         | Qualitative nominale |                     13 |                             1 | AUTRES (à préciser)                           |                       1.2 |            97.5 |
+| ancienne_couverture     | Qualitative nominale |                      2 |                             0 | Non                                           |                      96.2 |             3.0 |
+| interet_couverture      | Qualitative ordinale |                      7 |                             3 | 4. Tout à fait                                |                      46.1 |             0.3 |
+| maladie_chronique       | Qualitative nominale |                      3 |                             1 | Non                                           |                      89.8 |             0.3 |
+| chronique_categorie     | Qualitative nominale |                     13 |                            15 | Autre (précisez)                              |                       4.4 |            90.1 |
+| traitement_regulier     | Qualitative ordinale |                      3 |                             0 | 3. Non, pas de traitement                     |                       6.5 |            90.1 |
+| freq_consult_chronique  | Qualitative ordinale |                      4 |                             0 | 1. Une fois par mois                          |                       0.6 |            98.4 |
+| lunettes                | Qualitative nominale |                      2 |                             0 | Tsia                                          |                      93.5 |             0.3 |
+| valeur_lunettes         | Qualitative ordinale |                      4 |                             0 | Latsaky ny 100 000 MGA                        |                       3.4 |            93.9 |
+| dentiste                | Qualitative ordinale |                      3 |                             0 | Eny, indraindray                              |                      50.1 |             0.3 |
+| freq_dentiste           | Qualitative ordinale |                      4 |                             0 | Tsy mandeha matetika                          |                      21.5 |            44.6 |
+| renoncement_soins       | Qualitative nominale |                      4 |                             2 | Oui                                           |                      49.3 |             1.9 |
+| douleur                 | Qualitative ordinale |                      5 |                             3 | 2. Douloureux                                 |                      43.5 |             5.4 |
+| type_recours            | Qualitative nominale |                     47 |                           222 | 1. Automédication (nividy fanafody, nanao dok |                      30.8 |             5.4 |
+| motif_recours           | Qualitative nominale |                    259 |                          1588 | Habitudes/affinités (fahazarana)              |                      20.0 |             5.8 |
+| satisfaction            | Qualitative ordinale |                      5 |                             1 | 4. Tout à fait satisfait                      |                      41.9 |             5.7 |
+| autre_recours_souhaite  | Qualitative nominale |                     42 |                            82 | 6. Hôpital public                             |                       1.7 |            88.7 |
+| benefice_autre_recours  | Qualitative nominale |                    134 |                           747 | Habitudes/affinités (fahazarana)              |                      22.2 |            20.9 |
+| impact_autre            | Qualitative nominale |                     11 |                            18 | 1. organisation (teo amin'ny fandaminana asa) |                      55.1 |             8.2 |
+| impact_maladie_activite | Qualitative ordinale |                      4 |                             1 | 2. Affecté (nisy fiantraikany ihany)          |                      53.7 |             5.6 |
+| recuperation_activite   | Qualitative nominale |                     14 |                            32 | 2. Rattrapage après guérison                  |                      34.7 |             6.8 |
+
+nb_maladies_graves : moyenne 2.25, variance 190.1, variance / moyenne 84.5
+
+## Fichiers produits
+
+- partie1_donnees\1.0_presentation\resultats\figures\distribution_age.png
+- partie1_donnees\1.0_presentation\resultats\figures\distribution_nb_maladies_graves.png
+- partie1_donnees\1.0_presentation\resultats\figures\manquants_par_variable.png
+- partie1_donnees\1.0_presentation\resultats\figures\variables_qualitatives_principales.png
+- partie1_donnees\1.0_presentation\resultats\figures\variables_quantitatives.png
+- partie1_donnees\1.0_presentation\resultats\journal.txt
+- partie1_donnees\1.0_presentation\resultats\tables\dictionnaire_variables.csv
+- partie1_donnees\1.0_presentation\resultats\tables\distribution_nb_maladies_graves.csv
+- partie1_donnees\1.0_presentation\resultats\tables\frequences_qualitatives.csv
+- partie1_donnees\1.0_presentation\resultats\tables\quantitatives_saisies_en_texte.csv
+- partie1_donnees\1.0_presentation\resultats\tables\resume_qualitatives.csv
+- partie1_donnees\1.0_presentation\resultats\tables\stats_quantitatives.csv
+- partie1_donnees\1.0_presentation\resultats\tables\tableau_recapitulatif.csv
+- partie1_donnees\1.0_presentation\resultats\tables\variables_cibles.csv
+- partie1_donnees\1.0_presentation\resultats\tables\variables_par_bloc.csv
+- partie1_donnees\1.0_presentation\resultats\tables\variables_par_nature.csv

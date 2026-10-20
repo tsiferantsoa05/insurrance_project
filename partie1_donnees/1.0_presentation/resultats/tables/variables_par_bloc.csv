@@ -1,0 +1,12 @@
+﻿bloc,nb_variables,variables
+Identifiant,1,id
+Démographie,6,"sexe, age, fokotany, lien_chef_menage, statut_matrimonial, niveau_etude"
+Activité professionnelle,9,"statut_pro, secteur, activite_famille, anciennete_emploi, distance_travail, transport_travail, heures_jour, jours_semaine, nb_employes"
+Ménage et logement,8,"taille_menage, nb_actifs_menage, activite_conjoint, statut_residence, source_eau, source_electricite, energie_cuisine, type_toilette"
+Revenus et budget,6,"revenu, budget_alim, budget_sante, budget_elec, epargne, dettes"
+Conditions de travail,6,"effort_physique, duree_effort, pb_sante_travail, arret_maladie, impact_travail_sante, repos_recent"
+Couverture maladie,6,"couverture, mode_affiliation, type_couverture, ancienne_couverture, interet_couverture, prime_souhaitee"
+État de santé,12,"maladie_chronique, chronique_categorie, chronique_detail, traitement_regulier, freq_consult_chronique, depense_medic_chronique, lunettes, valeur_lunettes, dentiste, freq_dentiste, nb_maladies_graves, renoncement_soins"
+Dernier épisode de maladie,10,"date_derniere_maladie, type_maladie, douleur, jours_arret, type_recours, motif_recours, distance_soins, satisfaction, autre_recours_souhaite, benefice_autre_recours"
+Coûts du dernier épisode,6,"cout_consultation, cout_hospitalisation, cout_medicaments, cout_deplacement, cout_alimentation, cout_autres"
+Impact sur l'activité,3,"impact_autre, impact_maladie_activite, recuperation_activite"

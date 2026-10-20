@@ -1,0 +1,4 @@
+﻿analyse,variable_cible,role,observations_disponibles
+Segmentation (K-means),aucune (apprentissage non supervisé),"Les assurés sont regroupés selon leur profil (démographie, situation socio-économique, conditions de travail, état de santé). Le segment obtenu devient la variable cible de l'arbre CART (étape 2.2).",4076
+Fréquence des sinistres (GLM),nb_maladies_graves,N_i = nombre de maladies graves déclarées sur 12 mois (comptage).,4047
+Sévérité des sinistres (GLM),cout_total = somme des coûts G.1 à G.6,"S_i = coût du dernier épisode de maladie (consultation, hospitalisation, médicaments, déplacement, alimentation, autres), en Ariary. Construit à l'étape 1.1 après conversion du texte libre.",3871

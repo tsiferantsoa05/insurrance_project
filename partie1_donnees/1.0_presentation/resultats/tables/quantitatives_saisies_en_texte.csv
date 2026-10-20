@@ -1,0 +1,15 @@
+﻿variable,renseignees,nombres_purs,pct_nombres_purs,exemples_non_numeriques
+anciennete_emploi,4061,2986,73.5286875153903,2ans | 5ans | 10ans | 20ans
+distance_travail,4046,2175,53.75679683638162,1km | 2km | O | 3km
+heures_jour,4065,3305,81.30381303813039,8h | 10h | 6h | Arakaraka
+jours_semaine,4064,3287,80.88090551181102,6j | 6/7 | 7/7 | 7j
+nb_employes,3401,2716,79.85886503969421,O | Tsy mampiasa | Kifanomba | Izy roa ihany
+depense_medic_chronique,53,46,86.79245283018868,tsy nisy | Tsy tadidiny koa fa efa taloha izy no azon'izany aretina izany | 20 600 | 60000 isambolana
+jours_arret,3907,2845,72.81801894036344,Herinandro | 2j | 3j | Niasa hiany
+distance_soins,3884,2600,66.94129763130793,O | 1km | 2km | 3km
+cout_consultation,3818,3185,83.42063907805134,O | Tsy nisy | 20 000 | 00 satria tsy namonjy dokotera
+cout_hospitalisation,3778,3122,82.6363155108523,O | Tsy nisy | P | 5000 par jours
+cout_medicaments,3841,3600,93.72559229367351,O | Tsy nisy | 20 000 | Tsy tadidy
+cout_deplacement,3806,3247,85.31266421439831,O | Tsy nisy | 10 000 | 50 000
+cout_alimentation,3782,3181,84.10893707033316,O | Ts tadidy | 10 000 | 80000ar
+cout_autres,3760,3085,82.04787234042553,O | Tsy nisy | 10000(radio) | 5000(niotra)

@@ -1,0 +1,14 @@
+﻿caracteristique,valeur
+Nombre d'observations (individus),4076
+Nombre de variables,73
+dont identifiant,1
+dont quantitatives,22
+dont qualitatives,47
+dont texte libre,3
+Variables stockées en nombre dans Excel,9
+Variables quantitatives saisies en texte,14
+Cellules manquantes (% du total),15.7
+Variables avec plus de 50 % de manquants,10
+Variables sans aucun manquant,1
+Lignes en double (hors identifiant),2
+Identifiant unique,oui

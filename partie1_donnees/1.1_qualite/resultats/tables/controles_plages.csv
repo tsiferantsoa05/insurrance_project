@@ -1,0 +1,14 @@
+﻿variable,regle,valeurs_concernees,exemples
+age,Âge hors de 15–100 ans (enquête auprès d'actifs),4,"3, 5, 107, 112"
+taille_menage,Ménage de moins d'une personne,5,"-6, 0"
+nb_actifs_menage,Plus d'actifs que de membres du ménage,12,"2, 4, 5, 6, 7"
+budget_alim,Part de budget > 100 % (montant saisi au lieu d'un %),12,"600, 2000, 5000, 40000, 50000, 60000, 70000, 100000"
+budget_sante,Part de budget > 100 % (montant saisi au lieu d'un %),11,"5000, 10000, 20000, 50000, 70000"
+budget_elec,Part de budget > 100 % (montant saisi au lieu d'un %),9,"3000, 5000, 10000, 15000, 17000"
+prime_souhaitee,Prime négative,3,-5000
+prime_souhaitee,Prime entre 1 et 99 Ar (unité ambiguë : milliers d'Ariary ?),18,"1, 4, 5, 8, 10, 20, 30, 40"
+nb_maladies_graves,Nombre de maladies négatif,1,-1
+heures_jour,Heures par jour > 24 ou nulles,9,"0, 406"
+jours_semaine,Jours par semaine > 7 ou nuls,13,"0, 8, 9, 10, 13, 13.5, 67"
+anciennete_emploi,Ancienneté supérieure à (âge − 5) ans,14,"15, 17, 20, 23, 25, 30, 40, 2010"
+jours_arret,Arrêt de travail de plus d'un an pour un épisode,2,"730, 3650"

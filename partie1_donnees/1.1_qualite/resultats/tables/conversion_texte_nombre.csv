@@ -1,0 +1,14 @@
+﻿variable,numerique,zero_code,zero_texte,texte_nombre,fourchette,calcul,correction_manuelle,inconnu,manquant
+anciennete_emploi,2986,1,0,968,7,14,0,85,15
+distance_travail,1667,672,77,1199,181,0,0,250,30
+heures_jour,3305,0,4,586,64,0,0,106,11
+jours_semaine,3287,2,4,709,12,0,0,50,12
+nb_employes,2716,590,57,24,6,0,0,8,675
+jours_arret,2368,528,172,814,8,5,0,12,169
+distance_soins,1460,1479,16,896,19,0,0,14,192
+cout_consultation,945,2826,6,30,1,2,0,8,258
+cout_hospitalisation,195,3569,7,6,0,0,0,1,298
+cout_medicaments,2845,861,46,69,4,3,2,11,235
+cout_deplacement,511,3271,7,13,0,2,0,2,270
+cout_alimentation,412,3236,35,16,2,2,1,78,294
+cout_autres,171,3558,5,17,0,5,1,3,316

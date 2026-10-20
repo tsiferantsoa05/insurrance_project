@@ -1,0 +1,84 @@
+# Étape 1.2 — Valeurs aberrantes
+Entrée : partie1_donnees\1.1_qualite\resultats\donnees_qualite.csv — 4074 individus
+
+## Détection : méthode IQR et règle des 3 écarts-types
+
+|                       |        n |       Q1 |        Q3 |   borne_sup_iqr |   hors_iqr |   pct_hors_iqr |   moyenne |   ecart_type |   borne_sup_3s |   hors_3s |   pct_hors_3s |        P99 |          max |
+|:----------------------|---------:|---------:|----------:|----------------:|-----------:|---------------:|----------:|-------------:|---------------:|----------:|--------------:|-----------:|-------------:|
+| age                   | 4,074.00 |    28.00 |     46.00 |           73.00 |       2.00 |           0.05 |     37.77 |        11.35 |          71.81 |      3.00 |          0.07 |      59.00 |        85.00 |
+| taille_menage         | 4,074.00 |     3.00 |      5.00 |            8.00 |      96.00 |           2.36 |      4.48 |         1.88 |          10.11 |     27.00 |          0.66 |      10.00 |        30.00 |
+| nb_actifs_menage      | 4,074.00 |     1.00 |      2.00 |            3.50 |     238.00 |           5.84 |      1.88 |         0.94 |           4.69 |     73.00 |          1.79 |       5.00 |         7.00 |
+| budget_alim           | 4,074.00 |    48.00 |     70.00 |          103.00 |     190.00 |           4.66 |     54.02 |        21.19 |         117.59 |      0.00 |          0.00 |     100.00 |       100.00 |
+| budget_sante          | 4,074.00 |     0.00 |     10.00 |           25.00 |     101.00 |           2.48 |      7.97 |         8.05 |          32.13 |     28.00 |          0.69 |      30.00 |       100.00 |
+| budget_elec           | 4,074.00 |     1.00 |     10.00 |           23.50 |      42.00 |           1.03 |      6.48 |         6.06 |          24.66 |     40.00 |          0.98 |      24.00 |       100.00 |
+| anciennete_emploi     | 4,074.00 |     5.00 |     19.00 |           40.00 |       8.00 |           0.20 |     11.93 |         9.20 |          39.53 |     21.00 |          0.52 |      37.00 |        50.00 |
+| distance_travail      | 4,074.00 |     0.30 |      2.00 |            4.55 |     329.00 |           8.08 |      1.93 |        12.32 |          38.89 |      5.00 |          0.12 |      10.00 |       510.00 |
+| heures_jour           | 4,074.00 |     6.00 |      8.00 |           11.00 |     357.00 |           8.76 |      7.61 |         3.16 |          17.10 |     71.00 |          1.74 |      24.00 |        24.00 |
+| jours_semaine         | 4,074.00 |     6.00 |      6.00 |            6.00 |   1,736.00 |          42.61 |      5.82 |         0.92 |           8.59 |    116.00 |          2.85 |       7.00 |         7.00 |
+| nb_maladies_graves    | 4,046.00 |     1.00 |      2.00 |            3.50 |     363.00 |           8.97 |      2.25 |        13.79 |          43.61 |     14.00 |          0.35 |      10.00 |       365.00 |
+| cout_total            | 3,869.00 | 1,200.00 | 23,000.00 |       55,700.00 |     298.00 |           7.70 | 32,514.29 |   194,164.76 |     615,008.58 |     25.00 |          0.65 | 500,000.00 | 9,500,000.00 |
+| prime_souhaitee       | 3,917.00 | 2,000.00 | 10,000.00 |       22,000.00 |     212.00 |           5.41 |  8,358.55 |     8,890.90 |      35,031.25 |     26.00 |          0.66 |  30,000.00 |   200,000.00 |
+| jours_arret           | 3,893.00 |     1.00 |      5.00 |           11.00 |     277.00 |           7.12 |      5.18 |        14.77 |          49.48 |     49.00 |          1.26 |      60.00 |       365.00 |
+| distance_soins        | 3,870.00 |     0.00 |      2.00 |            5.00 |     161.00 |           4.16 |      1.37 |         3.80 |          12.77 |     15.00 |          0.39 |       9.00 |        92.00 |
+| log10(cout_total > 0) | 3,054.00 |     3.70 |      4.45 |            5.57 |      80.00 |           2.62 |      4.08 |         0.61 |           5.91 |     23.00 |          0.75 |       5.72 |         6.98 |
+
+log10(coût > 0) : bornes IQR [377 ; 371,057] Ar, bornes 3σ [177 ; 815,282] Ar
+
+## Stratégie de traitement par variable
+
+| variable           | role        |   hors_iqr |   hors_3s | traitement                           |      seuil |   valeurs_modifiees |   pct_modifiees |
+|:-------------------|:------------|-----------:|----------:|:-------------------------------------|-----------:|--------------------:|----------------:|
+| age                | explicative |          2 |         3 | Conservation                         |     nan    |                   0 |            0.00 |
+| taille_menage      | explicative |         96 |        27 | Plafonnement au P99                  |      10.00 |                  27 |            0.66 |
+| nb_actifs_menage   | explicative |        238 |        73 | Conservation                         |     nan    |                   0 |            0.00 |
+| budget_alim        | explicative |        190 |         0 | Conservation                         |     nan    |                   0 |            0.00 |
+| budget_sante       | explicative |        101 |        28 | Plafonnement au P99                  |      30.00 |                  28 |            0.69 |
+| budget_elec        | explicative |         42 |        40 | Plafonnement au P99                  |      24.00 |                  40 |            0.98 |
+| anciennete_emploi  | explicative |          8 |        21 | Conservation                         |     nan    |                   0 |            0.00 |
+| distance_travail   | explicative |        329 |         5 | Plafonnement au P99                  |      10.00 |                  34 |            0.83 |
+| heures_jour        | explicative |        357 |        71 | Plafonnement à 16 h                  |      16.00 |                  71 |            1.74 |
+| jours_semaine      | explicative |       1736 |       116 | Conservation                         |     nan    |                   0 |            0.00 |
+| nb_maladies_graves | cible       |        363 |        14 | Plafonnement au P99                  |      10.00 |                  39 |            0.96 |
+| cout_total         | cible       |        298 |        25 | Écrêtement au P99 des coûts positifs | 530,000.00 |                  30 |            0.78 |
+| prime_souhaitee    | descriptive |        212 |        26 | Plafonnement au P99                  |  30,000.00 |                  27 |            0.69 |
+| jours_arret        | descriptive |        277 |        49 | Plafonnement au P99                  |      60.00 |                  29 |            0.74 |
+| distance_soins     | descriptive |        161 |        15 | Plafonnement au P99                  |       9.00 |                  25 |            0.65 |
+
+
+## Effet sur les variables cibles
+
+Nombre de maladies graves :
+|                    |   avant |   apres |
+|:-------------------|--------:|--------:|
+| moyenne            |   2.250 |   1.605 |
+| variance           | 190.102 |   2.532 |
+| variance / moyenne |  84.476 |   1.577 |
+| maximum            | 365.000 |  10.000 |
+
+Coût total (individus avec coût > 0), seuil d'écrêtement = 530,000 Ar :
+|                               |          avant |         apres |
+|:------------------------------|---------------:|--------------:|
+| coûts positifs                |       3,054.00 |      3,054.00 |
+| moyenne                       |      41,191.15 |     32,683.29 |
+| médiane                       |      13,004.50 |     13,004.50 |
+| coefficient de variation      |           5.29 |          2.28 |
+| maximum                       |   9,500,000.00 |    530,000.00 |
+| somme                         | 125,797,773.00 | 99,814,773.00 |
+| part de la charge écrêtée (%) |         nan    |         20.65 |
+
+Jeu traité : 4074 × 61 -> partie1_donnees\1.2_aberrantes\resultats\donnees_sans_aberrantes.csv
+
+## Fichiers produits
+
+- partie1_donnees\1.2_aberrantes\resultats\donnees_sans_aberrantes.csv
+- partie1_donnees\1.2_aberrantes\resultats\donnees_sans_aberrantes.xlsx
+- partie1_donnees\1.2_aberrantes\resultats\figures\avant_apres_traitement.png
+- partie1_donnees\1.2_aberrantes\resultats\figures\boites_avant_traitement.png
+- partie1_donnees\1.2_aberrantes\resultats\figures\histogrammes_avant_traitement.png
+- partie1_donnees\1.2_aberrantes\resultats\figures\seuils_cout.png
+- partie1_donnees\1.2_aberrantes\resultats\figures\seuils_frequence.png
+- partie1_donnees\1.2_aberrantes\resultats\journal.txt
+- partie1_donnees\1.2_aberrantes\resultats\tables\detection_aberrantes.csv
+- partie1_donnees\1.2_aberrantes\resultats\tables\effet_cout.csv
+- partie1_donnees\1.2_aberrantes\resultats\tables\effet_frequence.csv
+- partie1_donnees\1.2_aberrantes\resultats\tables\traitement_aberrantes.csv

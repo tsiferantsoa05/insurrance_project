@@ -1,0 +1,43 @@
+﻿variable,groupe,modalites_regroupees,effectif,pct
+secteur,"Agriculture, élevage","Agriculture, Élevage, pêche",1419,34.83063328424153
+secteur,Commerce,"Commerce, Distribution",955,23.4413352970054
+secteur,"Artisanat, industrie, BTP","Artisanat, Agroalimentaire, Matériaux de construction, Textile, Bâtiment, Électronique, Construction mécanique, Métallurgie, Industrie chimique, Énergie, Entretien, réparation",287,7.0446735395189
+secteur,"Services, transport","Transport, Hôtellerie, restauration, Services, Informatique, Communication, médias, Banque, finance, Loisirs, tourisme",364,8.934707903780069
+secteur,"Éducation, santé","Éducation, Santé",252,6.185567010309279
+secteur,Autre,Autre,797,19.563082965144822
+lien_chef_menage,Chef de ménage,Chef de ménage,2180,53.51006381934217
+lien_chef_menage,Conjoint(e),Conjoint(e),1413,34.683357879234165
+lien_chef_menage,Autre membre,"Enfant, Parent, Frère/sœur",481,11.806578301423661
+statut_pro,Indépendant,Indépendant,3426,84.09425625920471
+statut_pro,Salarié,"Salarié, Salarié et indépendant",648,15.905743740795286
+statut_matrimonial,Marié(e),Marié(e),2863,70.27491408934708
+statut_matrimonial,Célibataire,Célibataire,763,18.72852233676976
+statut_matrimonial,"Veuf(ve), divorcé(e)","Veuf(ve), Divorcé(e)",448,10.996563573883162
+source_eau,Borne fontaine,Borne fontaine,3329,81.71330387825233
+source_eau,Branchement à domicile,Branchement à domicile,118,2.896416298478154
+source_eau,Puits ou autre,"Puits, Autre",627,15.390279823269514
+source_electricite,Réseau JIRAMA,Réseau JIRAMA,2656,65.19391261659302
+source_electricite,Solaire,Solaire,764,18.75306823760432
+source_electricite,"Pétrole, bougie, autre","Pétrole, Bougie, Autre",654,16.05301914580265
+energie_cuisine,"Charbon, gaz, électricité","Charbon, Gaz, Électricité",2789,68.4585174275896
+energie_cuisine,Bois,Bois,1285,31.541482572410406
+type_toilette,Latrines,Latrines,2016,49.48453608247423
+type_toilette,Chasse d'eau,Chasse d'eau,251,6.161021109474718
+type_toilette,Sèches ou aucune,"Toilettes sèches, Plein air, Autre",1807,44.354442808051054
+transport_travail,À pied,À pied,3375,82.84241531664213
+transport_travail,Travail à domicile,Travail à domicile,408,10.014727540500736
+transport_travail,Véhicule,"Moto, Transport en commun, Vélo, Voiture, Taxi, taxi-moto, Autre",291,7.142857142857142
+niveau_etude,Primaire ou moins,"Analphabète, Primaire",875,21.477663230240548
+niveau_etude,Collège,Collège,1507,36.99067255768287
+niveau_etude,Lycée,Lycée,1254,30.78055964653903
+niveau_etude,Université,Université,438,10.751104565537556
+revenu,<100k,<100k,884,21.698576337751597
+revenu,100-200k,100-200k,1374,33.726067746686304
+revenu,200-400k,"200-300k, 300-400k",1175,28.841433480608735
+revenu,>400k,"400-500k, 500k-1M, >1M",641,15.733922434953362
+effort_physique,Parfois ou moins,"Jamais, Rarement, Parfois",603,14.80117820324006
+effort_physique,Souvent,Souvent,1338,32.84241531664212
+effort_physique,Toujours,Toujours,2133,52.356406480117826
+interet_couverture,Non,"Pas du tout, Plutôt non",432,10.603829160530191
+interet_couverture,Plutôt oui,Plutôt oui,1753,43.028964162984785
+interet_couverture,Tout à fait,Tout à fait,1889,46.367206676485026

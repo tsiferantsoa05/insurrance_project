@@ -1,0 +1,167 @@
+﻿variable,reponse_brute,modalite,effectif
+sexe,Féminin,Femme,2337
+sexe,Masculin,Homme,1729
+lien_chef_menage,1. Chef de ménage (CM)(loham-pianakaviana),Chef de ménage,2161
+lien_chef_menage,2. Epouse du CM(vadiny),Conjoint(e),1413
+lien_chef_menage,3. Enfant du CM(zanany),Enfant,386
+lien_chef_menage,4. Parent du CM(ray amandreniny),Parent,41
+lien_chef_menage,5. Frère ou sœur(rahalahy/rahavavy),Frère/sœur,54
+statut_pro,1. Salarié,Salarié,612
+statut_pro,2. indépendant,Indépendant,3418
+statut_pro,3. les deux,Salarié et indépendant,36
+statut_matrimonial,Celibataire,Célibataire,763
+statut_matrimonial,Divorcé,Divorcé(e),206
+statut_matrimonial,Marié,Marié(e),2854
+statut_matrimonial,Veuf(ve),Veuf(ve),242
+secteur,1. Agricole,Agriculture,1257
+secteur,10. Education,Éducation,201
+secteur,11. Santé,Santé,51
+secteur,12. Textile,Textile,13
+secteur,13. Bancaire et financier,"Banque, finance",16
+secteur,14. Energie,Énergie,1
+secteur,15. Communication et médias,"Communication, médias",13
+secteur,16. Distribution,Distribution,5
+secteur,17. Constructions mécaniques,Construction mécanique,7
+secteur,18. industries chimiques,Industrie chimique,1
+secteur,19. loisirs et tourisme,"Loisirs, tourisme",5
+secteur,2. Artisans,Artisanat,110
+secteur,21. services,Services,143
+secteur,22. bâtiment,Bâtiment,52
+secteur,23. Electronique,Électronique,17
+secteur,24. Informatique,Informatique,17
+secteur,25. Métallurgique,Métallurgie,4
+secteur,26. Autre,Autre,797
+secteur,"3. Elevage, pêche","Élevage, pêche",148
+secteur,"4. Agroalimentaire, boisson",Agroalimentaire,27
+secteur,5. Commerce,Commerce,950
+secteur,"6. Entretien, réparation","Entretien, réparation",35
+secteur,7. Matériaux de construction,Matériaux de construction,20
+secteur,"8. Hôtel, restaurant","Hôtellerie, restauration",42
+secteur,9. Transport,Transport,128
+activite_conjoint,1. Travailleur indépendant (miasa tena),Indépendant,1400
+activite_conjoint,2. Salarié,Salarié,380
+activite_conjoint,3. Retraité,Retraité,11
+activite_conjoint,4. Sans activité (tsy miasa),Sans activité,131
+activite_conjoint,5. Meme travail (mitovy asa aminao),Même activité,783
+activite_conjoint,6. Autre,Autre,134
+niveau_etude,1. Université,Université,438
+niveau_etude,2. Lycée,Lycée,1254
+niveau_etude,3. Collège,Collège,1501
+niveau_etude,4. Primaire,Primaire,778
+niveau_etude,5. Analphabète,Analphabète,97
+statut_residence,Manofa trano,Locataire,1947
+statut_residence,Tompon-trano,Propriétaire,2124
+source_eau,1. Branchement à la maison (pompy ao an-trano),Branchement à domicile,118
+source_eau,2. Borne fontaine (popim-panjakana/pompy eo an-tokontany),Borne fontaine,3321
+source_eau,3. Puits (vovo/lava-drano),Puits,364
+source_eau,4. Autre,Autre,263
+source_electricite,1. Jirama,Réseau JIRAMA,2649
+source_electricite,2. Solaire,Solaire,764
+source_electricite,3. Bougie,Bougie,110
+source_electricite,4. Autre,Autre,132
+source_electricite,Petrole (solotany),Pétrole,412
+energie_cuisine,1. Hazo kitay,Bois,1285
+energie_cuisine,2. Charbon,Charbon,2763
+energie_cuisine,2. Charbon 3. Gaz,Charbon,8
+energie_cuisine,3. Gaz 2. Charbon,Charbon,3
+energie_cuisine,4. Electricité,Électricité,7
+energie_cuisine,4. Electricité 3. Gaz,Gaz,1
+type_toilette,Autre (précisez),Autre,3
+type_toilette,Eny ankalamanjana,Plein air,22
+type_toilette,Toilettes avec chasse d'eau (modernes),Chasse d'eau,251
+type_toilette,Toilettes sèches (sans eau),Toilettes sèches,1782
+type_toilette,Toilettes à fosse traditionnelle (latrines),Latrines,2007
+transport_travail,Autre (à préciser),Autre,51
+transport_travail,Bicyclette,Vélo,59
+transport_travail,Moto,Moto,83
+transport_travail,Pas de déplacement (travail à domicile),Travail à domicile,408
+transport_travail,Taxi/taximoto,Moto,9
+transport_travail,Tongotra,À pied,3358
+transport_travail,"Transport en commun (Bus, minibus)",Transport en commun,77
+transport_travail,Voiture personnelle,Voiture,12
+revenu,100 000Ar- 200 000Ar,100-200k,1333
+revenu,200 000Ar-300 000Ar,200-300k,766
+revenu,300 000Ar-400 000Ar,300-400k,409
+revenu,400 000 Ar - 500 000Ar,400-500k,348
+revenu,500 000Ar- 1 000 000 Ar,500k-1M,242
+revenu,moins de 100 000Ar,<100k,884
+revenu,plus de 1 000 000Ar,>1M,51
+epargne,Eny,Oui,1073
+epargne,Tsia,Non,2995
+dettes,Eny,Oui,584
+dettes,Tsia,Non,3484
+lunettes,Eny,Oui,249
+lunettes,Tsia,Non,3813
+effort_physique,"1. Oui, toujours",Toujours,2120
+effort_physique,"2. Oui, souvent",Souvent,1338
+effort_physique,3. Parfois,Parfois,371
+effort_physique,4. Rarement,Rarement,148
+effort_physique,5. Jamais,Jamais,84
+duree_effort,1 à 3 heures,1-3 h,1026
+duree_effort,3 à 5 heures,3-5 h,856
+duree_effort,Moins de 1 heure,<1 h,567
+duree_effort,Plus de 5 heures,>5 h,1611
+pb_sante_travail,"1. Oui, régulièrement",Régulièrement,1524
+pb_sante_travail,"2. Oui, parfois",Parfois,1761
+pb_sante_travail,"3. Non, rarement",Rarement,466
+pb_sante_travail,"4. Non, jamais",Jamais,313
+arret_maladie,"1. Oui, plusieurs fois",Plusieurs fois,987
+arret_maladie,"2. Oui, une ou deux fois",Une ou deux fois,2226
+arret_maladie,"3. Non, jamais",Jamais,850
+impact_travail_sante,"Non, pas du tout",Aucun,659
+impact_travail_sante,"Non, pas vraiment",Faible,591
+impact_travail_sante,"Oui, de manière importante",Important,1118
+impact_travail_sante,"Oui, mais de manière modérée",Modéré,1696
+repos_recent,"Non, jamais",Jamais,915
+repos_recent,"Oui, plusieurs fois",Plusieurs fois,1584
+repos_recent,"Oui, une fois",Une fois,1565
+couverture,Non,Non,3960
+couverture,Oui,Oui,101
+ancienne_couverture,Non,Non,3922
+ancienne_couverture,Oui,Oui,32
+interet_couverture,1. Pas du tout,Pas du tout,301
+interet_couverture,2. Plutôt non,Plutôt non,131
+interet_couverture,3. Plutôt oui,Plutôt oui,1753
+interet_couverture,4. Tout à fait,Tout à fait,1880
+maladie_chronique,Non,Non,3660
+maladie_chronique,Oui,Oui,403
+renoncement_soins,Non,Non,1986
+renoncement_soins,Oui,Oui,2012
+dentiste,"Eny, indraindray",Parfois,2044
+dentiste,"Eny, matetika",Souvent,219
+dentiste,Tsia,Jamais,1800
+douleur,1. Très douloureux,Très douloureux,1378
+douleur,2. Douloureux,Douloureux,1772
+douleur,3. Peu douloureux,Peu douloureux,430
+douleur,4. Pas douloureux,Pas douloureux,275
+type_recours,"1. Automédication (nividy fanafody, nanao dokotera tena)",Automédication,1360
+type_recours,10. Consultation à distance (niantso dokotera an-telefonina),Consultation à distance,15
+type_recours,11. Service medical interne,Service médical d'entreprise,3
+type_recours,12. CENTRE MEDICO-SOCIAL,Service médical d'entreprise,2
+type_recours,13. Ne rien faire,Aucun recours,136
+type_recours,14. Consultation à domicile (nisy dokotera nasaina nandalo tao an-trano),Consultation à domicile,26
+type_recours,2. Tradipraticien,Tradipraticien,336
+type_recours,3. Médecin libre,Médecin libre,297
+type_recours,4. Centre de santé de base Public (CSB Public),CSB public,748
+type_recours,5. Dispensaire privé,Dispensaire privé,76
+type_recours,6. Hôpital public,Hôpital public,416
+type_recours,7. Hôpital privé,Hôpital privé,163
+type_recours,8. OSTIE,Service médical d'entreprise,8
+type_recours,"9. ESIA 1. Automédication (nividy fanafody, nanao dokotera tena)",Automédication,2
+type_recours,Autre,Autre,266
+satisfaction,1. Pas du tout satisfait,Pas du tout satisfait,217
+satisfaction,2. Plutôt pas satisfait,Plutôt pas satisfait,261
+satisfaction,3. Plutôt satisfait,Plutôt satisfait,1658
+satisfaction,4. Tout à fait satisfait,Tout à fait satisfait,1708
+impact_autre,1. organisation (teo amin'ny fandaminana asa),Organisation du travail,2255
+impact_autre,2. perte d'emploi (very ilay asa),Perte d'emploi,345
+impact_autre,"3. Perte de client (very ny client, nihena ny client satria tsy teo ianao)",Perte de clients,590
+impact_autre,4. Autre,Autre,553
+impact_maladie_activite,1. Très affecté (nisy fiantraikany be),Très affecté,918
+impact_maladie_activite,2. Affecté (nisy fiantraikany ihany),Affecté,2188
+impact_maladie_activite,3. Pas du tout (tsy nisy fiantraikany),Pas affecté,740
+recuperation_activite,1. Travail plus dur,Travail plus dur,519
+recuperation_activite,2. Rattrapage après guérison,Rattrapage après guérison,1431
+recuperation_activite,3. Pas de récupération,Pas de récupération,1192
+recuperation_activite,4. Travail effectué par les autres,Travail fait par d'autres,432
+recuperation_activite,5. Autres,Autre,225

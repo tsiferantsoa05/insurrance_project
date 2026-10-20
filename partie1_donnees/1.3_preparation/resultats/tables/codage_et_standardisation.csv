@@ -1,0 +1,54 @@
+﻿colonne,source,encodage,detail,moyenne,ecart_type
+niveau_etude_code,niveau_etude,code ordinal,Analphabète=0 < Primaire=1 < Collège=2 < Lycée=3 < Université=4,2.284241531664212,0.97121662593628
+revenu_code,revenu,code ordinal,<100k=0 < 100-200k=1 < 200-300k=2 < 300-400k=3 < 400-500k=4 < 500k-1M=5 < >1M=6,1.728276877761414,1.5193242645449403
+effort_physique_code,effort_physique,code ordinal,Jamais=0 < Rarement=1 < Parfois=2 < Souvent=3 < Toujours=4,3.297987236131566,0.9255872229292847
+duree_effort_code,duree_effort,code ordinal,<1 h=0 < 1-3 h=1 < 3-5 h=2 < >5 h=3,1.8686794305351007,1.0909481060469612
+pb_sante_travail_code,pb_sante_travail,code ordinal,Jamais=0 < Rarement=1 < Parfois=2 < Régulièrement=3,2.106038291605302,0.8857392312469199
+arret_maladie_code,arret_maladie,code ordinal,Jamais=0 < Une ou deux fois=1 < Plusieurs fois=2,1.0336278841433482,0.6706544294485203
+impact_travail_sante_code,impact_travail_sante,code ordinal,Aucun=0 < Faible=1 < Modéré=2 < Important=3,1.8058419243986255,1.014308647769716
+repos_recent_code,repos_recent,code ordinal,Jamais=0 < Une fois=1 < Plusieurs fois=2,1.1666666666666667,0.766863008731904
+interet_couverture_code,interet_couverture,code ordinal,Pas du tout=0 < Plutôt non=1 < Plutôt oui=2 < Tout à fait=3,2.2837506136475207,0.843116499756048
+dentiste_code,dentiste,code ordinal,Jamais=0 < Parfois=1 < Souvent=2,0.6119293078055965,0.587352428878553
+femme,sexe,binaire 0/1,1 = Femme,0.5756013745704467,0.49425138559548737
+salarie,statut_pro,binaire 0/1,1 = Salarié,0.15905743740795286,0.3657296392325457
+proprietaire,statut_residence,binaire 0/1,1 = Propriétaire,0.5220913107511046,0.4995117355871613
+epargne_oui,epargne,binaire 0/1,1 = Oui,0.26337751595483555,0.44046543569762187
+dettes_oui,dettes,binaire 0/1,1 = Oui,0.14334806087383406,0.3504274451545507
+chronique_oui,maladie_chronique,binaire 0/1,1 = Oui,0.09891998036327933,0.29855454752558663
+lunettes_oui,lunettes,binaire 0/1,1 = Oui,0.06111929307805596,0.23954900352891195
+renoncement_oui,renoncement_soins,binaire 0/1,1 = Oui,0.5125184094256259,0.4998432648595482
+cuisine_bois,energie_cuisine,binaire 0/1,1 = Bois,0.31541482572410406,0.4646808726831105
+lien_chef_menage=Chef de ménage,lien_chef_menage,indicatrice (one-hot),1 = Chef de ménage,0.5351006381934217,0.4987664234874021
+lien_chef_menage=Conjoint(e),lien_chef_menage,indicatrice (one-hot),1 = Conjoint(e),0.34683357879234167,0.4759622331807832
+lien_chef_menage=Autre membre,lien_chef_menage,indicatrice (one-hot),1 = Autre membre,0.11806578301423662,0.3226859989145358
+statut_matrimonial=Marié(e),statut_matrimonial,indicatrice (one-hot),1 = Marié(e),0.7027491408934707,0.4570479032519016
+statut_matrimonial=Célibataire,statut_matrimonial,indicatrice (one-hot),1 = Célibataire,0.1872852233676976,0.39014031895692247
+"statut_matrimonial=Veuf(ve), divorcé(e)",statut_matrimonial,indicatrice (one-hot),"1 = Veuf(ve), divorcé(e)",0.10996563573883161,0.3128469189482073
+"secteur=Agriculture, élevage",secteur,indicatrice (one-hot),"1 = Agriculture, élevage",0.3483063328424153,0.4764336589120084
+secteur=Commerce,secteur,indicatrice (one-hot),1 = Commerce,0.234413352970054,0.4236316004730889
+"secteur=Artisanat, industrie, BTP",secteur,indicatrice (one-hot),"1 = Artisanat, industrie, BTP",0.070446735395189,0.25589840340914444
+"secteur=Services, transport",secteur,indicatrice (one-hot),"1 = Services, transport",0.08934707903780069,0.28524406830855165
+"secteur=Éducation, santé",secteur,indicatrice (one-hot),"1 = Éducation, santé",0.061855670103092786,0.24089322568140048
+secteur=Autre,secteur,indicatrice (one-hot),1 = Autre,0.1956308296514482,0.39668552802104373
+source_eau=Borne fontaine,source_eau,indicatrice (one-hot),1 = Borne fontaine,0.8171330387825233,0.3865574158033481
+source_eau=Branchement à domicile,source_eau,indicatrice (one-hot),1 = Branchement à domicile,0.028964162984781543,0.16770581459022987
+source_eau=Puits ou autre,source_eau,indicatrice (one-hot),1 = Puits ou autre,0.15390279823269515,0.36085554856319096
+source_electricite=Réseau JIRAMA,source_electricite,indicatrice (one-hot),1 = Réseau JIRAMA,0.6519391261659303,0.47635543655964874
+source_electricite=Solaire,source_electricite,indicatrice (one-hot),1 = Solaire,0.1875306823760432,0.3903369384821513
+"source_electricite=Pétrole, bougie, autre",source_electricite,indicatrice (one-hot),"1 = Pétrole, bougie, autre",0.16053019145802652,0.3670970567690183
+type_toilette=Latrines,type_toilette,indicatrice (one-hot),1 = Latrines,0.4948453608247423,0.49997342898895436
+type_toilette=Chasse d'eau,type_toilette,indicatrice (one-hot),1 = Chasse d'eau,0.06161021109474718,0.24044623719993596
+type_toilette=Sèches ou aucune,type_toilette,indicatrice (one-hot),1 = Sèches ou aucune,0.44354442808051053,0.4968025446787117
+transport_travail=À pied,transport_travail,indicatrice (one-hot),1 = À pied,0.8284241531664213,0.3770113733256851
+transport_travail=Travail à domicile,transport_travail,indicatrice (one-hot),1 = Travail à domicile,0.10014727540500737,0.3001962668554707
+transport_travail=Véhicule,transport_travail,indicatrice (one-hot),1 = Véhicule,0.07142857142857142,0.25753937681885636
+age,age,quantitative,,37.7653411880216,11.347067101481983
+taille_menage,taille_menage,quantitative,,4.4486990672557685,1.6711607136489024
+nb_actifs_menage,nb_actifs_menage,quantitative,,1.8750613647520864,0.9365493851235817
+budget_alim,budget_alim,quantitative,,54.01890034364261,21.186732868704944
+budget_sante,budget_sante,quantitative,,7.838978890525282,7.385459353060946
+budget_elec,budget_elec,quantitative,,6.4162984781541486,5.65086214224654
+anciennete_emploi,anciennete_emploi,quantitative,,11.930187367043038,9.198190554400712
+log_distance_travail,distance_travail,quantitative (log 1+x),,0.7458619304708438,0.584666016020603
+heures_jour,heures_jour,quantitative,,7.4750000000000005,2.5920001853253325
+jours_semaine,jours_semaine,quantitative,,5.8175012272950415,0.9239041940947913

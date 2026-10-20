@@ -1,0 +1,29 @@
+﻿classe_variable,source,classe,effectif,pct
+classe_age,age,18-24,532,13.058419243986254
+classe_age,age,25-34,1180,28.96416298478154
+classe_age,age,35-44,1094,26.853215513009328
+classe_age,age,45-54,879,21.575846833578794
+classe_age,age,55+,389,9.548355424644084
+classe_menage,taille_menage,1-2,383,9.401080019636721
+classe_menage,taille_menage,3-4,1830,44.91899852724595
+classe_menage,taille_menage,5-6,1454,35.689739813451155
+classe_menage,taille_menage,7+,407,9.990181639666176
+classe_heures,heures_jour,≤6 h,1575,38.65979381443299
+classe_heures,heures_jour,7-8 h,1556,38.19342169857634
+classe_heures,heures_jour,9-10 h,534,13.107511045655375
+classe_heures,heures_jour,>10 h,409,10.039273441335297
+classe_jours,jours_semaine,≤5 j,1006,24.693176239567993
+classe_jours,jours_semaine,6 j,2339,57.41286205203731
+classe_jours,jours_semaine,7 j,729,17.8939617083947
+classe_budget_sante,budget_sante,0 %,1143,28.055964653902798
+classe_budget_sante,budget_sante,1-9 %,778,19.09671084928817
+classe_budget_sante,budget_sante,10 %,1427,35.02700049091802
+classe_budget_sante,budget_sante,>10 %,726,17.820324005891017
+classe_anciennete,anciennete_emploi,<5 ans,996,24.447717231222384
+classe_anciennete,anciennete_emploi,5-9 ans,876,21.502209131075112
+classe_anciennete,anciennete_emploi,10-19 ans,1212,29.749631811487482
+classe_anciennete,anciennete_emploi,20 ans et +,990,24.30044182621502
+classe_distance,distance_travail,Domicile (0),748,18.36033382425135
+classe_distance,distance_travail,<1 km,694,17.034855179185076
+classe_distance,distance_travail,1-2 km,1813,44.50171821305842
+classe_distance,distance_travail,>2 km,819,20.103092783505154

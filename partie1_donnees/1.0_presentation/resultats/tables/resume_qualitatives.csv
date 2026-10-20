@@ -1,0 +1,48 @@
+﻿variable,nature,modalites_distinctes,cellules_reponses_multiples,modalite_principale,pct_modalite_principale,pct_manquants
+sexe,Qualitative nominale,4,4,Féminin,57.31108930323847,0.24533856722276742
+fokotany,Qualitative nominale,196,0,Ambohibary,12.463199214916585,0.12266928361138371
+lien_chef_menage,Qualitative nominale,8,14,1. Chef de ménage (CM)(loham-pianakaviana),52.82139352306182,0.5152109911678115
+statut_pro,Qualitative nominale,6,10,2. indépendant,83.68498527968596,0.24533856722276742
+statut_matrimonial,Qualitative nominale,5,1,Marié,69.99509322865555,0.2698724239450442
+secteur,Qualitative nominale,103,355,1. Agricole,24.77919528949951,0.39254170755642787
+activite_conjoint,Qualitative nominale,17,37,1. Travailleur indépendant (miasa tena),33.88125613346418,30.34838076545633
+niveau_etude,Qualitative ordinale,8,3,3. Collège,36.82531894013739,0.19627085377821393
+statut_residence,Qualitative nominale,2,0,Tompon-trano,52.1099116781158,0.12266928361138371
+source_eau,Qualitative nominale,9,22,2. Borne fontaine (popim-panjakana/pompy eo a,81.1089303238469,0.24533856722276742
+source_electricite,Qualitative nominale,21,193,1. Jirama,63.02747791952895,0.2208047105004907
+energie_cuisine,Qualitative nominale,15,190,2. Charbon,65.43179587831207,0.2208047105004907
+type_toilette,Qualitative nominale,5,0,Toilettes à fosse traditionnelle (latrines),49.23945044160942,0.2698724239450442
+activite_famille,Qualitative nominale,59,132,1. Agricole,12.659470068694798,55.20117762512267
+transport_travail,Qualitative nominale,26,88,Tongotra,80.42198233562316,0.46614327772325814
+revenu,Qualitative ordinale,24,97,100 000Ar- 200 000Ar,31.79587831207066,1.0549558390579
+epargne,Qualitative nominale,2,0,Tsia,73.47890088321884,0.19627085377821393
+dettes,Qualitative nominale,2,0,Tsia,85.47595682041216,0.19627085377821393
+effort_physique,Qualitative ordinale,6,1,"1. Oui, toujours",52.01177625122669,0.36800785083415116
+duree_effort,Qualitative ordinale,4,0,Plus de 5 heures,39.52404317958783,0.39254170755642787
+pb_sante_travail,Qualitative ordinale,7,3,"2. Oui, parfois",43.204121687929344,0.2944062806673209
+arret_maladie,Qualitative ordinale,5,4,"2. Oui, une ou deux fois",54.563297350343476,0.31894013738959764
+impact_travail_sante,Qualitative ordinale,4,0,"Oui, mais de manière modérée",41.60942100098136,0.2944062806673209
+repos_recent,Qualitative ordinale,3,0,"Oui, plusieurs fois",38.86162904808636,0.2944062806673209
+couverture,Qualitative nominale,2,0,Non,97.1540726202159,0.36800785083415116
+mode_affiliation,Qualitative nominale,7,3,1. Assurance maladie,0.956820412168793,97.52208047105006
+type_couverture,Qualitative nominale,13,1,AUTRES (à préciser),1.153091265947007,97.52208047105006
+ancienne_couverture,Qualitative nominale,2,0,Non,96.22178606476938,2.9931305201177625
+interet_couverture,Qualitative ordinale,7,3,4. Tout à fait,46.123650637880274,0.2698724239450442
+maladie_chronique,Qualitative nominale,3,1,Non,89.7693817468106,0.31894013738959764
+chronique_categorie,Qualitative nominale,13,15,Autre (précisez),4.416094210009813,90.0883218842002
+traitement_regulier,Qualitative ordinale,3,0,"3. Non, pas de traitement",6.5014720314033365,90.11285574092247
+freq_consult_chronique,Qualitative ordinale,4,0,1. Une fois par mois,0.6133464180569186,98.40529931305201
+lunettes,Qualitative nominale,2,0,Tsia,93.54759568204122,0.34347399411187435
+valeur_lunettes,Qualitative ordinale,4,0,Latsaky ny 100 000 MGA,3.434739941118744,93.91560353287537
+dentiste,Qualitative ordinale,3,0,"Eny, indraindray",50.14720314033366,0.31894013738959764
+freq_dentiste,Qualitative ordinale,4,0,Tsy mandeha matetika,21.46712463199215,44.602551521099116
+renoncement_soins,Qualitative nominale,4,2,Oui,49.33758586849853,1.9136408243375858
+douleur,Qualitative ordinale,5,3,2. Douloureux,43.47399411187439,5.42198233562316
+type_recours,Qualitative nominale,47,222,"1. Automédication (nividy fanafody, nanao dok",30.765456329735034,5.446516192345436
+motif_recours,Qualitative nominale,259,1588,Habitudes/affinités (fahazarana),19.995093228655545,5.789990186457311
+satisfaction,Qualitative ordinale,5,1,4. Tout à fait satisfait,41.879293424926395,5.691854759568204
+autre_recours_souhaite,Qualitative nominale,42,82,6. Hôpital public,1.7419038272816487,88.7144259077527
+benefice_autre_recours,Qualitative nominale,134,747,Habitudes/affinités (fahazarana),22.20314033366045,20.902845927379783
+impact_autre,Qualitative nominale,11,18,1. organisation (teo amin'ny fandaminana asa),55.07850834151129,8.169774288518155
+impact_maladie_activite,Qualitative ordinale,4,1,2. Affecté (nisy fiantraikany ihany),53.68007850834151,5.642787046123651
+recuperation_activite,Qualitative nominale,14,32,2. Rattrapage après guérison,34.690873405299314,6.795878312070657

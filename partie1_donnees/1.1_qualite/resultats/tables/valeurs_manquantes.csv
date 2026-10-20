@@ -1,0 +1,75 @@
+﻿,pct_brut,pct_apres_format,traitement,valeurs_imputees,pct_apres_traitement
+depense_medic_chronique,98.69906725576828,98.69906725576828,Variable exclue (voir décisions),0.0,98.69906725576828
+freq_consult_chronique,98.40451644575356,98.40451644575356,Variable exclue (voir décisions),0.0,98.40451644575356
+type_couverture,97.52086401570938,97.52086401570938,Variable exclue (voir décisions),0.0,97.52086401570938
+mode_affiliation,97.52086401570938,97.52086401570938,Variable exclue (voir décisions),0.0,97.52086401570938
+valeur_lunettes,93.91261659302896,93.91261659302896,Variable exclue (voir décisions),0.0,93.91261659302896
+chronique_detail,92.09621993127148,92.09621993127148,Variable exclue (voir décisions),0.0,92.09621993127148
+traitement_regulier,90.10800196367207,90.10800196367207,Variable exclue (voir décisions),0.0,90.10800196367207
+chronique_categorie,90.08345606283751,90.08345606283751,Variable exclue (voir décisions),0.0,90.08345606283751
+autre_recours_souhaite,88.70888561610211,88.70888561610211,Variable exclue (voir décisions),0.0,88.70888561610211
+activite_famille,55.179185076092296,55.179185076092296,Variable exclue (voir décisions),0.0,55.179185076092296
+freq_dentiste,44.575355915562106,44.575355915562106,Variable exclue (voir décisions),0.0,44.575355915562106
+activite_conjoint,30.314187530682375,30.314187530682375,Modalité « Sans conjoint » (non marié) ou « Non renseigné »,1235.0,0.0
+benefice_autre_recours,20.864015709376535,20.864015709376535,Variable exclue (voir décisions),0.0,20.864015709376535
+nb_employes,16.5193912616593,16.715758468335785,Variable exclue (voir décisions),0.0,16.715758468335785
+cout_alimentation,7.167403043691703,9.081983308787432,Aucune imputation (cible ou variable descriptive),0.0,9.081983308787432
+impact_autre,8.124693176239568,8.124693176239568,Modalité « Non concerné » (pas malade) ou « Non renseigné »,331.0,0.0
+cout_autres,7.7074128620520375,7.781050564555719,Aucune imputation (cible ou variable descriptive),0.0,7.781050564555719
+cout_hospitalisation,7.265586647029947,7.290132547864507,Aucune imputation (cible ou variable descriptive),0.0,7.290132547864507
+distance_travail,0.6872852233676976,6.823760432007854,Imputation par la médiane (1),278.0,0.0
+recuperation_activite,6.750122729504173,6.750122729504173,Modalité « Non concerné » (pas malade) ou « Non renseigné »,275.0,0.0
+cout_deplacement,6.578301423662249,6.62739322533137,Aucune imputation (cible ou variable descriptive),0.0,6.62739322533137
+cout_consultation,6.283750613647521,6.480117820324007,Aucune imputation (cible ou variable descriptive),0.0,6.480117820324007
+cout_medicaments,5.7191948944526265,5.989199803632793,Aucune imputation (cible ou variable descriptive),0.0,5.989199803632793
+motif_recours,5.743740795287187,5.743740795287187,Variable exclue (voir décisions),0.0,5.743740795287187
+satisfaction,5.645557191948945,5.645557191948945,Modalité « Non concerné » (pas malade) ou « Non renseigné »,230.0,0.0
+impact_maladie_activite,5.596465390279824,5.596465390279824,Modalité « Non concerné » (pas malade) ou « Non renseigné »,228.0,0.0
+type_recours,5.400098183603339,5.400098183603339,Modalité « Non concerné » (pas malade) ou « Non renseigné »,220.0,0.0
+douleur,5.375552282768778,5.375552282768778,Modalité « Non concerné » (pas malade) ou « Non renseigné »,219.0,0.0
+budget_sante,5.007363770250368,5.277368679430535,Imputation par la médiane (10),215.0,0.0
+budget_elec,4.9337260677466865,5.154639175257731,Imputation par la médiane (5),210.0,0.0
+cout_total,,5.031909671084929,Aucune imputation (cible ou variable descriptive),0.0,5.031909671084929
+distance_soins,4.66372115856652,5.007363770250368,Aucune imputation (cible ou variable descriptive),0.0,5.007363770250368
+jours_arret,4.099165439371625,4.442808051055474,Aucune imputation (cible ou variable descriptive),0.0,4.442808051055474
+prime_souhaitee,3.3382425135002456,3.8537064310260187,Aucune imputation (cible ou variable descriptive),0.0,3.8537064310260187
+heures_jour,0.22091310751104565,3.0436917034855178,Imputation par la médiane (8),124.0,0.0
+budget_alim,2.72459499263623,3.0191458026509572,Imputation par la médiane (50),123.0,0.0
+ancienne_couverture,2.945508100147275,2.945508100147275,Variable exclue (voir décisions),0.0,2.945508100147275
+anciennete_emploi,0.31909671084928815,2.7491408934707904,Imputation par la médiane (10),112.0,0.0
+type_maladie,2.72459499263623,2.72459499263623,Variable exclue (voir décisions),0.0,2.72459499263623
+date_derniere_maladie,2.1845851742758957,2.1845851742758957,Variable exclue (voir décisions),0.0,2.1845851742758957
+renoncement_soins,1.8654884634266078,1.8654884634266078,Imputation par le mode (Oui),76.0,0.0
+jours_semaine,0.24545900834560627,1.7918507609229257,Imputation par la médiane (6),73.0,0.0
+revenu,1.0063819342169857,1.0063819342169857,Imputation par le mode (100-200k),41.0,0.0
+nb_maladies_graves,0.6627393225331369,0.6872852233676976,Aucune imputation (cible ou variable descriptive),0.0,0.6872852233676976
+lien_chef_menage,0.46637211585665195,0.46637211585665195,Imputation par le mode (Chef de ménage),19.0,0.0
+transport_travail,0.4172803141875307,0.4172803141875307,Imputation par le mode (À pied),17.0,0.0
+nb_actifs_menage,0.09818360333824251,0.39273441335297005,Imputation par la médiane (2),16.0,0.0
+duree_effort,0.3436426116838488,0.3436426116838488,Imputation par le mode (>5 h),14.0,0.0
+secteur,0.3436426116838488,0.3436426116838488,Imputation par le mode (Agriculture),14.0,0.0
+effort_physique,0.31909671084928815,0.31909671084928815,Imputation par le mode (Toujours),13.0,0.0
+couverture,0.31909671084928815,0.31909671084928815,Aucune imputation (variable descriptive),0.0,0.31909671084928815
+lunettes,0.29455081001472755,0.29455081001472755,Imputation par le mode (Non),12.0,0.0
+age,0.19636720667648502,0.29455081001472755,Imputation par la médiane (37),12.0,0.0
+arret_maladie,0.2700049091801669,0.2700049091801669,Imputation par le mode (Une ou deux fois),11.0,0.0
+dentiste,0.2700049091801669,0.2700049091801669,Imputation par le mode (Parfois),11.0,0.0
+maladie_chronique,0.2700049091801669,0.2700049091801669,Imputation par le mode (Non),11.0,0.0
+repos_recent,0.24545900834560627,0.24545900834560627,Imputation par le mode (Plusieurs fois),10.0,0.0
+pb_sante_travail,0.24545900834560627,0.24545900834560627,Imputation par le mode (Parfois),10.0,0.0
+impact_travail_sante,0.24545900834560627,0.24545900834560627,Imputation par le mode (Modéré),10.0,0.0
+statut_matrimonial,0.22091310751104565,0.22091310751104565,Imputation par le mode (Marié(e)),9.0,0.0
+interet_couverture,0.22091310751104565,0.22091310751104565,Imputation par le mode (Tout à fait),9.0,0.0
+type_toilette,0.22091310751104565,0.22091310751104565,Imputation par le mode (Latrines),9.0,0.0
+sexe,0.19636720667648502,0.19636720667648502,Imputation par le mode (Femme),8.0,0.0
+source_eau,0.19636720667648502,0.19636720667648502,Imputation par le mode (Borne fontaine),8.0,0.0
+statut_pro,0.19636720667648502,0.19636720667648502,Imputation par le mode (Indépendant),8.0,0.0
+taille_menage,0.07363770250368189,0.19636720667648502,Imputation par la médiane (4),8.0,0.0
+source_electricite,0.1718213058419244,0.1718213058419244,Imputation par le mode (Réseau JIRAMA),7.0,0.0
+energie_cuisine,0.1718213058419244,0.1718213058419244,Imputation par le mode (Charbon),7.0,0.0
+niveau_etude,0.14727540500736377,0.14727540500736377,Imputation par le mode (Collège),6.0,0.0
+dettes,0.14727540500736377,0.14727540500736377,Imputation par le mode (Non),6.0,0.0
+epargne,0.14727540500736377,0.14727540500736377,Imputation par le mode (Non),6.0,0.0
+fokotany,0.07363770250368189,0.07363770250368189,Aucune imputation (variable descriptive),0.0,0.07363770250368189
+statut_residence,0.07363770250368189,0.07363770250368189,Imputation par le mode (Propriétaire),3.0,0.0
+id,0.0,0.0,Variable exclue (voir décisions),0.0,0.0
